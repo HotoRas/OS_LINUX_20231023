@@ -19,4 +19,65 @@ Script started on 2026-03-13 10:18:29+09:00 [TERM="xterm-256color" TTY="/dev/pts
 [?2004l]3008;start=2ec7a046-3cb6-49f6-9951-1d0a84c0cf76;machineid=69c4c6fade2c4aa683f39b0f0eb549cf;user=ras;hostname=fedora;bootid=a0f08e94-c6d7-4bbb-996d-81bf9c032080;pid=00000000000000012529;type=command;cwd=/home/ras/linux/week02\]0;ras@fedora:~/linux]3008;end=2ec7a046-3cb6-49f6-9951-1d0a84c0cf76;exit=success\]3008;start=2de83d4f-5338-428f-987a-b559cd018b51;machineid=69c4c6fade2c4aa683f39b0f0eb549cf;user=ras;hostname=fedora;bootid=a0f08e94-c6d7-4bbb-996d-81bf9c032080;pid=00000000000000012529;type=shell;cwd=/home/ras/linux\[?2004h[0m[32mras@fedora[0m:[32m~/linux[0m$ git init
 [?2004l]3008;start=d0edad7c-c61e-40f3-b976-db23bdbff94e;machineid=69c4c6fade2c4aa683f39b0f0eb549cf;user=ras;hostname=fedora;bootid=a0f08e94-c6d7-4bbb-996d-81bf9c032080;pid=00000000000000012529;type=command;cwd=/home/ras/linux\/home/ras/linux/.git/ 안의 기존 깃 저장소를 다시 초기화했습니다
 ]0;ras@fedora:~/linux]3008;end=d0edad7c-c61e-40f3-b976-db23bdbff94e;exit=success\]3008;start=2de83d4f-5338-428f-987a-b559cd018b51;machineid=69c4c6fade2c4aa683f39b0f0eb549cf;user=ras;hostname=fedora;bootid=a0f08e94-c6d7-4bbb-996d-81bf9c032080;pid=00000000000000012529;type=shell;cwd=/home/ras/linux\[?2004h[0m[32mras@fedora[0m:[32m~/linux[0m$ git add .
-[?2004l]3008;start=bfc453cf-b207-48f4-b85a-7434d4308fb5;machineid=69c4c6fade2c4aa683f39b0f0eb549cf;user=ras;hostname=fedora;bootid=a0f08e94-c6d7-4bbb-996d-81bf9c032080;pid=00000000000000012529;type=command;cwd=/home/ras/linux\
+[?2004l]3008;start=bfc453cf-b207-48f4-b85a-7434d4308fb5;machineid=69c4c6fade2c4aa683f39b0f0eb549cf;user=ras;hostname=fedora;bootid=a0f08e94-c6d7-4bbb-996d-81bf9c032080;pid=00000000000000012529;type=command;cwd=/home/ras/linux\]0;ras@fedora:~/linux]3008;end=bfc453cf-b207-48f4-b85a-7434d4308fb5;exit=success\]3008;start=2de83d4f-5338-428f-987a-b559cd018b51;machineid=69c4c6fade2c4aa683f39b0f0eb549cf;user=ras;hostname=fedora;bootid=a0f08e94-c6d7-4bbb-996d-81bf9c032080;pid=00000000000000012529;type=shell;cwd=/home/ras/linux\[?2004h[0m[32mras@fedora[0m:[32m~/linux[0m$ git commit -m "update log file"[K ([K[K (mid-run $(which script))"
+[?2004l]3008;start=f11186ae-5140-464d-8816-457323961906;machineid=69c4c6fade2c4aa683f39b0f0eb549cf;user=ras;hostname=fedora;bootid=a0f08e94-c6d7-4bbb-996d-81bf9c032080;pid=00000000000000012529;type=command;cwd=/home/ras/linux\[main 86d0308] update log file (mid-run /usr/bin/script)
+ 3 files changed, 86 insertions(+)
+ create mode 100644 week02/2026_20231023_week02_log.txt
+ mode change 100644 => 100755 week02/SCRIPT.sh
+ create mode 100644 week02/t.txt
+]0;ras@fedora:~/linux]3008;end=f11186ae-5140-464d-8816-457323961906;exit=success\]3008;start=2de83d4f-5338-428f-987a-b559cd018b51;machineid=69c4c6fade2c4aa683f39b0f0eb549cf;user=ras;hostname=fedora;bootid=a0f08e94-c6d7-4bbb-996d-81bf9c032080;pid=00000000000000012529;type=shell;cwd=/home/ras/linux\[?2004h[0m[32mras@fedora[0m:[32m~/linux[0m$ git branch -M main
+[?2004l]3008;start=6ad33d7f-d4f1-4a02-89d8-4d54a5c72bde;machineid=69c4c6fade2c4aa683f39b0f0eb549cf;user=ras;hostname=fedora;bootid=a0f08e94-c6d7-4bbb-996d-81bf9c032080;pid=00000000000000012529;type=command;cwd=/home/ras/linux\]0;ras@fedora:~/linux]3008;end=6ad33d7f-d4f1-4a02-89d8-4d54a5c72bde;exit=success\]3008;start=2de83d4f-5338-428f-987a-b559cd018b51;machineid=69c4c6fade2c4aa683f39b0f0eb549cf;user=ras;hostname=fedora;bootid=a0f08e94-c6d7-4bbb-996d-81bf9c032080;pid=00000000000000012529;type=shell;cwd=/home/ras/linux\[?2004h[0m[32mras@fedora[0m:[32m~/linux[0m$ git remote add origin https://github.com/HotoRas/OS_LINUX_20231023.git
+[?2004l]3008;start=cf75afd2-fd98-4118-9802-e7a5a591a252;machineid=69c4c6fade2c4aa683f39b0f0eb549cf;user=ras;hostname=fedora;bootid=a0f08e94-c6d7-4bbb-996d-81bf9c032080;pid=00000000000000012529;type=command;cwd=/home/ras/linux\error: origin 리모트가 이미 있습니다.
+]0;ras@fedora:~/linux]3008;end=cf75afd2-fd98-4118-9802-e7a5a591a252;exit=failure;status=3\]3008;start=2de83d4f-5338-428f-987a-b559cd018b51;machineid=69c4c6fade2c4aa683f39b0f0eb549cf;user=ras;hostname=fedora;bootid=a0f08e94-c6d7-4bbb-996d-81bf9c032080;pid=00000000000000012529;type=shell;cwd=/home/ras/linux\[?2004h[0m[32mras@fedora[0m:[32m~/linux[0m$ git remote
+[?2004l]3008;start=4dabe94e-98dd-4284-ad26-3aab2db5f5da;machineid=69c4c6fade2c4aa683f39b0f0eb549cf;user=ras;hostname=fedora;bootid=a0f08e94-c6d7-4bbb-996d-81bf9c032080;pid=00000000000000012529;type=command;cwd=/home/ras/linux\origin
+]0;ras@fedora:~/linux]3008;end=4dabe94e-98dd-4284-ad26-3aab2db5f5da;exit=success\]3008;start=2de83d4f-5338-428f-987a-b559cd018b51;machineid=69c4c6fade2c4aa683f39b0f0eb549cf;user=ras;hostname=fedora;bootid=a0f08e94-c6d7-4bbb-996d-81bf9c032080;pid=00000000000000012529;type=shell;cwd=/home/ras/linux\[?2004h[0m[32mras@fedora[0m:[32m~/linux[0m$ git remote -v
+[?2004l]3008;start=ac1c4b3e-ce7f-41a5-a49e-3f6ecd05d8b2;machineid=69c4c6fade2c4aa683f39b0f0eb549cf;user=ras;hostname=fedora;bootid=a0f08e94-c6d7-4bbb-996d-81bf9c032080;pid=00000000000000012529;type=command;cwd=/home/ras/linux\origin	https://github.com/HotoRas/OS_LINUX_20231023.git (fetch)
+origin	https://github.com/HotoRas/OS_LINUX_20231023.git (push)
+]0;ras@fedora:~/linux]3008;end=ac1c4b3e-ce7f-41a5-a49e-3f6ecd05d8b2;exit=success\]3008;start=2de83d4f-5338-428f-987a-b559cd018b51;machineid=69c4c6fade2c4aa683f39b0f0eb549cf;user=ras;hostname=fedora;bootid=a0f08e94-c6d7-4bbb-996d-81bf9c032080;pid=00000000000000012529;type=shell;cwd=/home/ras/linux\[?2004h[0m[32mras@fedora[0m:[32m~/linux[0m$ git push --force
+[?2004l]3008;start=ac4cd6a3-222e-4625-96c0-cb1346beb798;machineid=69c4c6fade2c4aa683f39b0f0eb549cf;user=ras;hostname=fedora;bootid=a0f08e94-c6d7-4bbb-996d-81bf9c032080;pid=00000000000000012529;type=command;cwd=/home/ras/linux\오브젝트 나열하는 중: 7, 완료.
+오브젝트 개수 세는 중:  14% (1/7)오브젝트 개수 세는 중:  28% (2/7)오브젝트 개수 세는 중:  42% (3/7)오브젝트 개수 세는 중:  57% (4/7)오브젝트 개수 세는 중:  71% (5/7)오브젝트 개수 세는 중:  85% (6/7)오브젝트 개수 세는 중: 100% (7/7)오브젝트 개수 세는 중: 100% (7/7), 완료.
+Delta compression using up to 12 threads
+오브젝트 압축하는 중:  25% (1/4)오브젝트 압축하는 중:  50% (2/4)오브젝트 압축하는 중:  75% (3/4)오브젝트 압축하는 중: 100% (4/4)오브젝트 압축하는 중: 100% (4/4), 완료.
+오브젝트 쓰는 중:  20% (1/5)오브젝트 쓰는 중:  40% (2/5)오브젝트 쓰는 중:  60% (3/5)오브젝트 쓰는 중:  80% (4/5)오브젝트 쓰는 중: 100% (5/5)오브젝트 쓰는 중: 100% (5/5), 1.88 KiB | 1.88 MiB/s, 완료.
+Total 5 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/HotoRas/OS_LINUX_20231023.git
+   3b09956..86d0308  main -> main
+]0;ras@fedora:~/linux]3008;end=ac4cd6a3-222e-4625-96c0-cb1346beb798;exit=success\]3008;start=2de83d4f-5338-428f-987a-b559cd018b51;machineid=69c4c6fade2c4aa683f39b0f0eb549cf;user=ras;hostname=fedora;bootid=a0f08e94-c6d7-4bbb-996d-81bf9c032080;pid=00000000000000012529;type=shell;cwd=/home/ras/linux\[?2004h[0m[32mras@fedora[0m:[32m~/linux[0m$ # using $([K[K/usr/bin/gh for credential manager for sake
+[?2004l]0;ras@fedora:~/linux]3008;end=4c000a91-e86a-4229-a2dc-aa1ffc8a2f7b;exit=success\]3008;start=2de83d4f-5338-428f-987a-b559cd018b51;machineid=69c4c6fade2c4aa683f39b0f0eb549cf;user=ras;hostname=fedora;bootid=a0f08e94-c6d7-4bbb-996d-81bf9c032080;pid=00000000000000012529;type=shell;cwd=/home/ras/linux\[?2004h[0m[32mras@fedora[0m:[32m~/linux[0m$ git cong[Kfig [K
+[?2004l]3008;start=1bda5b60-3c27-4b99-b4ad-226b47344735;machineid=69c4c6fade2c4aa683f39b0f0eb549cf;user=ras;hostname=fedora;bootid=a0f08e94-c6d7-4bbb-996d-81bf9c032080;pid=00000000000000012529;type=command;cwd=/home/ras/linux\error: no action specified
+]0;ras@fedora:~/linux]3008;end=1bda5b60-3c27-4b99-b4ad-226b47344735;exit=failure;status=129;signal=SIGHUP\]3008;start=2de83d4f-5338-428f-987a-b559cd018b51;machineid=69c4c6fade2c4aa683f39b0f0eb549cf;user=ras;hostname=fedora;bootid=a0f08e94-c6d7-4bbb-996d-81bf9c032080;pid=00000000000000012529;type=shell;cwd=/home/ras/linux\[?2004h[0m[32mras@fedora[0m:[32m~/linux[0m$ git config[K[K[K[K[Kh[K[Khelp config
+[?2004l]3008;start=4004d916-a727-4df8-a86e-d536f2d36e31;machineid=69c4c6fade2c4aa683f39b0f0eb549cf;user=ras;hostname=fedora;bootid=a0f08e94-c6d7-4bbb-996d-81bf9c032080;pid=00000000000000012529;type=command;cwd=/home/ras/linux\[?1049h[22;0;0t[25;1H[?1h=[4mGIT-CONFIG[24m(1)                                        Git Manual                                       [4mGIT-CONFIG[24m(1)[m
+[m
+[1mNAME[0m[m
+       git-config - Get and set repository or global options[m
+[m
+[1mSYNOPSIS[0m[m
+       [4mgit[24m [4mconfig[24m [4mlist[24m [<file-option>] [<display-option>] [--includes][m
+       [4mgit[24m [4mconfig[24m [4mget[24m [<file-option>] [<display-option>] [--includes] [--all] [--regexp] [--value=<pattern>] [--fixe[m [4m[24m[4m[24m[4m[24md-value] [--default=<default>] [--url=<url>] <name>[m
+       [4mgit[24m [4mconfig[24m [4mset[24m [<file-option>] [--type=<type>] [--all] [--value=<pattern>] [--fixed-value] <name> <value>[m
+       [4mgit[24m [4mconfig[24m [4munset[24m [<file-option>] [--all] [--value=<pattern>] [--fixed-value] <name>[m
+       [4mgit[24m [4mconfig[24m [4mrename-section[24m [<file-option>] <old-name> <new-name>[m
+       [4mgit[24m [4mconfig[24m [4mremove-section[24m [<file-option>] <name>[m
+       [4mgit[24m [4mconfig[24m [4medit[24m [<file-option>][m
+       [4mgit[24m [4mconfig[24m [<file-option>] --get-colorbool <name> [<stdout-is-tty>][m
+[m
+[1mDESCRIPTION[0m[m
+       You can query/set/replace/unset options with this command. The name is actually the section and the key[m
+       separated by a dot, and the value will be escaped.[m
+[m
+       Multiple lines can be added to an option by using the [1m--append [22moption. If you want to update or unset an[m
+       option which can occur on multiple lines, [1m--value=[4m[22m<pattern>[24m (which is an extended regular expression, unless[m
+       the [1m--fixed-value [22moption is given) needs to be given. Only the existing values that match the pattern are[m
+       updated or unset. If you want to handle the lines that do [1mnot [22mmatch the pattern, just prepend a single[m
+[7m Manual page git-config(1) line 1 (press h for help or q to quit)[27m[K[K[?1l>[?1049l[23;0;0t]0;ras@fedora:~/linux]3008;end=4004d916-a727-4df8-a86e-d536f2d36e31;exit=success\]3008;start=2de83d4f-5338-428f-987a-b559cd018b51;machineid=69c4c6fade2c4aa683f39b0f0eb549cf;user=ras;hostname=fedora;bootid=a0f08e94-c6d7-4bbb-996d-81bf9c032080;pid=00000000000000012529;type=shell;cwd=/home/ras/linux\[?2004h[0m[32mras@fedora[0m:[32m~/linux[0m$ git config list --global
+[?2004l]3008;start=4d9f05d9-79be-4021-97ae-665673fb9462;machineid=69c4c6fade2c4aa683f39b0f0eb549cf;user=ras;hostname=fedora;bootid=a0f08e94-c6d7-4bbb-996d-81bf9c032080;pid=00000000000000012529;type=command;cwd=/home/ras/linux\[?1h=user.name=Hoto Ras[m
+user.email=hotoras03@gmail.com[m
+init.defaultbranch=main[m
+core.editor=vim[m
+credential.https://github.com.helper=[m
+credential.https://github.com.helper=!/usr/bin/gh auth git-credential[m
+credential.https://gist.github.com.helper=[m
+credential.https://gist.github.com.helper=!/usr/bin/gh auth git-credential[m
+[K[?1l>]0;ras@fedora:~/linux]3008;end=4d9f05d9-79be-4021-97ae-665673fb9462;exit=success\]3008;start=2de83d4f-5338-428f-987a-b559cd018b51;machineid=69c4c6fade2c4aa683f39b0f0eb549cf;user=ras;hostname=fedora;bootid=a0f08e94-c6d7-4bbb-996d-81bf9c032080;pid=00000000000000012529;type=shell;cwd=/home/ras/linux\[?2004h[0m[32mras@fedora[0m:[32m~/linux[0m$ touch eee[K[K[Kweek02/test.txt
+[?2004l]3008;start=dfaff602-983b-4091-b14c-719a6f063b07;machineid=69c4c6fade2c4aa683f39b0f0eb549cf;user=ras;hostname=fedora;bootid=a0f08e94-c6d7-4bbb-996d-81bf9c032080;pid=00000000000000012529;type=command;cwd=/home/ras/linux\]0;ras@fedora:~/linux]3008;end=dfaff602-983b-4091-b14c-719a6f063b07;exit=success\]3008;start=2de83d4f-5338-428f-987a-b559cd018b51;machineid=69c4c6fade2c4aa683f39b0f0eb549cf;user=ras;hostname=fedora;bootid=a0f08e94-c6d7-4bbb-996d-81bf9c032080;pid=00000000000000012529;type=shell;cwd=/home/ras/linux\[?2004h[0m[32mras@fedora[0m:[32m~/linux[0m$ git add .
+[?2004l]3008;start=c4d51001-3c50-4e04-92af-b6357ca7681c;machineid=69c4c6fade2c4aa683f39b0f0eb549cf;user=ras;hostname=fedora;bootid=a0f08e94-c6d7-4bbb-996d-81bf9c032080;pid=00000000000000012529;type=command;cwd=/home/ras/linux\
