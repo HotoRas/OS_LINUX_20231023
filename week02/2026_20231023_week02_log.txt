@@ -80,4 +80,963 @@ credential.https://gist.github.com.helper=[m
 credential.https://gist.github.com.helper=!/usr/bin/gh auth git-credential[m
 [K[?1l>]0;ras@fedora:~/linux]3008;end=4d9f05d9-79be-4021-97ae-665673fb9462;exit=success\]3008;start=2de83d4f-5338-428f-987a-b559cd018b51;machineid=69c4c6fade2c4aa683f39b0f0eb549cf;user=ras;hostname=fedora;bootid=a0f08e94-c6d7-4bbb-996d-81bf9c032080;pid=00000000000000012529;type=shell;cwd=/home/ras/linux\[?2004h[0m[32mras@fedora[0m:[32m~/linux[0m$ touch eee[K[K[Kweek02/test.txt
 [?2004l]3008;start=dfaff602-983b-4091-b14c-719a6f063b07;machineid=69c4c6fade2c4aa683f39b0f0eb549cf;user=ras;hostname=fedora;bootid=a0f08e94-c6d7-4bbb-996d-81bf9c032080;pid=00000000000000012529;type=command;cwd=/home/ras/linux\]0;ras@fedora:~/linux]3008;end=dfaff602-983b-4091-b14c-719a6f063b07;exit=success\]3008;start=2de83d4f-5338-428f-987a-b559cd018b51;machineid=69c4c6fade2c4aa683f39b0f0eb549cf;user=ras;hostname=fedora;bootid=a0f08e94-c6d7-4bbb-996d-81bf9c032080;pid=00000000000000012529;type=shell;cwd=/home/ras/linux\[?2004h[0m[32mras@fedora[0m:[32m~/linux[0m$ git add .
-[?2004l]3008;start=c4d51001-3c50-4e04-92af-b6357ca7681c;machineid=69c4c6fade2c4aa683f39b0f0eb549cf;user=ras;hostname=fedora;bootid=a0f08e94-c6d7-4bbb-996d-81bf9c032080;pid=00000000000000012529;type=command;cwd=/home/ras/linux\
+[?2004l]3008;start=c4d51001-3c50-4e04-92af-b6357ca7681c;machineid=69c4c6fade2c4aa683f39b0f0eb549cf;user=ras;hostname=fedora;bootid=a0f08e94-c6d7-4bbb-996d-81bf9c032080;pid=00000000000000012529;type=command;cwd=/home/ras/linux\]0;ras@fedora:~/linux]3008;end=c4d51001-3c50-4e04-92af-b6357ca7681c;exit=success\]3008;start=2de83d4f-5338-428f-987a-b559cd018b51;machineid=69c4c6fade2c4aa683f39b0f0eb549cf;user=ras;hostname=fedora;bootid=a0f08e94-c6d7-4bbb-996d-81bf9c032080;pid=00000000000000012529;type=shell;cwd=/home/ras/linux\[?2004h[0m[32mras@fedora[0m:[32m~/linux[0m$ git commit
+[?2004l]3008;start=8ee2c9fb-181d-40e7-86e2-f1e80e739675;machineid=69c4c6fade2c4aa683f39b0f0eb549cf;user=ras;hostname=fedora;bootid=a0f08e94-c6d7-4bbb-996d-81bf9c032080;pid=00000000000000012529;type=command;cwd=/home/ras/linux\힌트: 편집기가 파일을 닫기를 기다리는 중입니다... [?1049h[22;0;0t[>4;2m[?1h=[?2004h[?1004h[1;25r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[?25l[25;1H"~/linux/.git/COMMIT_EDITMSG" 16L, 531B[2;1H▽[6n[2;1H  [3;1HPzz\[0%m[6n[3;1H           [1;1H[>c]10;?]11;?[?2026$p[2;1H[96m# Please enter the commit message for your changes. Lines starting[m[2;67H[K[3;1H[96m# with '#' will be ignored, and an empty message aborts the commit.[m[3;68H[K[4;1H[96m#
+# 현재 브랜치 main
+# 브랜치가 'origin/main'에 맞게 업데이트된 상태입니다.
+#
+# [m[38;5;81m커밋할 변경 사항:[m
+[96m#       [m[38;5;121m수정함[m[96m:[m[95m        week02/2026_20231023_week02_log.txt[m
+[96m#       [m[38;5;121m수정함[m[96m:[m[95m        week02/t.txt[m
+[96m#       [m[38;5;121m새 파일[m[96m:[m[95m       week02/test.txt[m
+[96m#
+# [m[38;5;81m커밋하도록 정하지 않은 변경 사항:[m
+[96m#       [m[38;5;121m수정함[m[96m:[m[95m        week02/2026_20231023_week02_log.txt[m
+[96m#       [m[38;5;121m수정함[m[96m:[m[95m        week02/t.txt[m
+[96m#[m
+[94m~                                                                                                                   [18;1H~                                                                                                                   [19;1H~                                                                                                                   [20;1H~                                                                                                                   [21;1H~                                                                                                                   [22;1H~                                                                                                                   [23;1H~                                                                                                                   [24;1H~                                                                                                                   [m[25;99H1,0-1[8C모두[1;1H[?25h[?4m[?12$p[?25l[25;89Hi[1;1H[25;89H [1;1H[25;1H[1m-- 끼워넣기 --[m[25;15H[K[25;99H1,1[10C모두[1;1H[?25h[?25l[93mA[m[25;101H2[1;2H[?25h[?25l[93md[m[25;101H3[1;3H[?25h[?25l[93md[m[25;101H4[1;4H[?25h[?25l[93m [m[25;101H5[1;5H[?25h[?25l[93mf[m[25;101H6[1;6H[?25h[?25l[93mi[m[25;101H7[1;7H[?25h[?25l[93ml[m[25;101H8[1;8H[?25h[?25l[93me[m[25;101H9[1;9H[?25h[?25l[93ms[m[25;101H10[1;10H[?25h[?25l[25;102H [1;1H[?25h[?25l[93mwAdd files[m[25;101H2[1;2H[?25h[?25l[93meAdd files[m[25;101H3[1;3H[?25h[?25l[93meAdd files[m[25;101H4[1;4H[?25h[?25l[93mkAdd files[m[25;101H5[1;5H[?25h[?25l[93m0Add files[m[25;101H6[1;6H[?25h[?25l[93m2Add files[m[25;101H7[1;7H[?25h[?25l[93m:Add files[m[25;101H8[1;8H[?25h[?25l[93m Add files[m[25;101H9[1;9H[?25h[?25l[25;101H18[1;18H[?25h[25;1H[K[1;17H[?25l[25;89H^[[1;17H[25;89H  [1;18H[25;99H1,17[9C모두[1;17H[?25h[?25l[25;89H:[1;17H[25;89H[K[25;1H:[?25hwq[?25l[?2004l[>4;m".git/COMMIT_EDITMSG" 16L, 548B 저장 했습니다[23;2t[23;1t
+[?1004l[?2004l[?1l>[?1049l[23;0;0t[?25h[>4;m[K[main 92c8625] week02: Add files
+ 3 files changed, 496 insertions(+), 1 deletion(-)
+ create mode 100644 week02/test.txt
+]0;ras@fedora:~/linux]3008;end=8ee2c9fb-181d-40e7-86e2-f1e80e739675;exit=success\]3008;start=2de83d4f-5338-428f-987a-b559cd018b51;machineid=69c4c6fade2c4aa683f39b0f0eb549cf;user=ras;hostname=fedora;bootid=a0f08e94-c6d7-4bbb-996d-81bf9c032080;pid=00000000000000012529;type=shell;cwd=/home/ras/linux\[?2004h[0m[32mras@fedora[0m:[32m~/linux[0m$ git push
+[?2004l]3008;start=f375b725-7c49-407e-b5b4-b6c60d11e801;machineid=69c4c6fade2c4aa683f39b0f0eb549cf;user=ras;hostname=fedora;bootid=a0f08e94-c6d7-4bbb-996d-81bf9c032080;pid=00000000000000012529;type=command;cwd=/home/ras/linux\오브젝트 나열하는 중: 10, 완료.
+오브젝트 개수 세는 중:  10% (1/10)오브젝트 개수 세는 중:  20% (2/10)오브젝트 개수 세는 중:  30% (3/10)오브젝트 개수 세는 중:  40% (4/10)오브젝트 개수 세는 중:  50% (5/10)오브젝트 개수 세는 중:  60% (6/10)오브젝트 개수 세는 중:  70% (7/10)오브젝트 개수 세는 중:  80% (8/10)오브젝트 개수 세는 중:  90% (9/10)오브젝트 개수 세는 중: 100% (10/10)오브젝트 개수 세는 중: 100% (10/10), 완료.
+Delta compression using up to 12 threads
+오브젝트 압축하는 중:  25% (1/4)오브젝트 압축하는 중:  50% (2/4)오브젝트 압축하는 중:  75% (3/4)오브젝트 압축하는 중: 100% (4/4)오브젝트 압축하는 중: 100% (4/4), 완료.
+오브젝트 쓰는 중:  16% (1/6)오브젝트 쓰는 중:  33% (2/6)오브젝트 쓰는 중:  50% (3/6)오브젝트 쓰는 중:  66% (4/6)오브젝트 쓰는 중:  83% (5/6)오브젝트 쓰는 중: 100% (6/6)오브젝트 쓰는 중: 100% (6/6), 5.51 KiB | 5.51 MiB/s, 완료.
+Total 6 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/HotoRas/OS_LINUX_20231023.git
+   86d0308..92c8625  main -> main
+]0;ras@fedora:~/linux]3008;end=f375b725-7c49-407e-b5b4-b6c60d11e801;exit=success\]3008;start=2de83d4f-5338-428f-987a-b559cd018b51;machineid=69c4c6fade2c4aa683f39b0f0eb549cf;user=ras;hostname=fedora;bootid=a0f08e94-c6d7-4bbb-996d-81bf9c032080;pid=00000000000000012529;type=shell;cwd=/home/ras/linux\[?2004h[0m[32mras@fedora[0m:[32m~/linux[0m$ curl -fsSL [1@i[1@f[1@ [1@[[1@ [1@-[1@f[1@ [1@/[1@u[1@s[1@r[1@/[1@b[1@n[1@/[1P[1P[1@i[1@n[1@/[C[1@c[1@u[1@r[1@l[1@ [1@][1@;[1@ [1@t[1@h[1@e[1@n[1@ [C[C[C[C[C[C[C[C[C[C[C[1@c[1@d[1@ [1@w[1@e[1@e[1@k[1@0[1@2[1@ [1@&[1@&[1@ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Chttps://get.docker.com -o get-docker.sh; e lse echo "NO CURL INSTALLED..."; fi
+[?2004l]3008;start=60ebea44-cc80-48d2-9808-98b768b7afde;machineid=69c4c6fade2c4aa683f39b0f0eb549cf;user=ras;hostname=fedora;bootid=a0f08e94-c6d7-4bbb-996d-81bf9c032080;pid=00000000000000012529;type=command;cwd=/home/ras/linux\]0;ras@fedora:~/linux/week02]3008;end=60ebea44-cc80-48d2-9808-98b768b7afde;exit=success\]3008;start=2de83d4f-5338-428f-987a-b559cd018b51;machineid=69c4c6fade2c4aa683f39b0f0eb549cf;user=ras;hostname=fedora;bootid=a0f08e94-c6d7-4bbb-996d-81bf9c032080;pid=00000000000000012529;type=shell;cwd=/home/ras/linux/week02\[?2004h[0m[32mras@fedora[0m:[32m~/linux/week02[0m$ sudo ./get-docker.sh[C[C[C[C[C[1@ [1@s[1@h
+[?2004l]3008;start=e109ccf8-bd6d-4ea9-9d5d-8b38fa7b6567;machineid=69c4c6fade2c4aa683f39b0f0eb549cf;user=ras;hostname=fedora;bootid=a0f08e94-c6d7-4bbb-996d-81bf9c032080;pid=00000000000000012529;type=command;cwd=/home/ras/linux/week02\[sudo] ras 암호: 
+]3008;start=18cfe3e5f16549c69bd064ad8941eae0;user=ras;hostname=fedora;machineid=69c4c6fade2c4aa683f39b0f0eb549cf;bootid=a0f08e94c6d74bbb996d81bf9c032080;pid=16679;pidfdid=16680;comm=sudo;targetuser=root;sessionid=c4;type=session\# Executing docker install script, commit: f381ee68b32e515bb4dc034b339266aff1fbc460
++ command_exists dnf5
++ command -v dnf5
++ sh -c 'dnf -y -q --setopt=install_weak_deps=False install dnf-plugins-core'
+"dnf-plugins-core-4.10.1-6.fc43.noarch" 꾸러미는 이미 설치되었습니다.
+
+처리가 필요하지 않습니다.
++ sh -c 'dnf5 config-manager addrepo --overwrite --save-filename=docker-ce.repo --from-repofile='\''https://download.docker.com/linux/fedora/docker-ce.repo'\'''
+[?25l https://download.docker.com/linux/fedora/docker-ce.repo                    100% |  16.2 KiB/s | 811.0   B |  00m00s
+[?25h+ '[' stable '!=' stable ']'
++ sh -c 'dnf makecache'
+저장소 최신화 및 적재 중:
+[?25l Docker CE Stable - x86_64                             100% [==================] |  54.8 KiB/s |   2.0 KiB |  00m00s Docker CE Stable - x86_64                                                  100% | 252.0 KiB/s |  23.7 KiB |  00m00s
+[?25h저장소가 적재됨.
+Metadata cache created.
++ sh -c 'dnf -y -q --best install docker-ce docker-ce-cli containerd.io docker-compose-plugin docker-ce-rootless-extras docker-buildx-plugin docker-model-plugin'
+[1m꾸러미                              [0m [1m구조     [0m [1m버전                                [0m [1m저장소             [0m [1m        크기[0m
+설치 중:
+[32m containerd.io                      [0m x86_64    2.2.2-1.fc43                         docker-ce-stable       120.2 MiB
+[32m docker-buildx-plugin               [0m x86_64    0.31.1-1.fc43                        docker-ce-stable        97.5 MiB
+[32m docker-ce                          [0m x86_64    3:29.3.0-1.fc43                      docker-ce-stable       100.8 MiB
+[32m docker-ce-cli                      [0m x86_64    1:29.3.0-1.fc43                      docker-ce-stable        34.4 MiB
+[32m docker-ce-rootless-extras          [0m x86_64    29.3.0-1.fc43                        docker-ce-stable        11.3 MiB
+[32m docker-compose-plugin              [0m x86_64    5.1.0-1.fc43                         docker-ce-stable        30.1 MiB
+[32m docker-model-plugin                [0m x86_64    1.1.8-1.fc43                         docker-ce-stable        26.3 MiB
+종속 꾸러미 설치 중:
+[32m libcgroup                          [0m x86_64    3.0-9.fc43                           fedora                 153.7 KiB
+
+연결 요약:
+ 설치 중:          8 꾸러미
+
+[?25lOpenPGP 키 0x621E9F35 가져오기:
+ 사용자ID       :"Docker Release (CE rpm) <docker@docker.com>"
+ 지문       : 060A61C51B558A7F742B77AAC52FEB6B621E9F35
+ 출처       : https://download.docker.com/linux/fedora/gpg
+키를 성공적으로 가져왔습니다.
+[ 1/10] 꾸러미 파일을 확인합니다              0% [<=>               ] |   0.0   B/s |   0.0   B |  00m00s[ 1/10] 꾸러미 파일을 확인합니다             37% [=======           ] |  36.0   B/s |   3.0   B |  00m00s[ 1/10] 꾸러미 파일을 확인합니다             87% [================  ] |  36.0   B/s |   7.0   B |  00m00s[ 1/10] 꾸러미 파일을 확인합니다            100% [==================] |  36.0   B/s |   8.0   B |  00m00s[ 1/10] 꾸러미 파일을 확인합니다                                 100% |  29.0   B/s |   8.0   B |  00m00s
+[ 2/10] 연결을 준비합니다                      100% [==================] |  58.0   B/s |   8.0   B |  00m00s[ 2/10] 연결을 준비합니다                                           100% |  25.0   B/s |   8.0   B |  00m00s
+[ 3/10] 설치 중 libcgroup-0:3.0-9.fc43.x86_64         0% [<=>               ] |   0.0   B/s |   0.0   B |  00m00s[ 3/10] 설치 중 libcgroup-0:3.0-9.fc43.x86_64       100% [==================] |  75.7 MiB/s | 155.1 KiB |  00m00s[ 3/10] 설치 중 libcgroup-0:3.0-9.fc43.x86_64                            100% |  15.1 MiB/s | 155.1 KiB |  00m00s
+[ 4/10] 설치 중 containerd.io-0:2.2.2-1.fc43.x86_64  42% [========          ] | 566.0 MiB/s |  50.9 MiB |  00m00s[ 4/10] 설치 중 containerd.io-0:2.2.2-1.fc43.x86_64  90% [================  ] | 566.0 MiB/s | 109.0 MiB |  00m00s[ 4/10] 설치 중 containerd.io-0:2.2.2-1.fc43.x86_64 100% [==================] | 566.0 MiB/s | 120.2 MiB |  00m00s[ 4/10] 설치 중 containerd.io-0:2.2.2-1.fc43.x86_64 100% [==================] | 566.0 MiB/s | 120.2 MiB |  00m00s
+>>> %triggerin 구현 실행 중: filesystem-0:3.18-50.fc43.x86_64                                                       [1A[ 4/10] 설치 중 containerd.io-0:2.2.2-1.fc43.x86_64 100% [==================] | 566.0 MiB/s | 120.2 MiB |  00m00s[B[2K[1A[ 4/10] 설치 중 containerd.io-0:2.2.2-1.fc43.x86_64 100% [==================] | 566.0 MiB/s | 120.2 MiB |  00m00s
+>>> %post 구현 실행 중: containerd.io-0:2.2.2-1.fc43.x86_64                                                         [1A[ 4/10] 설치 중 containerd.io-0:2.2.2-1.fc43.x86_64 100% [==================] | 566.0 MiB/s | 120.2 MiB |  00m00s[B[2K[1A[ 4/10] 설치 중 containerd.io-0:2.2.2-1.fc43.x86_64                      100% | 445.3 MiB/s | 120.2 MiB |  00m00s
+[ 5/10] 설치 중 docker-ce-cli-1:29.3.0-1.fc43.x86_6  32% [======            ] | 532.7 MiB/s |  11.2 MiB |  00m00s[ 5/10] 설치 중 docker-ce-cli-1:29.3.0-1.fc43.x86_6 100% [==================] | 532.7 MiB/s |  34.4 MiB |  00m00s[ 5/10] 설치 중 docker-ce-cli-1:29.3.0-1.fc43.x86_6 100% [==================] | 532.7 MiB/s |  34.4 MiB |  00m00s
+>>> %triggerin 구현 실행 중: filesystem-0:3.18-50.fc43.x86_64                                                       [1A[ 5/10] 설치 중 docker-ce-cli-1:29.3.0-1.fc43.x86_6 100% [==================] | 532.7 MiB/s |  34.4 MiB |  00m00s[B[2K[1A[ 5/10] 설치 중 docker-ce-cli-1:29.3.0-1.fc43.x86_6 100% [==================] | 532.7 MiB/s |  34.4 MiB |  00m00s
+>>> %post 구현 실행 중: docker-ce-cli-1:29.3.0-1.fc43.x86_64                                                        [1A[ 5/10] 설치 중 docker-ce-cli-1:29.3.0-1.fc43.x86_6 100% [==================] | 532.7 MiB/s |  34.4 MiB |  00m00s[B[2K[1A[ 5/10] 설치 중 docker-ce-cli-1:29.3.0-1.fc43.x86_64                     100% | 208.7 MiB/s |  34.4 MiB |  00m00s
+[ 6/10] 설치 중 docker-ce-3:29.3.0-1.fc43.x86_64      0% [<=>               ] |   0.0   B/s |   0.0   B |  00m00s[ 6/10] 설치 중 docker-ce-3:29.3.0-1.fc43.x86_64     59% [===========       ] | 593.6 MiB/s |  59.9 MiB |  00m00s[ 6/10] 설치 중 docker-ce-3:29.3.0-1.fc43.x86_64    100% [==================] | 593.6 MiB/s | 100.8 MiB |  00m00s[ 6/10] 설치 중 docker-ce-3:29.3.0-1.fc43.x86_64    100% [==================] | 593.6 MiB/s | 100.8 MiB |  00m00s
+>>> %triggerin 구현 실행 중: filesystem-0:3.18-50.fc43.x86_64                                                       [1A[ 6/10] 설치 중 docker-ce-3:29.3.0-1.fc43.x86_64    100% [==================] | 593.6 MiB/s | 100.8 MiB |  00m00s[B[2K[1A[ 6/10] 설치 중 docker-ce-3:29.3.0-1.fc43.x86_64    100% [==================] | 593.6 MiB/s | 100.8 MiB |  00m00s
+>>> %post 구현 실행 중: docker-ce-3:29.3.0-1.fc43.x86_64                                                            [1A[ 6/10] 설치 중 docker-ce-3:29.3.0-1.fc43.x86_64    100% [==================] | 593.6 MiB/s | 100.8 MiB |  00m00s[B[2K[1A[ 6/10] 설치 중 docker-ce-3:29.3.0-1.fc43.x86_64                         100% | 473.1 MiB/s | 100.8 MiB |  00m00s
+[ 7/10] 설치 중 docker-ce-rootless-extras-0:29.3.0-   0% [<=>               ] |   0.0   B/s |   0.0   B |  00m00s[ 7/10] 설치 중 docker-ce-rootless-extras-0:29.3.0- 100% [==================] | 512.9 MiB/s |  11.3 MiB |  00m00s[ 7/10] 설치 중 docker-ce-rootless-extras-0:29.3.0- 100% [==================] | 512.9 MiB/s |  11.3 MiB |  00m00s
+>>> %triggerin 구현 실행 중: filesystem-0:3.18-50.fc43.x86_64                                                       [1A[ 7/10] 설치 중 docker-ce-rootless-extras-0:29.3.0- 100% [==================] | 512.9 MiB/s |  11.3 MiB |  00m00s[B[2K[1A[ 7/10] 설치 중 docker-ce-rootless-extras-0:29.3.0- 100% [==================] | 512.9 MiB/s |  11.3 MiB |  00m00s
+>>> %post 구현 실행 중: docker-ce-rootless-extras-0:29.3.0-1.fc43.x86_64                                            [1A[ 7/10] 설치 중 docker-ce-rootless-extras-0:29.3.0- 100% [==================] | 512.9 MiB/s |  11.3 MiB |  00m00s[B[2K[1A[ 7/10] 설치 중 docker-ce-rootless-extras-0:29.3.0-1.fc43.x86_64         100% | 235.1 MiB/s |  11.3 MiB |  00m00s
+[ 8/10] 설치 중 docker-model-plugin-0:1.1.8-1.fc43. 100% [==================] | 547.8 MiB/s |  26.3 MiB |  00m00s[ 8/10] 설치 중 docker-model-plugin-0:1.1.8-1.fc43. 100% [==================] | 547.8 MiB/s |  26.3 MiB |  00m00s
+>>> %post 구현 실행 중: docker-model-plugin-0:1.1.8-1.fc43.x86_64                                                   [1A[ 8/10] 설치 중 docker-model-plugin-0:1.1.8-1.fc43. 100% [==================] | 547.8 MiB/s |  26.3 MiB |  00m00s[B[2K[1A[ 8/10] 설치 중 docker-model-plugin-0:1.1.8-1.fc43.x86_64                100% | 355.3 MiB/s |  26.3 MiB |  00m00s
+[ 9/10] 설치 중 docker-buildx-plugin-0:0.31.1-1.fc4   0% [<=>               ] |   0.0   B/s |   0.0   B |  00m00s[ 9/10] 설치 중 docker-buildx-plugin-0:0.31.1-1.fc4  68% [============      ] | 660.9 MiB/s |  66.8 MiB |  00m00s[ 9/10] 설치 중 docker-buildx-plugin-0:0.31.1-1.fc4 100% [==================] | 660.9 MiB/s |  97.5 MiB |  00m00s[ 9/10] 설치 중 docker-buildx-plugin-0:0.31.1-1.fc4 100% [==================] | 660.9 MiB/s |  97.5 MiB |  00m00s
+>>> %post 구현 실행 중: docker-buildx-plugin-0:0.31.1-1.fc43.x86_64                                                 [1A[ 9/10] 설치 중 docker-buildx-plugin-0:0.31.1-1.fc4 100% [==================] | 660.9 MiB/s |  97.5 MiB |  00m00s[B[2K[1A[ 9/10] 설치 중 docker-buildx-plugin-0:0.31.1-1.fc43.x86_64              100% | 587.3 MiB/s |  97.5 MiB |  00m00s
+[10/10] 설치 중 docker-compose-plugin-0:5.1.0-1.fc4  62% [===========       ] | 539.3 MiB/s |  18.9 MiB |  00m00s[10/10] 설치 중 docker-compose-plugin-0:5.1.0-1.fc4 100% [==================] | 539.3 MiB/s |  30.1 MiB |  00m00s[10/10] 설치 중 docker-compose-plugin-0:5.1.0-1.fc4 100% [==================] | 539.3 MiB/s |  30.1 MiB |  00m00s
+>>> %post 구현 실행 중: docker-compose-plugin-0:5.1.0-1.fc43.x86_64                                                 [1A[10/10] 설치 중 docker-compose-plugin-0:5.1.0-1.fc4 100% [==================] | 539.3 MiB/s |  30.1 MiB |  00m00s[B[2K[1A[10/10] 설치 중 docker-compose-plugin-0:5.1.0-1.fc4 100% [==================] | 539.3 MiB/s |  30.1 MiB |  00m00s
+>>> %triggerin 구현 실행 중: glibc-common-0:2.42-10.fc43.x86_64                                                     [1A[10/10] 설치 중 docker-compose-plugin-0:5.1.0-1.fc4 100% [==================] | 539.3 MiB/s |  30.1 MiB |  00m00s[B[2K[1A[10/10] 설치 중 docker-compose-plugin-0:5.1.0-1.fc4 100% [==================] | 539.3 MiB/s |  30.1 MiB |  00m00s
+>>> %triggerin 구현 실행 중: man-db-0:2.13.1-2.fc43.x86_64                                                          [1A[10/10] 설치 중 docker-compose-plugin-0:5.1.0-1.fc4 100% [==================] | 539.3 MiB/s |  30.1 MiB |  00m00s[B[2K[1A[10/10] 설치 중 docker-compose-plugin-0:5.1.0-1.fc4 100% [==================] | 539.3 MiB/s |  30.1 MiB |  00m00s
+>>> %triggerin 구현 실행 중: systemd-0:258.5-2.fc43.x86_64                                                          [1A[10/10] 설치 중 docker-compose-plugin-0:5.1.0-1.fc4 100% [==================] | 539.3 MiB/s |  30.1 MiB |  00m00s[B[2K[1A[10/10] 설치 중 docker-compose-plugin-0:5.1.0-1.fc43.x86_64              100% |  14.8 MiB/s |  30.1 MiB |  00m02s
+[?25hUsing systemd to manage Docker service
++ sh -c systemctl enable --now docker.service
+  UNIT                                    LOAD   ACTIVE     SUB       JOB   DESCRIPTION
+  proc-sys-fs-binfmt_misc.automount       loaded active     running         Arbitrary Executable File Formats File …
+  sys-devices-LNXSYSTM:00-LNXSYBUS:00-MS… loaded active     plugged         /sys/devices/LNXSYSTM:00/LNXSYBUS:00/MS…
+  sys-devices-LNXSYSTM:00-LNXSYBUS:00-MS… loaded active     plugged         /sys/devices/LNXSYSTM:00/LNXSYBUS:00/MS…
+  sys-devices-pci0000:00-0000:00:01.1-00… loaded active     plugged         GA107 [GeForce RTX 2050]
+  sys-devices-pci0000:00-0000:00:01.1-00… loaded active     plugged         /sys/devices/pci0000:00/0000:00:01.1/00…
+  sys-devices-pci0000:00-0000:00:01.2-00… loaded active     plugged         Micron_2400E_MTFDKBA512QFM EFI\x20syste…
+  sys-devices-pci0000:00-0000:00:01.2-00… loaded active     plugged         Micron_2400E_MTFDKBA512QFM Microsoft\x2…
+  sys-devices-pci0000:00-0000:00:01.2-00… loaded active     plugged         Micron_2400E_MTFDKBA512QFM Basic\x20dat…
+  sys-devices-pci0000:00-0000:00:01.2-00… loaded active     plugged         Micron_2400E_MTFDKBA512QFM DriverCD
+  sys-devices-pci0000:00-0000:00:01.2-00… loaded active     plugged         Micron_2400E_MTFDKBA512QFM
+  sys-devices-pci0000:00-0000:00:02.1-00… loaded active     plugged         RTL8111/8168/8211/8411 PCI Express Giga…
+  sys-devices-pci0000:00-0000:00:02.2-00… loaded active     plugged         MT7922 802.11ax PCI Express Wireless Ne…
+  sys-devices-pci0000:00-0000:00:08.1-00… loaded active     plugged         /sys/devices/pci0000:00/0000:00:08.1/00…
+  sys-devices-pci0000:00-0000:00:08.1-00… loaded active     plugged         /sys/devices/pci0000:00/0000:00:08.1/00…
+  sys-devices-pci0000:00-0000:00:08.1-00… loaded active     plugged         /sys/devices/pci0000:00/0000:00:08.1/00…
+  sys-devices-pci0000:00-0000:00:08.1-00… loaded active     plugged         /sys/devices/pci0000:00/0000:00:08.1/00…
+  sys-devices-pci0000:00-0000:00:08.3-00… loaded active     plugged         ADATA_SP550 EFI\x20System\x20Partition
+  sys-devices-pci0000:00-0000:00:08.3-00… loaded active     plugged         ADATA_SP550 2
+  sys-devices-pci0000:00-0000:00:08.3-00… loaded active     plugged         ADATA_SP550 3
+  sys-devices-pci0000:00-0000:00:08.3-00… loaded active     plugged         ADATA_SP550
+  sys-devices-platform-serial8250-serial… loaded active     plugged         /sys/devices/platform/serial8250/serial…
+  sys-devices-platform-serial8250-serial… loaded active     plugged         /sys/devices/platform/serial8250/serial…
+  sys-devices-platform-serial8250-serial… loaded active     plugged         /sys/devices/platform/serial8250/serial…
+  sys-devices-platform-serial8250-serial… loaded active     plugged         /sys/devices/platform/serial8250/serial…
+  sys-devices-virtual-block-zram0.device  loaded active     plugged         /sys/devices/virtual/block/zram0
+  sys-devices-virtual-misc-rfkill.device  loaded active     plugged         /sys/devices/virtual/misc/rfkill
+  sys-module-configfs.device              loaded active     plugged         /sys/module/configfs
+  sys-module-fuse.device                  loaded active     plugged         /sys/module/fuse
+  sys-subsystem-bluetooth-devices-hci0.d… loaded active     plugged         /sys/subsystem/bluetooth/devices/hci0
+  sys-subsystem-net-devices-eno1.device   loaded active     plugged         RTL8111/8168/8211/8411 PCI Express Giga…
+  sys-subsystem-net-devices-wlp4s0.device loaded active     plugged         MT7922 802.11ax PCI Express Wireless Ne…
+  -.mount                                 loaded active     mounted         Root Mount
+  boot-efi.mount                          loaded active     mounted         /boot/efi
+  dev-hugepages.mount                     loaded active     mounted         Huge Pages File System
+  dev-mqueue.mount                        loaded active     mounted         POSIX Message Queue File System
+  mnt-win-c.mount                         loaded active     mounted         /mnt/win/c
+  mnt-win-efifs.mount                     loaded active     mounted         /mnt/win/efifs
+  proc-sys-fs-binfmt_misc.mount           loaded active     mounted         Arbitrary Executable File Formats File …
+  run-user-0.mount                        loaded active     mounted         /run/user/0
+  run-user-1000-doc.mount                 loaded active     mounted         /run/user/1000/doc
+  run-user-1000.mount                     loaded active     mounted         /run/user/1000
+  sys-fs-fuse-connections.mount           loaded active     mounted         FUSE Control File System
+  sys-kernel-config.mount                 loaded active     mounted         Kernel Configuration File System
+  sys-kernel-debug.mount                  loaded active     mounted         Kernel Debug File System
+  sys-kernel-tracing.mount                loaded active     mounted         Kernel Trace File System
+  tmp.mount                               loaded active     mounted         Temporary Directory /tmp
+  var-lib-nfs-rpc_pipefs.mount            loaded active     mounted         RPC Pipe File System
+  cups.path                               loaded active     running         CUPS Scheduler
+  systemd-ask-password-console.path       loaded active     waiting         Dispatch Password Requests to Console D…
+  systemd-ask-password-wall.path          loaded active     waiting         Forward Password Requests to Wall Direc…
+  init.scope                              loaded active     running         System and Service Manager
+  session-6.scope                         loaded active     running         Session 6 of User ras
+  session-c4.scope                        loaded active     running         Session c4 of User root
+  abrt-journal-core.service               loaded active     running         ABRT coredumpctl message creator
+  abrt-oops.service                       loaded active     running         ABRT kernel log watcher
+  abrt-xorg.service                       loaded active     running         ABRT Xorg log watcher
+  abrtd.service                           loaded active     running         ABRT Daemon
+  accounts-daemon.service                 loaded active     running         Accounts Service
+  akmods.service                          loaded active     exited          Builds and install new kmods from akmod…
+  alsa-state.service                      loaded active     running         Manage Sound Card State (restore and st…
+  atd.service                             loaded active     running         Deferred execution scheduler
+  auditd.service                          loaded active     running         Security Audit Logging Service
+  authselect-apply-changes.service        loaded active     exited          Apply authselect changes
+  avahi-daemon.service                    loaded active     running         Avahi mDNS/DNS-SD Stack
+  bluetooth.service                       loaded active     running         Bluetooth service
+  chronyd.service                         loaded active     running         NTP client/server
+  crond.service                           loaded active     running         Command Scheduler
+  cups.service                            loaded active     running         CUPS Scheduler
+  dbus-:1.2-org.freedesktop.problems@0.s… loaded active     running         dbus-:1.2-org.freedesktop.problems@0.se…
+  dbus-broker.service                     loaded active     running         D-Bus System Message Bus
+  dracut-shutdown.service                 loaded active     exited          Restore /run/initramfs on shutdown
+  firewalld.service                       loaded active     running         firewalld - dynamic firewall daemon
+  fprintd.service                         loaded active     running         Fingerprint Authentication Daemon
+  gssproxy.service                        loaded active     running         GSSAPI Proxy Daemon
+● initial-setup.service                   loaded failed     failed          Initial Setup configuration program
+  irqbalance.service                      loaded active     running         irqbalance daemon
+  kmod-static-nodes.service               loaded active     exited          Create List of Static Device Nodes
+  lvm2-lvmdbusd.service                   loaded active     running         LVM2 D-Bus service
+  lvm2-monitor.service                    loaded active     exited          Monitoring of LVM2 mirrors, snapshots e…
+● man-db-cache-update.service             loaded activating start     start man-db-cache-update.service
+  ModemManager.service                    loaded active     running         Modem Manager
+  NetworkManager-wait-online.service      loaded active     exited          Network Manager Wait Online
+  NetworkManager.service                  loaded active     running         Network Manager
+  nvidia-powerd.service                   loaded active     running         nvidia-powerd service
+  packagekit.service                      loaded active     running         PackageKit Daemon
+  pcscd.service                           loaded active     running         PC/SC Smart Card Daemon
+  plymouth-quit.service                   loaded active     exited          Terminate Plymouth Boot Screen
+  plymouth-read-write.service             loaded active     exited          Tell Plymouth To Write Out Runtime Data
+  polkit.service                          loaded active     running         Authorization Manager
+  rpc-statd-notify.service                loaded active     exited          Notify NFS peers of a restart
+  rsyslog.service                         loaded active     running         System Logging Service
+  rtkit-daemon.service                    loaded active     running         RealtimeKit Scheduling Policy Service
+  run-p16824-i16825.service               loaded active     running         [systemd-run] /usr/bin/systemctl start …
+  sddm.service                            loaded active     running         Simple Desktop Display Manager
+  smartd.service                          loaded active     running         Self Monitoring and Reporting Technolog…
+  switcheroo-control.service              loaded active     running         Switcheroo Control Proxy service
+  systemd-backlight@backlight:amdgpu_bl1… loaded active     exited          Load/Save Screen Backlight Brightness o…
+  systemd-fsck-root.service               loaded active     exited          File System Check on Root Device
+  systemd-fsck@dev-disk-by\x2duuid-0859\… loaded active     exited          File System Check on /dev/disk/by-uuid/…
+  systemd-journal-flush.service           loaded active     exited          Flush Journal to Persistent Storage
+  systemd-journald.service                loaded active     running         Journal Service
+  systemd-logind.service                  loaded active     running         User Login Management
+  systemd-modules-load.service            loaded active     exited          Load Kernel Modules
+  systemd-network-generator.service       loaded active     exited          Generate Network Units from Kernel Comm…
+  systemd-random-seed.service             loaded active     exited          Load/Save OS Random Seed
+  systemd-remount-fs.service              loaded active     exited          Remount Root and Kernel File Systems
+  systemd-resolved.service                loaded active     running         Network Name Resolution
+  systemd-sysctl.service                  loaded active     exited          Apply Kernel Variables
+  systemd-tmpfiles-setup-dev-early.servi… loaded active     exited          Create Static Device Nodes in /dev grac…
+  systemd-tmpfiles-setup-dev.service      loaded active     exited          Create Static Device Nodes in /dev
+  systemd-tmpfiles-setup.service          loaded active     exited          Create System Files and Directories
+  systemd-udev-load-credentials.service   loaded active     exited          Load udev Rules from Credentials
+  systemd-udev-trigger.service            loaded active     exited          Coldplug All udev Devices
+  systemd-udevd.service                   loaded active     running         Rule-based Manager for Device Events an…
+  systemd-update-utmp.service             loaded active     exited          Record System Boot/Shutdown in UTMP
+  systemd-user-sessions.service           loaded active     exited          Permit User Sessions
+  systemd-userdb-load-credentials.service loaded active     exited          Load JSON user/group Records from Crede…
+  systemd-userdbd.service                 loaded active     running         User Database Manager
+  systemd-vconsole-setup.service          loaded active     exited          Virtual Console Setup
+  systemd-zram-setup@zram0.service        loaded active     exited          Create swap on /dev/zram0
+  tuned-ppd.service                       loaded active     running         PPD-to-TuneD API Translation Daemon
+  tuned.service                           loaded active     running         Dynamic System Tuning Daemon
+  udisks2.service                         loaded active     running         Disk Manager
+  upower.service                          loaded active     running         Daemon for power management
+  uresourced.service                      loaded active     running         User resource assignment daemon
+  user-runtime-dir@0.service              loaded active     exited          User Runtime Directory /run/user/0
+  user-runtime-dir@1000.service           loaded active     exited          User Runtime Directory /run/user/1000
+  user@0.service                          loaded active     running         User Manager for UID 0
+  user@1000.service                       loaded active     running         User Manager for UID 1000
+  wpa_supplicant.service                  loaded active     running         WPA supplicant
+  -.slice                                 loaded active     active          Root Slice
+  system-akmods\x2dkeygen.slice           loaded active     active          Slice /system/akmods-keygen
+  system-cups.slice                       loaded active     active          CUPS Slice
+  system-dbus\x2d:1.2\x2dorg.freedesktop… loaded active     active          Slice /system/dbus-:1.2-org.freedesktop…
+  system-dbus\x2d:1.2\x2dorg.kde.kded.sm… loaded active     active          Slice /system/dbus-:1.2-org.kde.kded.sm…
+  system-dbus\x2d:1.2\x2dorg.kde.powerde… loaded active     active          Slice /system/dbus-:1.2-org.kde.powerde…
+  system-dbus\x2d:1.2\x2dorg.kde.powerde… loaded active     active          Slice /system/dbus-:1.2-org.kde.powerde…
+  system-dbus\x2d:1.2\x2dorg.kde.powerde… loaded active     active          Slice /system/dbus-:1.2-org.kde.powerde…
+  system-drkonqi\x2dcoredump\x2dprocesso… loaded active     active          Slice /system/drkonqi-coredump-processor
+  system-getty.slice                      loaded active     active          Slice /system/getty
+  system-modprobe.slice                   loaded active     active          Slice /system/modprobe
+  system-systemd\x2dbacklight.slice       loaded active     active          Slice /system/systemd-backlight
+  system-systemd\x2dcoredump.slice        loaded active     active          Slice /system/systemd-coredump
+  system-systemd\x2dfsck.slice            loaded active     active          Slice /system/systemd-fsck
+  system-systemd\x2dzram\x2dsetup.slice   loaded active     active          Slice /system/systemd-zram-setup
+  system.slice                            loaded active     active          System Slice
+  user-0.slice                            loaded active     active          User Slice of UID 0
+  user-1000.slice                         loaded active     active          User Slice of UID 1000
+  user.slice                              loaded active     active          User and Session Slice
+  avahi-daemon.socket                     loaded active     running         Avahi mDNS/DNS-SD Stack Activation Sock…
+  cups.socket                             loaded active     running         CUPS Scheduler
+  dbus.socket                             loaded active     running         D-Bus System Message Bus Socket
+  dm-event.socket                         loaded active     listening       Device-mapper event daemon FIFOs
+  iscsid.socket                           loaded active     listening       Open-iSCSI iscsid Socket
+  iscsiuio.socket                         loaded active     listening       Open-iSCSI iscsiuio Socket
+  lvm2-lvmpolld.socket                    loaded active     listening       LVM2 poll daemon socket
+  pcscd.socket                            loaded active     running         PC/SC Smart Card Daemon Activation Sock…
+  snapd.socket                            loaded active     listening       Socket activation for snappy daemon
+  sshd-unix-local.socket                  loaded active     listening       OpenSSH Server Socket (systemd-ssh-gene…
+  sssd-kcm.socket                         loaded active     listening       SSSD Kerberos Cache Manager responder s…
+  systemd-ask-password.socket             loaded active     listening       Query the User Interactively for a Pass…
+  systemd-bootctl.socket                  loaded active     listening       Boot Entries Service Socket
+  systemd-coredump.socket                 loaded active     listening       Process Core Dump Socket
+  systemd-creds.socket                    loaded active     listening       Credential Encryption/Decryption
+  systemd-factory-reset.socket            loaded active     listening       Factory Reset Management
+  systemd-hostnamed.socket                loaded active     listening       Hostname Service Socket
+  systemd-journald-audit.socket           loaded active     running         Journal Audit Socket
+  systemd-journald-dev-log.socket         loaded active     running         Journal Socket (/dev/log)
+  systemd-journald.socket                 loaded active     running         Journal Sockets
+  systemd-logind-varlink.socket           loaded active     running         User Login Management Varlink Socket
+  systemd-resolved-monitor.socket         loaded active     running         Resolve Monitor Varlink Socket
+  systemd-resolved-varlink.socket         loaded active     running         Resolve Service Varlink Socket
+  systemd-rfkill.socket                   loaded active     listening       Load/Save RF Kill Switch Status /dev/rf…
+  systemd-sysext.socket                   loaded active     listening       System Extension Image Management
+  systemd-udevd-control.socket            loaded active     running         udev Control Socket
+  systemd-udevd-kernel.socket             loaded active     running         udev Kernel Socket
+  systemd-udevd-varlink.socket            loaded active     running         udev Varlink Socket
+  systemd-userdbd.socket                  loaded active     running         User Database Manager Socket
+  dev-disk-by\x2ddiskseq-1\x2dpart2.swap  loaded active     active          Swap Partition
+  dev-zram0.swap                          loaded active     active          Compressed Swap on /dev/zram0
+  akmods-keygen.target                    loaded active     active          akmods-keygen.target
+  basic.target                            loaded active     active          Basic System
+  bluetooth.target                        loaded active     active          Bluetooth Support
+  cryptsetup.target                       loaded active     active          Local Encrypted Volumes
+  getty-pre.target                        loaded active     active          Preparation for Logins
+  getty.target                            loaded active     active          Login Prompts
+  graphical.target                        loaded active     active          Graphical Interface
+  imports.target                          loaded active     active          Image Downloads
+  integritysetup.target                   loaded active     active          Local Integrity Protected Volumes
+  local-fs-pre.target                     loaded active     active          Preparation for Local File Systems
+  local-fs.target                         loaded active     active          Local File Systems
+  multi-user.target                       loaded active     active          Multi-User System
+  network-online.target                   loaded active     active          Network is Online
+  network-pre.target                      loaded active     active          Preparation for Network
+  network.target                          loaded active     active          Network
+  nfs-client.target                       loaded active     active          NFS client services
+  nss-lookup.target                       loaded active     active          Host and Network Name Lookups
+  nss-user-lookup.target                  loaded active     active          User and Group Name Lookups
+  paths.target                            loaded active     active          Path Units
+  remote-fs-pre.target                    loaded active     active          Preparation for Remote File Systems
+  remote-fs.target                        loaded active     active          Remote File Systems
+  rpc_pipefs.target                       loaded active     active          rpc_pipefs.target
+  slices.target                           loaded active     active          Slice Units
+  sockets.target                          loaded active     active          Socket Units
+  sound.target                            loaded active     active          Sound Card
+  swap.target                             loaded active     active          Swaps
+  sysinit.target                          loaded active     active          System Initialization
+  timers.target                           loaded active     active          Timer Units
+  tpm2.target                             loaded active     active          Trusted Platform Module
+  veritysetup.target                      loaded active     active          Local Verity Protected Volumes
+  dnf-makecache.timer                     loaded active     waiting         dnf5 makecache
+  fstrim.timer                            loaded active     waiting         Discard unused filesystem blocks once a…
+  logrotate.timer                         loaded active     waiting         Daily rotation of log files
+  plocate-updatedb.timer                  loaded active     waiting         Update the plocate database daily
+  raid-check.timer                        loaded active     waiting         Weekly RAID setup health check
+  systemd-tmpfiles-clean.timer            loaded active     waiting         Daily Cleanup of Temporary Directories
+  unbound-anchor.timer                    loaded active     waiting         daily update of the root trust anchor f…
+
+Legend: LOAD   → Reflects whether the unit definition was properly loaded.
+        ACTIVE → The high-level unit activation state, i.e. generalization of SUB.
+        SUB    → The low-level unit activation state, values depend on unit type.
+        JOB    → Pending job for the unit.
+
+217 loaded units listed. Pass --all to see loaded but inactive units, too.
+To show all installed unit files use 'systemctl list-unit-files'.
+INFO: Docker daemon enabled and started
+
+
+================================================================================
+
+To run Docker as a non-privileged user, consider setting up the
+Docker daemon in rootless mode for your user:
+
+    dockerd-rootless-setuptool.sh install
+
+Visit https://docs.docker.com/go/rootless/ to learn about rootless mode.
+
+
+To run the Docker daemon as a fully privileged service, but granting non-root
+users access, refer to https://docs.docker.com/go/daemon-access/
+
+WARNING: Access to the remote API on a privileged Docker daemon is equivalent
+         to root access on the host. Refer to the 'Docker daemon attack surface'
+         documentation for details: https://docs.docker.com/go/attack-surface/
+
+================================================================================
+
+]3008;end=18cfe3e5f16549c69bd064ad8941eae0\]0;ras@fedora:~/linux/week02]3008;end=e109ccf8-bd6d-4ea9-9d5d-8b38fa7b6567;exit=success\]3008;start=2de83d4f-5338-428f-987a-b559cd018b51;machineid=69c4c6fade2c4aa683f39b0f0eb549cf;user=ras;hostname=fedora;bootid=a0f08e94-c6d7-4bbb-996d-81bf9c032080;pid=00000000000000012529;type=shell;cwd=/home/ras/linux/week02\[?2004h[0m[32mras@fedora[0m:[32m~/linux/week02[0m$ sudo ue[Ksermod -aG docker $USER
+[?2004l]3008;start=68b7817f-4150-4d78-8392-3d9f7f90d97e;machineid=69c4c6fade2c4aa683f39b0f0eb549cf;user=ras;hostname=fedora;bootid=a0f08e94-c6d7-4bbb-996d-81bf9c032080;pid=00000000000000012529;type=command;cwd=/home/ras/linux/week02\]3008;start=0b6059024df24a019ef5debe7c49de53;user=ras;hostname=fedora;machineid=69c4c6fade2c4aa683f39b0f0eb549cf;bootid=a0f08e94c6d74bbb996d81bf9c032080;pid=17103;pidfdid=17104;comm=sudo;targetuser=root;sessionid=c5;type=session\]3008;end=0b6059024df24a019ef5debe7c49de53\]0;ras@fedora:~/linux/week02]3008;end=68b7817f-4150-4d78-8392-3d9f7f90d97e;exit=success\]3008;start=2de83d4f-5338-428f-987a-b559cd018b51;machineid=69c4c6fade2c4aa683f39b0f0eb549cf;user=ras;hostname=fedora;bootid=a0f08e94-c6d7-4bbb-996d-81bf9c032080;pid=00000000000000012529;type=shell;cwd=/home/ras/linux/week02\[?2004h[0m[32mras@fedora[0m:[32m~/linux/week02[0m$ newgrp docker
+[?2004l]3008;start=20a3c174-111c-4391-b845-fba9f714694c;machineid=69c4c6fade2c4aa683f39b0f0eb549cf;user=ras;hostname=fedora;bootid=a0f08e94-c6d7-4bbb-996d-81bf9c032080;pid=00000000000000012529;type=command;cwd=/home/ras/linux/week02\]0;ras@fedora:~/linux/week02]3008;start=994638e9-68d7-443c-b063-08f5db07c7f2;machineid=69c4c6fade2c4aa683f39b0f0eb549cf;user=ras;hostname=fedora;bootid=a0f08e94-c6d7-4bbb-996d-81bf9c032080;pid=00000000000000017152;type=shell;cwd=/home/ras/linux/week02\[?2004h[0m[32mras@fedora[0m:[32m~/linux/week02[0m$ docker --version
+[?2004l]3008;start=da54b9d2-1e0d-48cd-ab20-155978f325c4;machineid=69c4c6fade2c4aa683f39b0f0eb549cf;user=ras;hostname=fedora;bootid=a0f08e94-c6d7-4bbb-996d-81bf9c032080;pid=00000000000000017152;type=command;cwd=/home/ras/linux/week02\Docker version 29.3.0, build 5927d80
+]0;ras@fedora:~/linux/week02]3008;end=da54b9d2-1e0d-48cd-ab20-155978f325c4;exit=success\]3008;start=994638e9-68d7-443c-b063-08f5db07c7f2;machineid=69c4c6fade2c4aa683f39b0f0eb549cf;user=ras;hostname=fedora;bootid=a0f08e94-c6d7-4bbb-996d-81bf9c032080;pid=00000000000000017152;type=shell;cwd=/home/ras/linux/week02\[?2004h[0m[32mras@fedora[0m:[32m~/linux/week02[0m$ docker info
+[?2004l]3008;start=b630044f-b16f-48bd-99e0-b0131717fef1;machineid=69c4c6fade2c4aa683f39b0f0eb549cf;user=ras;hostname=fedora;bootid=a0f08e94-c6d7-4bbb-996d-81bf9c032080;pid=00000000000000017152;type=command;cwd=/home/ras/linux/week02\Client: Docker Engine - Community
+ Version:    29.3.0
+ Context:    default
+ Debug Mode: false
+ Plugins:
+  buildx: Docker Buildx (Docker Inc.)
+    Version:  v0.31.1
+    Path:     /usr/libexec/docker/cli-plugins/docker-buildx
+  compose: Docker Compose (Docker Inc.)
+    Version:  v5.1.0
+    Path:     /usr/libexec/docker/cli-plugins/docker-compose
+  model: Docker Model Runner (Docker Inc.)
+    Version:  v1.1.8
+    Path:     /usr/libexec/docker/cli-plugins/docker-model
+
+Server:
+failed to connect to the docker API at unix:///var/run/docker.sock; check if the path is correct and if the daemon is running: dial unix /var/run/docker.sock: connect: no such file or directory
+]0;ras@fedora:~/linux/week02]3008;end=b630044f-b16f-48bd-99e0-b0131717fef1;exit=failure;status=1\]3008;start=994638e9-68d7-443c-b063-08f5db07c7f2;machineid=69c4c6fade2c4aa683f39b0f0eb549cf;user=ras;hostname=fedora;bootid=a0f08e94-c6d7-4bbb-996d-81bf9c032080;pid=00000000000000017152;type=shell;cwd=/home/ras/linux/week02\[?2004h[0m[32mras@fedora[0m:[32m~/linux/week02[0m$ systemctl status docker
+[?2004l]3008;start=2d9be57f-8e69-41c3-b8d6-8a594f0d229a;machineid=69c4c6fade2c4aa683f39b0f0eb549cf;user=ras;hostname=fedora;bootid=a0f08e94-c6d7-4bbb-996d-81bf9c032080;pid=00000000000000017152;type=command;cwd=/home/ras/linux/week02\[?1h=○ docker.service - Docker Application Container Engine[m
+     Loaded: loaded (]8;;file://fedora/usr/lib/systemd/system/docker.service\/usr/lib/systemd/system/docker.service]8;;\; [0;1;38:5:185mdisabled[0m; preset: [0;1;38:5:185mdisabled[0m)[m]8;;\
+    Drop-In: /usr/lib/systemd/system/service.d[m
+             └─]8;;file://fedora/usr/lib/systemd/system/service.d/10-timeout-abort.conf\10-timeout-abort.conf]8;;\[m]8;;\
+     Active: inactive (dead)[m
+TriggeredBy: ○ docker.socket[m
+       Docs: ]8;;https://docs.docker.com\https://docs.docker.com]8;;\[m]8;;\
+[K[?1l>]0;ras@fedora:~/linux/week02]3008;end=2d9be57f-8e69-41c3-b8d6-8a594f0d229a;exit=failure;status=3\]3008;start=994638e9-68d7-443c-b063-08f5db07c7f2;machineid=69c4c6fade2c4aa683f39b0f0eb549cf;user=ras;hostname=fedora;bootid=a0f08e94-c6d7-4bbb-996d-81bf9c032080;pid=00000000000000017152;type=shell;cwd=/home/ras/linux/week02\[?2004h[0m[32mras@fedora[0m:[32m~/linux/week02[0m$ sudo systemctl res[K[K[Kenable --now docker
+[?2004l]3008;start=aef6bba9-33c5-479b-89ee-752bf503faa8;machineid=69c4c6fade2c4aa683f39b0f0eb549cf;user=ras;hostname=fedora;bootid=a0f08e94-c6d7-4bbb-996d-81bf9c032080;pid=00000000000000017152;type=command;cwd=/home/ras/linux/week02\[sudo] ras 암호: 
+]3008;start=11f869269aff4fdd958f68b645839c7e;user=ras;hostname=fedora;machineid=69c4c6fade2c4aa683f39b0f0eb549cf;bootid=a0f08e94c6d74bbb996d81bf9c032080;pid=19670;pidfdid=19671;comm=sudo;targetuser=root;sessionid=c6;type=session\Created symlink '/etc/systemd/system/multi-user.target.wants/docker.service' → '/usr/lib/systemd/system/docker.service'.
+]3008;end=11f869269aff4fdd958f68b645839c7e\]0;ras@fedora:~/linux/week02]3008;end=aef6bba9-33c5-479b-89ee-752bf503faa8;exit=success\]3008;start=994638e9-68d7-443c-b063-08f5db07c7f2;machineid=69c4c6fade2c4aa683f39b0f0eb549cf;user=ras;hostname=fedora;bootid=a0f08e94-c6d7-4bbb-996d-81bf9c032080;pid=00000000000000017152;type=shell;cwd=/home/ras/linux/week02\[?2004h[0m[32mras@fedora[0m:[32m~/linux/week02[0m$ sudo systemctl enable --now docker[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[11Pystemctl status[C[C[C[C[C[C[C
+[?2004l]3008;start=f10121b0-9844-4f18-9795-5dc209bd82a8;machineid=69c4c6fade2c4aa683f39b0f0eb549cf;user=ras;hostname=fedora;bootid=a0f08e94-c6d7-4bbb-996d-81bf9c032080;pid=00000000000000017152;type=command;cwd=/home/ras/linux/week02\[?1h=[0;1;32m●[0m docker.service - Docker Application Container Engine[m
+     Loaded: loaded (]8;;file://fedora/usr/lib/systemd/system/docker.service\/usr/lib/systemd/system/docker.service]8;;\; [0;1;32menabled[0m; preset: [0;1;38:5:185mdisabled[0m)[m]8;;\
+    Drop-In: /usr/lib/systemd/system/service.d[m
+             └─]8;;file://fedora/usr/lib/systemd/system/service.d/10-timeout-abort.conf\10-timeout-abort.conf]8;;\[m]8;;\
+     Active: [0;1;32mactive (running)[0m since Fri 2026-03-13 10:55:21 KST; 3s ago[m
+ Invocation: a4ee4b2e59814e5b8d89c72095c6703b[m
+TriggeredBy: [0;1;32m●[0m docker.socket[m
+       Docs: ]8;;https://docs.docker.com\https://docs.docker.com]8;;\[m]8;;\
+   Main PID: 19881 (dockerd)[m
+      Tasks: 18[m
+     Memory: 26.3M (peak: 29.9M)[m
+        CPU: 108ms[m
+     CGroup: /system.slice/docker.service[m
+             └─[0;38:5:245m19881 /usr/bin/dockerd -H fd:// --containerd=/run/containerd/containerd.sock[0m[m
+[m
+ 3월 13 10:55:21 fedora dockerd[19881]: time="2026-03-13T10:55:21.236190688+09:00" level=info msg="Deleting nftable[m[7m>[27m
+ 3월 13 10:55:21 fedora dockerd[19881]: time="2026-03-13T10:55:21.252773546+09:00" level=info msg="Deleting nftable[m[7m>[27m
+ 3월 13 10:55:21 fedora dockerd[19881]: time="2026-03-13T10:55:21.264173648+09:00" level=info msg="Firewalld: creat[m[7m>[27m
+ 3월 13 10:55:21 fedora dockerd[19881]: time="2026-03-13T10:55:21.699471145+09:00" level=info msg="Loading containe[m[7m>[27m
+ 3월 13 10:55:21 fedora dockerd[19881]: time="2026-03-13T10:55:21.705396962+09:00" level=info msg="Docker daemon" c[m[7m>[27m
+ 3월 13 10:55:21 fedora dockerd[19881]: time="2026-03-13T10:55:21.705557294+09:00" level=info msg="Initializing bui[m[7m>[27m
+ 3월 13 10:55:21 fedora dockerd[19881]: time="2026-03-13T10:55:21.720398146+09:00" level=info msg="Completed buildk[m[7m>[27m
+ 3월 13 10:55:21 fedora dockerd[19881]: time="2026-03-13T10:55:21.724386288+09:00" level=info msg="Daemon has compl[m[7m>[27m
+ 3월 13 10:55:21 fedora dockerd[19881]: time="2026-03-13T10:55:21.724556439+09:00" level=info msg="API listen on /r[m[7m>[27m
+[7mlines 1-24[27m[K[K[?1l>]0;ras@fedora:~/linux/week02]3008;end=f10121b0-9844-4f18-9795-5dc209bd82a8;exit=success\]3008;start=994638e9-68d7-443c-b063-08f5db07c7f2;machineid=69c4c6fade2c4aa683f39b0f0eb549cf;user=ras;hostname=fedora;bootid=a0f08e94-c6d7-4bbb-996d-81bf9c032080;pid=00000000000000017152;type=shell;cwd=/home/ras/linux/week02\[?2004h[0m[32mras@fedora[0m:[32m~/linux/week02[0m$ ls
+[?2004l]3008;start=8a3cef7e-523a-4c9d-bf25-13aeed32f34f;machineid=69c4c6fade2c4aa683f39b0f0eb549cf;user=ras;hostname=fedora;bootid=a0f08e94-c6d7-4bbb-996d-81bf9c032080;pid=00000000000000017152;type=command;cwd=/home/ras/linux/week02\2026_20231023_week02_log.txt  [0m[01;32mSCRIPT.sh[0m  get-docker.sh  t.txt  test.txt
+]0;ras@fedora:~/linux/week02]3008;end=8a3cef7e-523a-4c9d-bf25-13aeed32f34f;exit=success\]3008;start=994638e9-68d7-443c-b063-08f5db07c7f2;machineid=69c4c6fade2c4aa683f39b0f0eb549cf;user=ras;hostname=fedora;bootid=a0f08e94-c6d7-4bbb-996d-81bf9c032080;pid=00000000000000017152;type=shell;cwd=/home/ras/linux/week02\[?2004h[0m[32mras@fedora[0m:[32m~/linux/week02[0m$ docker run hello-world
+[?2004l]3008;start=69be020e-b8dc-4963-867f-56fc75f8f885;machineid=69c4c6fade2c4aa683f39b0f0eb549cf;user=ras;hostname=fedora;bootid=a0f08e94-c6d7-4bbb-996d-81bf9c032080;pid=00000000000000017152;type=command;cwd=/home/ras/linux/week02\Unable to find image 'hello-world:latest' locally
+latest: Pulling from library/hello-world
+
+[1A[2K17eec7bbc9d7: Pulling fs layer [1B
+[1A[2Kea52d2000f90: Download complete [1B[2A[2K17eec7bbc9d7: Download complete [2B[2A[2K17eec7bbc9d7: Pull complete [2BDigest: sha256:85404b3c53951c3ff5d40de0972b1bb21fafa2e8daa235355baf44f33db9dbdd
+Status: Downloaded newer image for hello-world:latest
+
+Hello from Docker!
+This message shows that your installation appears to be working correctly.
+
+To generate this message, Docker took the following steps:
+ 1. The Docker client contacted the Docker daemon.
+ 2. The Docker daemon pulled the "hello-world" image from the Docker Hub.
+    (amd64)
+ 3. The Docker daemon created a new container from that image which runs the
+    executable that produces the output you are currently reading.
+ 4. The Docker daemon streamed that output to the Docker client, which sent it
+    to your terminal.
+
+To try something more ambitious, you can run an Ubuntu container with:
+ $ docker run -it ubuntu bash
+
+Share images, automate workflows, and more with a free Docker ID:
+ https://hub.docker.com/
+
+For more examples and ideas, visit:
+ https://docs.docker.com/get-started/
+
+]0;ras@fedora:~/linux/week02]3008;end=69be020e-b8dc-4963-867f-56fc75f8f885;exit=success\]3008;start=994638e9-68d7-443c-b063-08f5db07c7f2;machineid=69c4c6fade2c4aa683f39b0f0eb549cf;user=ras;hostname=fedora;bootid=a0f08e94-c6d7-4bbb-996d-81bf9c032080;pid=00000000000000017152;type=shell;cwd=/home/ras/linux/week02\[?2004h[0m[32mras@fedora[0m:[32m~/linux/week02[0m$ docker ps
+[?2004l]3008;start=cc67ef51-45fc-4df8-b12a-def18d810930;machineid=69c4c6fade2c4aa683f39b0f0eb549cf;user=ras;hostname=fedora;bootid=a0f08e94-c6d7-4bbb-996d-81bf9c032080;pid=00000000000000017152;type=command;cwd=/home/ras/linux/week02\CONTAINER ID   IMAGE     COMMAND   CREATED   STATUS    PORTS     NAMES
+]0;ras@fedora:~/linux/week02]3008;end=cc67ef51-45fc-4df8-b12a-def18d810930;exit=success\]3008;start=994638e9-68d7-443c-b063-08f5db07c7f2;machineid=69c4c6fade2c4aa683f39b0f0eb549cf;user=ras;hostname=fedora;bootid=a0f08e94-c6d7-4bbb-996d-81bf9c032080;pid=00000000000000017152;type=shell;cwd=/home/ras/linux/week02\[?2004h[0m[32mras@fedora[0m:[32m~/linux/week02[0m$ docker ps -a
+[?2004l]3008;start=1762aa38-b33f-452b-aaae-d46dc17c4b54;machineid=69c4c6fade2c4aa683f39b0f0eb549cf;user=ras;hostname=fedora;bootid=a0f08e94-c6d7-4bbb-996d-81bf9c032080;pid=00000000000000017152;type=command;cwd=/home/ras/linux/week02\CONTAINER ID   IMAGE         COMMAND    CREATED          STATUS                      PORTS     NAMES
+05985cc1a137   hello-world   "/hello"   36 seconds ago   Exited (0) 35 seconds ago             heuristic_snyder
+]0;ras@fedora:~/linux/week02]3008;end=1762aa38-b33f-452b-aaae-d46dc17c4b54;exit=success\]3008;start=994638e9-68d7-443c-b063-08f5db07c7f2;machineid=69c4c6fade2c4aa683f39b0f0eb549cf;user=ras;hostname=fedora;bootid=a0f08e94-c6d7-4bbb-996d-81bf9c032080;pid=00000000000000017152;type=shell;cwd=/home/ras/linux/week02\[?2004h[0m[32mras@fedora[0m:[32m~/linux/week02[0m$ docker images
+[?2004l]3008;start=f0eab774-e615-4687-b8a2-705a58281db9;machineid=69c4c6fade2c4aa683f39b0f0eb549cf;user=ras;hostname=fedora;bootid=a0f08e94-c6d7-4bbb-996d-81bf9c032080;pid=00000000000000017152;type=command;cwd=/home/ras/linux/week02\                                                                                               [1m[106m[30mi[0m[0m [96mInfo → [0m[0m [38;5;0m[48;5;14m U [0m In Use
+[39m[1mIMAGE[0m                [39m[1mID[0m             [39m[1mDISK USAGE[0m   [39m[1mCONTENT SIZE[0m   [39m[1mEXTRA[0m
+[34m[1mhello-world:latest[0m   [39m85404b3c5395[0m       [39m25.9kB[0m         [39m9.52kB[0m   [38;5;0m[48;5;14m U [0m  
+]0;ras@fedora:~/linux/week02]3008;end=f0eab774-e615-4687-b8a2-705a58281db9;exit=success\]3008;start=994638e9-68d7-443c-b063-08f5db07c7f2;machineid=69c4c6fade2c4aa683f39b0f0eb549cf;user=ras;hostname=fedora;bootid=a0f08e94-c6d7-4bbb-996d-81bf9c032080;pid=00000000000000017152;type=shell;cwd=/home/ras/linux/week02\[?2004h[0m[32mras@fedora[0m:[32m~/linux/week02[0m$ groups -a
+[?2004l]3008;start=d4697709-2bf2-436e-96fa-46fed5b8387c;machineid=69c4c6fade2c4aa683f39b0f0eb549cf;user=ras;hostname=fedora;bootid=a0f08e94-c6d7-4bbb-996d-81bf9c032080;pid=00000000000000017152;type=command;cwd=/home/ras/linux/week02\groups: 부적절한 옵션 -- 'a'
+자세한 정보는 'groups --help'를 입력하십시오.
+]0;ras@fedora:~/linux/week02]3008;end=d4697709-2bf2-436e-96fa-46fed5b8387c;exit=failure;status=1\]3008;start=994638e9-68d7-443c-b063-08f5db07c7f2;machineid=69c4c6fade2c4aa683f39b0f0eb549cf;user=ras;hostname=fedora;bootid=a0f08e94-c6d7-4bbb-996d-81bf9c032080;pid=00000000000000017152;type=shell;cwd=/home/ras/linux/week02\[?2004h[0m[32mras@fedora[0m:[32m~/linux/week02[0m$ groups -a[K-help
+[?2004l]3008;start=d407024a-bf92-4c07-8b33-e6fff226eaaf;machineid=69c4c6fade2c4aa683f39b0f0eb549cf;user=ras;hostname=fedora;bootid=a0f08e94-c6d7-4bbb-996d-81bf9c032080;pid=00000000000000017152;type=command;cwd=/home/ras/linux/week02\사용법: groups [<옵션>]... [<사용자이름>]...
+각 <사용자이름>의 그룹 소속 여부를 출력하며, <사용자이름>을 지정하지 않았다면,
+현재 프로세스 사용자의 그룹 소속 여부를 출력합니다(그룹 데이터베이스가 바뀌면 다를 수 있음).
+      --help        이 도움말을 표시하고 나갑니다
+      --version     버전 정보를 출력하고 나갑니다
+
+GNU coreutils 온라인 도움말: <https://www.gnu.org/software/coreutils/>
+번역 버그는 <https://translationproject.org/team/ko.html>에 알려주십시오
+완전한 문서 <https://www.gnu.org/software/coreutils/groups>
+또는 로컬 문서: info '(coreutils) groups invocation'
+]0;ras@fedora:~/linux/week02]3008;end=d407024a-bf92-4c07-8b33-e6fff226eaaf;exit=success\]3008;start=994638e9-68d7-443c-b063-08f5db07c7f2;machineid=69c4c6fade2c4aa683f39b0f0eb549cf;user=ras;hostname=fedora;bootid=a0f08e94-c6d7-4bbb-996d-81bf9c032080;pid=00000000000000017152;type=shell;cwd=/home/ras/linux/week02\[?2004h[0m[32mras@fedora[0m:[32m~/linux/week02[0m$ groups
+[?2004l]3008;start=1cd22cc1-6b45-4a3e-beab-7d5542911ae3;machineid=69c4c6fade2c4aa683f39b0f0eb549cf;user=ras;hostname=fedora;bootid=a0f08e94-c6d7-4bbb-996d-81bf9c032080;pid=00000000000000017152;type=command;cwd=/home/ras/linux/week02\docker wheel ras
+]0;ras@fedora:~/linux/week02]3008;end=1cd22cc1-6b45-4a3e-beab-7d5542911ae3;exit=success\]3008;start=994638e9-68d7-443c-b063-08f5db07c7f2;machineid=69c4c6fade2c4aa683f39b0f0eb549cf;user=ras;hostname=fedora;bootid=a0f08e94-c6d7-4bbb-996d-81bf9c032080;pid=00000000000000017152;type=shell;cwd=/home/ras/linux/week02\[?2004h[0m[32mras@fedora[0m:[32m~/linux/week02[0m$ clear
+[?2004l]3008;start=bf91e66b-081f-49e5-9506-ef2b51c8ad07;machineid=69c4c6fade2c4aa683f39b0f0eb549cf;user=ras;hostname=fedora;bootid=a0f08e94-c6d7-4bbb-996d-81bf9c032080;pid=00000000000000017152;type=command;cwd=/home/ras/linux/week02\[H[2J[3J]0;ras@fedora:~/linux/week02]3008;end=bf91e66b-081f-49e5-9506-ef2b51c8ad07;exit=success\]3008;start=994638e9-68d7-443c-b063-08f5db07c7f2;machineid=69c4c6fade2c4aa683f39b0f0eb549cf;user=ras;hostname=fedora;bootid=a0f08e94-c6d7-4bbb-996d-81bf9c032080;pid=00000000000000017152;type=shell;cwd=/home/ras/linux/week02\[?2004h[0m[32mras@fedora[0m:[32m~/linux/week02[0m$ docker info
+[?2004l]3008;start=9af0f426-016b-4959-9cfc-62e646942d9e;machineid=69c4c6fade2c4aa683f39b0f0eb549cf;user=ras;hostname=fedora;bootid=a0f08e94-c6d7-4bbb-996d-81bf9c032080;pid=00000000000000017152;type=command;cwd=/home/ras/linux/week02\Client: Docker Engine - Community
+ Version:    29.3.0
+ Context:    default
+ Debug Mode: false
+ Plugins:
+  buildx: Docker Buildx (Docker Inc.)
+    Version:  v0.31.1
+    Path:     /usr/libexec/docker/cli-plugins/docker-buildx
+  compose: Docker Compose (Docker Inc.)
+    Version:  v5.1.0
+    Path:     /usr/libexec/docker/cli-plugins/docker-compose
+  model: Docker Model Runner (Docker Inc.)
+    Version:  v1.1.8
+    Path:     /usr/libexec/docker/cli-plugins/docker-model
+
+Server:
+ Containers: 1
+  Running: 0
+  Paused: 0
+  Stopped: 1
+ Images: 1
+ Server Version: 29.3.0
+ Storage Driver: overlayfs
+  driver-type: io.containerd.snapshotter.v1
+ Logging Driver: json-file
+ Cgroup Driver: systemd
+ Cgroup Version: 2
+ Plugins:
+  Volume: local
+  Network: bridge host ipvlan macvlan null overlay
+  Log: awslogs fluentd gcplogs gelf journald json-file local splunk syslog
+ CDI spec directories:
+  /etc/cdi
+  /var/run/cdi
+ Swarm: inactive
+ Runtimes: io.containerd.runc.v2 runc
+ Default Runtime: runc
+ Init Binary: docker-init
+ containerd version: 301b2dac98f15c27117da5c8af12118a041a31d9
+ runc version: v1.3.4-0-gd6d73eb8
+ init version: de40ad0
+ Security Options:
+  seccomp
+   Profile: builtin
+  cgroupns
+ Kernel Version: 6.19.6-200.fc43.x86_64
+ Operating System: Fedora Linux 43 (KDE Plasma Desktop Edition)
+ OSType: linux
+ Architecture: x86_64
+ CPUs: 12
+ Total Memory: 14.82GiB
+ Name: fedora
+ ID: 7facf743-1561-4074-a4f4-7d282a732936
+ Docker Root Dir: /var/lib/docker
+ Debug Mode: false
+ Experimental: false
+ Insecure Registries:
+  127.0.0.0/8
+  ::1/128
+ Live Restore Enabled: false
+ Firewall Backend: iptables+firewalld
+  ReloadedAt: 2026-03-13T10:55:21+09:00
+
+]0;ras@fedora:~/linux/week02]3008;end=9af0f426-016b-4959-9cfc-62e646942d9e;exit=success\]3008;start=994638e9-68d7-443c-b063-08f5db07c7f2;machineid=69c4c6fade2c4aa683f39b0f0eb549cf;user=ras;hostname=fedora;bootid=a0f08e94-c6d7-4bbb-996d-81bf9c032080;pid=00000000000000017152;type=shell;cwd=/home/ras/linux/week02\[?2004h[0m[32mras@fedora[0m:[32m~/linux/week02[0m$ docker run hello-world
+[?2004l]3008;start=7a2cc0b8-7329-41cb-8042-312c186b1097;machineid=69c4c6fade2c4aa683f39b0f0eb549cf;user=ras;hostname=fedora;bootid=a0f08e94-c6d7-4bbb-996d-81bf9c032080;pid=00000000000000017152;type=command;cwd=/home/ras/linux/week02\
+Hello from Docker!
+This message shows that your installation appears to be working correctly.
+
+To generate this message, Docker took the following steps:
+ 1. The Docker client contacted the Docker daemon.
+ 2. The Docker daemon pulled the "hello-world" image from the Docker Hub.
+    (amd64)
+ 3. The Docker daemon created a new container from that image which runs the
+    executable that produces the output you are currently reading.
+ 4. The Docker daemon streamed that output to the Docker client, which sent it
+    to your terminal.
+
+To try something more ambitious, you can run an Ubuntu container with:
+ $ docker run -it ubuntu bash
+
+Share images, automate workflows, and more with a free Docker ID:
+ https://hub.docker.com/
+
+For more examples and ideas, visit:
+ https://docs.docker.com/get-started/
+
+]0;ras@fedora:~/linux/week02]3008;end=7a2cc0b8-7329-41cb-8042-312c186b1097;exit=success\]3008;start=994638e9-68d7-443c-b063-08f5db07c7f2;machineid=69c4c6fade2c4aa683f39b0f0eb549cf;user=ras;hostname=fedora;bootid=a0f08e94-c6d7-4bbb-996d-81bf9c032080;pid=00000000000000017152;type=shell;cwd=/home/ras/linux/week02\[?2004h[0m[32mras@fedora[0m:[32m~/linux/week02[0m$ docker pull ubuntu:ls[Katest
+[?2004l]3008;start=af7cca5f-a5ec-4770-a9c8-e3a97974d276;machineid=69c4c6fade2c4aa683f39b0f0eb549cf;user=ras;hostname=fedora;bootid=a0f08e94-c6d7-4bbb-996d-81bf9c032080;pid=00000000000000017152;type=command;cwd=/home/ras/linux/week02\latest: Pulling from library/ubuntu
+
+[1A[2K01d7766a2e4a: Pulling fs layer [1B
+[1A[2Kfd8cda969ed2: Downloading [===========================>                       ]  1.049MB/1.938MB[1B[1A[2Kfd8cda969ed2: Downloading [===========================>                       ]  1.049MB/1.938MB[1B[1A[2Kfd8cda969ed2: Downloading [===========================>                       ]  1.049MB/1.938MB[1B[2A[2K01d7766a2e4a: Downloading [=>                                                 ]  1.049MB/29.73MB[2B[1A[2Kfd8cda969ed2: Downloading [===========================>                       ]  1.049MB/1.938MB[1B[2A[2K01d7766a2e4a: Downloading [===>                                               ]  2.097MB/29.73MB[2B[2A[2K01d7766a2e4a: Downloading [=====>                                             ]  3.146MB/29.73MB[2B[1A[2Kfd8cda969ed2: Downloading [===========================>                       ]  1.049MB/1.938MB[1B[1A[2Kfd8cda969ed2: Downloading [===========================>                       ]  1.049MB/1.938MB[1B[2A[2K01d7766a2e4a: Downloading [========>                                          ]  5.243MB/29.73MB[2B[1A[2Kfd8cda969ed2: Downloading [===========================>                       ]  1.049MB/1.938MB[1B[2A[2K01d7766a2e4a: Downloading [==========>                                        ]  6.291MB/29.73MB[2B[1A[2Kfd8cda969ed2: Downloading [===========================>                       ]  1.049MB/1.938MB[1B[2A[2K01d7766a2e4a: Downloading [==========>                                        ]  6.291MB/29.73MB[2B[1A[2Kfd8cda969ed2: Downloading [===========================>                       ]  1.049MB/1.938MB[1B[2A[2K01d7766a2e4a: Downloading [============>                                      ]   7.34MB/29.73MB[2B[1A[2Kfd8cda969ed2: Download complete [1B[2A[2K01d7766a2e4a: Downloading [==============>                                    ]  8.389MB/29.73MB[2B[2A[2K01d7766a2e4a: Downloading [===============>                                   ]  9.437MB/29.73MB[2B[2A[2K01d7766a2e4a: Downloading [=================>                                 ]  10.49MB/29.73MB[2B[2A[2K01d7766a2e4a: Downloading [===================>                               ]  11.53MB/29.73MB[2B[2A[2K01d7766a2e4a: Downloading [=====================>                             ]  12.58MB/29.73MB[2B[2A[2K01d7766a2e4a: Downloading [======================>                            ]  13.63MB/29.73MB[2B[2A[2K01d7766a2e4a: Downloading [========================>                          ]  14.68MB/29.73MB[2B[2A[2K01d7766a2e4a: Downloading [==========================>                        ]  15.73MB/29.73MB[2B[2A[2K01d7766a2e4a: Downloading [============================>                      ]  16.78MB/29.73MB[2B[2A[2K01d7766a2e4a: Downloading [=============================>                     ]  17.83MB/29.73MB[2B[2A[2K01d7766a2e4a: Downloading [===============================>                   ]  18.87MB/29.73MB[2B[2A[2K01d7766a2e4a: Downloading [===================================>               ]  20.97MB/29.73MB[2B[2A[2K01d7766a2e4a: Downloading [=====================================>             ]  22.02MB/29.73MB[2B[2A[2K01d7766a2e4a: Downloading [======================================>            ]  23.07MB/29.73MB[2B[2A[2K01d7766a2e4a: Downloading [========================================>          ]  24.12MB/29.73MB[2B[2A[2K01d7766a2e4a: Downloading [==========================================>        ]  25.17MB/29.73MB[2B[2A[2K01d7766a2e4a: Downloading [============================================>      ]  26.21MB/29.73MB[2B[2A[2K01d7766a2e4a: Downloading [=============================================>     ]  27.26MB/29.73MB[2B[2A[2K01d7766a2e4a: Downloading [===============================================>   ]  28.31MB/29.73MB[2B[2A[2K01d7766a2e4a: Downloading [==================================================>]  29.73MB/29.73MB[2B[2A[2K01d7766a2e4a: Downloading [==================================================>]  29.73MB/29.73MB[2B[2A[2K01d7766a2e4a: Downloading [==================================================>]  29.73MB/29.73MB[2B[2A[2K01d7766a2e4a: Downloading [==================================================>]  29.73MB/29.73MB[2B[2A[2K01d7766a2e4a: Downloading [==================================================>]  29.73MB/29.73MB[2B[2A[2K01d7766a2e4a: Downloading [==================================================>]  29.73MB/29.73MB[2B[2A[2K01d7766a2e4a: Download complete [2B[2A[2K01d7766a2e4a: Extracting 1 s[2B[2A[2K01d7766a2e4a: Extracting 1 s[2B[2A[2K01d7766a2e4a: Extracting 1 s[2B[2A[2K01d7766a2e4a: Extracting 1 s[2B[2A[2K01d7766a2e4a: Extracting 1 s[2B[2A[2K01d7766a2e4a: Extracting 1 s[2B[2A[2K01d7766a2e4a: Extracting 1 s[2B[2A[2K01d7766a2e4a: Pull complete [2BDigest: sha256:d1e2e92c075e5ca139d51a140fff46f84315c0fdce203eab2807c7e495eff4f9
+Status: Downloaded newer image for ubuntu:latest
+docker.io/library/ubuntu:latest
+]0;ras@fedora:~/linux/week02]3008;end=af7cca5f-a5ec-4770-a9c8-e3a97974d276;exit=success\]3008;start=994638e9-68d7-443c-b063-08f5db07c7f2;machineid=69c4c6fade2c4aa683f39b0f0eb549cf;user=ras;hostname=fedora;bootid=a0f08e94-c6d7-4bbb-996d-81bf9c032080;pid=00000000000000017152;type=shell;cwd=/home/ras/linux/week02\[?2004h[0m[32mras@fedora[0m:[32m~/linux/week02[0m$ docker images
+[?2004l]3008;start=babdfd34-f7ed-4a9c-979f-36b2c398c58d;machineid=69c4c6fade2c4aa683f39b0f0eb549cf;user=ras;hostname=fedora;bootid=a0f08e94-c6d7-4bbb-996d-81bf9c032080;pid=00000000000000017152;type=command;cwd=/home/ras/linux/week02\                                                                                               [1m[106m[30mi[0m[0m [96mInfo → [0m[0m [38;5;0m[48;5;14m U [0m In Use
+[39m[1mIMAGE[0m                [39m[1mID[0m             [39m[1mDISK USAGE[0m   [39m[1mCONTENT SIZE[0m   [39m[1mEXTRA[0m
+[34m[1mhello-world:latest[0m   [39m85404b3c5395[0m       [39m25.9kB[0m         [39m9.52kB[0m   [38;5;0m[48;5;14m U [0m  
+[34m[1mubuntu:latest[0m        [39md1e2e92c075e[0m        [39m119MB[0m         [39m31.7MB[0m        
+]0;ras@fedora:~/linux/week02]3008;end=babdfd34-f7ed-4a9c-979f-36b2c398c58d;exit=success\]3008;start=994638e9-68d7-443c-b063-08f5db07c7f2;machineid=69c4c6fade2c4aa683f39b0f0eb549cf;user=ras;hostname=fedora;bootid=a0f08e94-c6d7-4bbb-996d-81bf9c032080;pid=00000000000000017152;type=shell;cwd=/home/ras/linux/week02\[?2004h[0m[32mras@fedora[0m:[32m~/linux/week02[0m$ docker ps -a
+[?2004l]3008;start=eab025f3-4171-4b60-90b9-d0e0c987ba26;machineid=69c4c6fade2c4aa683f39b0f0eb549cf;user=ras;hostname=fedora;bootid=a0f08e94-c6d7-4bbb-996d-81bf9c032080;pid=00000000000000017152;type=command;cwd=/home/ras/linux/week02\CONTAINER ID   IMAGE         COMMAND    CREATED          STATUS                      PORTS     NAMES
+ca12be14ae49   hello-world   "/hello"   2 minutes ago    Exited (0) 2 minutes ago              sad_curran
+05985cc1a137   hello-world   "/hello"   10 minutes ago   Exited (0) 10 minutes ago             heuristic_snyder
+]0;ras@fedora:~/linux/week02]3008;end=eab025f3-4171-4b60-90b9-d0e0c987ba26;exit=success\]3008;start=994638e9-68d7-443c-b063-08f5db07c7f2;machineid=69c4c6fade2c4aa683f39b0f0eb549cf;user=ras;hostname=fedora;bootid=a0f08e94-c6d7-4bbb-996d-81bf9c032080;pid=00000000000000017152;type=shell;cwd=/home/ras/linux/week02\[?2004h[0m[32mras@fedora[0m:[32m~/linux/week02[0m$ docker rmi ubuntu:latest
+[?2004l]3008;start=3600ce06-1006-42b6-8de6-d623536ee965;machineid=69c4c6fade2c4aa683f39b0f0eb549cf;user=ras;hostname=fedora;bootid=a0f08e94-c6d7-4bbb-996d-81bf9c032080;pid=00000000000000017152;type=command;cwd=/home/ras/linux/week02\Untagged: ubuntu:latest
+Deleted: sha256:d1e2e92c075e5ca139d51a140fff46f84315c0fdce203eab2807c7e495eff4f9
+]0;ras@fedora:~/linux/week02]3008;end=3600ce06-1006-42b6-8de6-d623536ee965;exit=success\]3008;start=994638e9-68d7-443c-b063-08f5db07c7f2;machineid=69c4c6fade2c4aa683f39b0f0eb549cf;user=ras;hostname=fedora;bootid=a0f08e94-c6d7-4bbb-996d-81bf9c032080;pid=00000000000000017152;type=shell;cwd=/home/ras/linux/week02\[?2004h[0m[32mras@fedora[0m:[32m~/linux/week02[0m$ docker rmi ubuntu:latestps -a[K
+[?2004l]3008;start=e7e861e1-e09a-4355-8aec-cb57a99e550e;machineid=69c4c6fade2c4aa683f39b0f0eb549cf;user=ras;hostname=fedora;bootid=a0f08e94-c6d7-4bbb-996d-81bf9c032080;pid=00000000000000017152;type=command;cwd=/home/ras/linux/week02\CONTAINER ID   IMAGE         COMMAND    CREATED          STATUS                      PORTS     NAMES
+ca12be14ae49   hello-world   "/hello"   3 minutes ago    Exited (0) 3 minutes ago              sad_curran
+05985cc1a137   hello-world   "/hello"   11 minutes ago   Exited (0) 11 minutes ago             heuristic_snyder
+]0;ras@fedora:~/linux/week02]3008;end=e7e861e1-e09a-4355-8aec-cb57a99e550e;exit=success\]3008;start=994638e9-68d7-443c-b063-08f5db07c7f2;machineid=69c4c6fade2c4aa683f39b0f0eb549cf;user=ras;hostname=fedora;bootid=a0f08e94-c6d7-4bbb-996d-81bf9c032080;pid=00000000000000017152;type=shell;cwd=/home/ras/linux/week02\[?2004h[0m[32mras@fedora[0m:[32m~/linux/week02[0m$ docker ps -armi ubuntu:latestps -a[Kimages
+[?2004l]3008;start=e65e6f13-ced1-4317-81f2-5eb3b2aa00c8;machineid=69c4c6fade2c4aa683f39b0f0eb549cf;user=ras;hostname=fedora;bootid=a0f08e94-c6d7-4bbb-996d-81bf9c032080;pid=00000000000000017152;type=command;cwd=/home/ras/linux/week02\                                                                                               [1m[106m[30mi[0m[0m [96mInfo → [0m[0m [38;5;0m[48;5;14m U [0m In Use
+[39m[1mIMAGE[0m                [39m[1mID[0m             [39m[1mDISK USAGE[0m   [39m[1mCONTENT SIZE[0m   [39m[1mEXTRA[0m
+[34m[1mhello-world:latest[0m   [39m85404b3c5395[0m       [39m25.9kB[0m         [39m9.52kB[0m   [38;5;0m[48;5;14m U [0m  
+]0;ras@fedora:~/linux/week02]3008;end=e65e6f13-ced1-4317-81f2-5eb3b2aa00c8;exit=success\]3008;start=994638e9-68d7-443c-b063-08f5db07c7f2;machineid=69c4c6fade2c4aa683f39b0f0eb549cf;user=ras;hostname=fedora;bootid=a0f08e94-c6d7-4bbb-996d-81bf9c032080;pid=00000000000000017152;type=shell;cwd=/home/ras/linux/week02\[?2004h[0m[32mras@fedora[0m:[32m~/linux/week02[0m$ clear
+[?2004l]3008;start=e05026f9-e5ac-4144-bf07-253bda36582d;machineid=69c4c6fade2c4aa683f39b0f0eb549cf;user=ras;hostname=fedora;bootid=a0f08e94-c6d7-4bbb-996d-81bf9c032080;pid=00000000000000017152;type=command;cwd=/home/ras/linux/week02\[H[2J[3J]0;ras@fedora:~/linux/week02]3008;end=e05026f9-e5ac-4144-bf07-253bda36582d;exit=success\]3008;start=994638e9-68d7-443c-b063-08f5db07c7f2;machineid=69c4c6fade2c4aa683f39b0f0eb549cf;user=ras;hostname=fedora;bootid=a0f08e94-c6d7-4bbb-996d-81bf9c032080;pid=00000000000000017152;type=shell;cwd=/home/ras/linux/week02\[?2004h[0m[32mras@fedora[0m:[32m~/linux/week02[0m$ vim ../[K[K[K[K ![K~/.bash
+.bash_history  .bash_logout   .bash_profile  .bashrc        
+[0m[32mras@fedora[0m:[32m~/linux/week02[0m$ vim ~/.bash_profile
+[?2004l]3008;start=77e79642-a442-4ef4-87de-766780358eca;machineid=69c4c6fade2c4aa683f39b0f0eb549cf;user=ras;hostname=fedora;bootid=a0f08e94-c6d7-4bbb-996d-81bf9c032080;pid=00000000000000017152;type=command;cwd=/home/ras/linux/week02\[?1049h[22;0;0t[>4;2m[?1h=[?2004h[?1004h[1;25r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[?25l[25;1H"~/.bash_profile" 8L, 144B[2;1H▽[6n[2;1H  [3;1HPzz\[0%m[6n[3;1H           [1;1H[>c]10;?]11;?[?2026$p[1;1H[96m# .bash_profile[m[2;1H[K[3;1H[96m# Get the aliases and functions[m[3;32H[K[4;1H[93mif [[m [93m-f[m ~/.bashrc [93m];[m [93mthen
+[m   [93m . [m~/.bashrc
+[93mfi[m
+
+[96m# User specific environment and startup programs[m
+[94m~                                                                                                                   [10;1H~                                                                                                                   [11;1H~                                                                                                                   [12;1H~                                                                                                                   [13;1H~                                                                                                                   [14;1H~                                                                                                                   [15;1H~                                                                                                                   [16;1H~                                                                                                                   [17;1H~                                                                                                                   [18;1H~                                                                                                                   [19;1H~                                                                                                                   [20;1H~                                                                                                                   [21;1H~                                                                                                                   [22;1H~                                                                                                                   [23;1H~                                                                                                                   [24;1H~                                                                                                                   [m[25;99H1,1[10C모두[1;1H[?25h[?4m[?12$p[?25l[25;89H~@k[1;1H[25;89H   [2;1H[25;99H2,0-1[2;1H[?25h[?25l[25;89H~@k[2;1H[25;89H   [3;1H[25;99H3,1  [3;1H[?25h[?25l[25;89H~@k[3;1H[25;89H   [4;1H[25;99H4[4;1H[?25h[?25l[25;89H~@k[4;1H[25;89H   [5;1H[25;99H5[5;1H[?25h[?25l[25;89H~@k[5;1H[25;89H   [6;1H[25;99H6[6;1H[?25h[?25l[25;89H~@k[6;1H[25;89H   [7;1H[25;99H7,0-1[7;1H[?25h[?25l[25;89H~@k[7;1H[25;89H   [8;1H[25;99H8,1  [8;1H[?25h[?25l[25;89H~@k[8;1H[25;89H   [8;1H[?25h[?25l[25;89H~@@[8;1H[25;89H   [8;48H[25;101H48[8;48H[?25h[?25l[25;89Hi[8;48H[25;89H [8;48H[25;1H[1m-- 끼워넣기 --[m[25;15H[K[25;99H8,48[9C모두[8;48H[?25h[?25l[25;102H9[8;49H[?25h[?25l
+[96m# [m[9;3H[K[25;99H9,3 [9;3H[?25h[?25l[9;2H[K[25;101H2[9;2H[?25h[?25l[9;1H[K[25;101H1[9;1H[?25h[?25ll[25;101H2[9;2H[?25h[?25lo[25;101H3[9;3H[?25h[?25lg[25;101H4[9;4H[?25h[?25lg[25;101H5[9;5H[?25h[?25le[25;101H6[9;6H[?25h[?25lr[25;101H7[9;7H[?25h[?25l_[25;101H8[9;8H[?25h[?25ls[25;101H9[9;9H[?25h[?25lt[25;101H10[9;10H[?25h[?25la[25;102H1[9;11H[?25h[?25lr[25;102H2[9;12H[?25h[?25lt[25;102H3[9;13H[?25h[?25l[25;102H [9;1H[?25h[?25lflogger_start[25;101H2[9;2H[?25h[?25lulogger_start[25;101H3[9;3H[?25h[?25lnlogger_start[25;101H4[9;4H[?25h[?25lclogger_start[25;101H5[9;5H[?25h[?25ltlogger_start[25;101H6[9;6H[?25h[?25lilogger_start[25;101H7[9;7H[?25h[?25lologger_start[25;101H8[9;8H[?25h[?25lnlogger_start[25;101H9[9;9H[?25h[?25l[1m[96mfunction[m logger_start[25;101H10[9;10H[?25h[?25l[25;101H22[9;22H[?25h[?25l[38;5;81m([m[25;102H3[9;23H[?25h[?25l[38;5;81m)[m[38;5;81m[46m()[m[25;102H4[9;24H[?25h[?25l[10;1H[K[9;22H[38;5;81m()[m[25;99H10,1[10;1H[?25h[?25l[38;5;224m{[m[25;102H2[10;2H[?25h[?25l
+        [11;9H[K[25;100H1,2-9[11;9H[?25h[?25lc[25;102H3-10[11;10H[?25h[?25l[93mcd[m[25;102H4-11[11;11H[?25h[?25l[25;102H5-12[11;12H[?25h[?25ll[25;102H6-13[11;13H[?25h[?25li[25;102H7-14[11;14H[?25h[?25ln[25;102H8-15[11;15H[?25h[?25lu[25;102H9-16[11;16H[?25h[?25lx[25;102H10-17[11;17H[?25h[?25l[11;16H[K[25;102H9-16 [11;16H[?25h[?25l[11;15H[K[25;102H8-15[11;15H[?25h[?25l[11;14H[K[25;102H7-14[11;14H[?25h[?25l[11;13H[K[25;102H6-13[11;13H[?25h[?25l[11;12H[K[25;102H5-12[11;12H[?25h[?25l~[25;102H6-13[11;13H[?25h[?25l/[25;102H7-14[11;14H[?25h[?25ll[25;102H8-15[11;15H[?25h[?25li[25;102H9-16[11;16H[?25h[?25ln[25;102H10-17[11;17H[?25h[?25lu[25;103H1-18[11;18H[?25h[?25lx[25;103H2-19[11;19H[?25h[?25l/[25;103H3-20[11;20H[?25h[?25l[11;19H[K[25;103H2-19[11;19H[?25h[?25l[11;18H[K[25;103H1-18[11;18H[?25h[?25l[11;17H[K[25;103H0-17[11;17H[?25h[?25l[11;16H[K[25;102H9-16 [11;16H[?25h[?25l[11;15H[K[25;102H8-15[11;15H[?25h[?25l[11;14H[K[25;102H7-14[11;14H[?25h[?25l[11;13H[K[25;102H6-13[11;13H[?25h[?25l[11;12H[K[25;102H5-12[11;12H[?25h[?25l/[25;102H6-13[11;13H[?25h[?25lh[25;102H7-14[11;14H[?25h[?25lo[25;102H8-15[11;15H[?25h[?25lm[25;102H9-16[11;16H[?25h[?25le[25;102H10-17[11;17H[?25h[?25l/[25;103H1-18[11;18H[?25h[?25l$[25;103H2-19[11;19H[?25h[?25l[38;5;81m$U[m[25;103H3-20[11;20H[?25h[?25l[38;5;81mS[m[25;103H4-21[11;21H[?25h[?25l[38;5;81mE[m[25;103H5-22[11;22H[?25h[?25l[38;5;81mR[m[25;103H6-23[11;23H[?25h[?25l/[25;103H7-24[11;24H[?25h[?25lh[25;103H8-25[11;25H[?25h[?25lo[25;103H9-26[11;26H[?25h[?25l[11;25H[K[25;103H8-25[11;25H[?25h[?25l[11;24H[K[25;103H7-24[11;24H[?25h[?25ll[25;103H8-25[11;25H[?25h[?25li[25;103H9-26[11;26H[?25h[?25ln[25;102H20-27[11;27H[?25h[?25lu[25;103H1-28[11;28H[?25h[?25lx[25;103H2-29[11;29H[?25h[?25l/[25;103H3-30[11;30H[?25h[?25l$[25;103H4-31[11;31H[?25h[?25l[38;5;81m$1[m[25;103H5-32[11;32H[?25h[?25l
+        [12;9H[K[25;100H2,2-9  [12;9H[?25h[?25ls[25;102H3-10[12;10H[?25h[?25lc[25;102H4-11[12;11H[?25h[?25lr[25;102H5-12[12;12H[?25h[?25li[25;102H6-13[12;13H[?25h[?25lp[25;102H7-14[12;14H[?25h[?25lt[25;102H8-15[12;15H[?25h[?25l[25;102H9-16[12;16H[?25h[?25l-[25;102H10-17[12;17H[?25h[?25l[38;5;224m-t[m[25;103H1-18[12;18H[?25h[?25l[93m=[m[25;103H2-19[12;19H[?25h[?25lt[25;103H3-20[12;20H[?25h[?25l.[25;103H4-21[12;21H[?25h[?25lt[25;103H5-22[12;22H[?25h[?25lx[25;103H6-23[12;23H[?25h[?25lt[25;103H7-24[12;24H[?25h[?25l[25;103H8-25[12;25H[?25h[?25l-[25;103H9-26[12;26H[?25h[?25l[38;5;224m-a[m[25;102H20-27[12;27H[?25h[?25l[38;5;224mf[m[25;103H1-28[12;28H[?25h[?25l[25;103H2-29[12;29H[?25h[?25l[95m2[m[25;103H3-30[12;30H[?25h[?25l[95m0[m[25;103H4-31[12;31H[?25h[?25l[95m2[m[25;103H5-32[12;32H[?25h[?25l[95m6[m[25;103H6-33[12;33H[?25h[?25l2026_[25;103H7-34[12;34H[?25h[?25l2[25;103H8-35[12;35H[?25h[?25l0[25;103H9-36[12;36H[?25h[?25l2[25;102H30-37[12;37H[?25h[?25l3[25;103H1-38[12;38H[?25h[?25l1[25;103H2-39[12;39H[?25h[?25l0[25;103H3-40[12;40H[?25h[?25l2[25;103H4-41[12;41H[?25h[?25l3[25;103H5-42[12;42H[?25h[?25l_[25;103H6-43[12;43H[?25h[?25l$[25;103H7-44[12;44H[?25h[?25l[38;5;81m$1[m[25;103H8-45[12;45H[?25h[?25l_[25;103H9-46[12;46H[?25h[?25ll[25;102H40-47[12;47H[?25h[?25lo[25;103H1-48[12;48H[?25h[?25lg[25;103H2-49[12;49H[?25h[?25l.[25;103H3-50[12;50H[?25h[?25lt[25;103H4-51[12;51H[?25h[?25lx[25;103H5-52[12;52H[?25h[?25lt[25;103H6-53[12;53H[?25h[?25l[25;100H1,25-32[11;32H[?25h[?25l[25;100H0,2    [10;2H[?25h[?25l[11;24r[11;1H[L[1;25r[25;99H[K[25;99H11,2-9[7C모두[11;9H[?25h[?25lm[25;102H3-10[11;10H[?25h[?25lk[25;102H4-11[11;11H[?25h[?25ld[25;102H5-12[11;12H[?25h[?25li[25;102H6-13[11;13H[?25h[?25l[93mmkdir[m[25;102H7-14[11;14H[?25h[?25l[25;102H8-15[11;15H[?25h[?25l-[25;102H9-16[11;16H[?25h[?25l[38;5;224m-p[m[25;102H10-17[11;17H[?25h[?25l[25;103H1-18[11;18H[?25h[?25l/[25;103H2-19[11;19H[?25h[?25lh[25;103H3-20[11;20H[?25h[?25lo[25;103H4-21[11;21H[?25h[?25lm[25;103H5-22[11;22H[?25h[?25le[25;103H6-23[11;23H[?25h[?25l/[25;103H7-24[11;24H[?25h[?25l$[25;103H8-25[11;25H[?25h[?25l[38;5;81m$U[m[25;103H9-26[11;26H[?25h[?25l[38;5;81mS[m[25;102H20-27[11;27H[?25h[?25l[38;5;81mE[m[25;103H1-28[11;28H[?25h[?25l[38;5;81mR[m[25;103H2-29[11;29H[?25h[?25l/[25;103H3-30[11;30H[?25h[?25ll[25;103H4-31[11;31H[?25h[?25li[25;103H5-32[11;32H[?25h[?25ln[25;103H6-33[11;33H[?25h[?25lu[25;103H7-34[11;34H[?25h[?25lx[25;103H8-35[11;35H[?25h[?25l/[25;103H9-36[11;36H[?25h[?25l$[25;102H30-37[11;37H[?25h[?25l[38;5;81m$1[m[25;103H1-38[11;38H[?25h[?25l[25;100H2,25-32[12;32H[?25h[?25l[25;100H3,31-38[13;38H[?25h[?25l[25;102H46-53[13;53H[?25h[?25l
+        [14;9H[K[25;100H4,2-9  [14;9H[?25h[?25l[38;5;224m}[m[10;1H[38;5;224m[46m{[14;1H}[m[25;103H  [14;2H[?25h[?25l[10;1H[38;5;224m{[14;1H}[m[25;100H3,1[13;1H[?25h[?25l[25;100H2[12;1H[?25h[?25l[25;100H1[11;1H[?25h[?25l[10;1H[38;5;224m[46m{[14;1H}[m[25;100H0,2[10;2H[?25h[?25l[11;24r[11;1H[L[1;25r[14;1H[46m        [m
+[38;5;224m}[m[25;99H[K[25;99H11,2-9[7C모두[10;1H[38;5;224m{[m[14;1H        [11;9H[?25h[?25l[96m#[m[25;102H3-10[11;10H[?25h[?25l[96m [m[25;102H4-11[11;11H[?25h[?25l[96mS[m[25;102H5-12[11;12H[?25h[?25l[96mt[m[25;102H6-13[11;13H[?25h[?25l[96ma[m[25;102H7-14[11;14H[?25h[?25l[96mr[m[25;102H8-15[11;15H[?25h[?25l[96mt[m[25;102H9-16[11;16H[?25h[?25l[96m [m[25;102H10-17[11;17H[?25h[?25l[96ml[m[25;103H1-18[11;18H[?25h[?25l[96mo[m[25;103H2-19[11;19H[?25h[?25l[96mg[m[25;103H3-20[11;20H[?25h[?25l[96mg[m[25;103H4-21[11;21H[?25h[?25l[96me[m[25;103H5-22[11;22H[?25h[?25l[96mr[m[25;103H6-23[11;23H[?25h[?25l[96m.[m[25;103H7-24[11;24H[?25h[?25l[96m.[m[25;103H8-25[11;25H[?25h[?25l[96m.[m[25;103H9-26[11;26H[?25h[25;1H[K[11;25H[?25l[25;89H^[[11;25H[25;89H  [11;26H[25;99H11,18-25     모두[11;25H[?25h[?25l[25;89H:[11;25H[25;89H[K[25;1H:[?25hwq[?25l[25;3H[K[25;3H[?25h[?25l[25;2H[K[25;2H[?25h [?25l[11;25H[25;99H11,18-25     모두[11;25H[?25h[?25l[25;89H~@k[11;25H[25;89H   [11;25H[?25h[?25l[25;89H~@k[11;25H[25;89H   [11;24H[25;103H7-24[11;24H[?25h[?25l[25;89H~@k[11;24H[25;89H   [11;23H[25;103H6-23[11;23H[?25h[?25l[25;89H~@k[11;23H[25;89H   [10;1H[38;5;224m[46m{[15;1H}[m[25;100H0,1    [10;1H[?25h[?25l[25;89H^M[10;1H[25;89H  [11;9H[10;1H[38;5;224m{[15;1H}[m[25;100H1,2-9[11;9H[?25h[?25l[25;89H~@k[11;9H[25;89H   [10;1H[38;5;224m[46m{[15;1H}[m[25;100H0,1  [10;1H[?25h[?25l[25;89Hi[10;1H[25;89H [10;1H[25;1H[1m-- 끼워넣기 --[m[25;99H[K[25;99H10,1[9C모두[10;1H[?25h[?25l[11;24r[11;1H[L[1;25r[10;1H[K[11;1H[38;5;224m{[m[15;1H[46m        [m
+[38;5;224m}[m[25;99H[K[25;99H11,1[9C모두[11;1H[38;5;224m[46m{[m[15;1H        
+[38;5;224m[46m}[11;1H[?25h[?25l[10;24r[m[24;1H
+[1;25r[10;1H[38;5;224m{[m
+[46m        [m[15;1H[38;5;224m}[m[24;1H[94m~                                                                                                                   [m[25;99H[K[25;99H10,1[9C모두[10;1H[38;5;224m[46m{[m
+        [15;1H[38;5;224m[46m}[10;1H[?25h[?25l[m[25;102H2[10;2H[?25h[?25l[11;24r[11;1H[L[1;25r[15;1H[46m        [m
+[38;5;224m}[m[25;99H[K[25;99H11,2-9[7C모두[10;1H[38;5;224m{[m[15;1H        [11;9H[?25h[?25li[25;102H3-10[11;10H[?25h[?25l[93mif[13;15H-p[15;16H-t[m
+[97m[101m}[m[25;102H4-11[11;11H[?25h[?25l[93m [m[25;102H5-12[11;12H[?25h[?25l[[25;102H6-13[11;13H[?25h[?25l[93m[[m[12;9H# Start logger...[13;9Hmkdir[14;9Hcd[15;25H-af
+}[25;102H7-14[11;14H[?25h[?25l$[25;102H8-15[11;15H[?25h[?25l[38;5;81m$1[m[25;102H9-16[11;16H[?25h[?25l[25;102H10-17[11;17H[?25h[?25l[93m=[m[25;103H1-18[11;18H[?25h[?25l[93m=[m[25;103H2-19[11;19H[?25h[?25l[25;103H3-20[11;20H[?25h[?25l[93m"[m
+[95m        # Start logger...
+        mkdir -p /home/[5C/linux/
+        cd /home/[5C/linux/
+        script -t=t.txt -af 2026_20231023_[2C_log.txt
+}[m[25;103H4-21[11;21H[?25h[?25l[93m"[m
+        # Start logger...
+        mkdir [93m-p[m /home/[5C/linux/
+        cd /home/[5C/linux/
+        script [93m-t=[mt.txt -af 2026_20231023_[2C_log.txt
+}[25;103H5-22[11;22H[?25h[?25l[25;103H6-23[11;23H[?25h[?25l[93m][m[12;9H[96m# Start logger...[m[13;9H[93mmkdir[14;9Hcd[m[15;25H[38;5;224m-af[m
+[97m[101m}[m[11;12H[93m[46m[[10C][m[25;103H7-24[11;24H[?25h[?25l[93m;[11;12H[[10C][m[25;103H8-25[11;25H[?25h[?25l[25;103H9-26[11;26H[?25h[?25lt[25;102H20-27[11;27H[?25h[?25lh[25;103H1-28[11;28H[?25h[?25le[25;103H2-29[11;29H[?25h[?25l[93mthen[m[25;103H3-30[11;30H[?25h[?25l[25;103H4-31[11;31H[?25h[?25l[25;103H3-30[11;30H[?25h[?25l[12;24r[12;1H[L[1;25r[25;99H[K[25;99H12,3-17      모두[12;17H[?25h[?25le[25;102H4-18[12;18H[?25h[?25lc[25;102H5-19[12;19H[?25h[?25lh[25;102H6-20[12;20H[?25h[?25l[93mecho[m[25;102H7-21[12;21H[?25h[?25l[95m [m[25;102H8-22[12;22H[?25h[?25l[93m"[m
+[95m        # Start logger...
+        mkdir -p /home/[5C/linux/
+        cd /home/[5C/linux/
+        script -t=t.txt -af 2026_20231023_[2C_log.txt
+}[m[25;102H9-23[12;23H[?25h[?25l[95m\[m[25;102H10-24[12;24H[?25h[?25l[38;5;224m\$[m[25;103H1-25[12;25H[?25h[?25l[95m1[m[25;103H2-26[12;26H[?25h[?25l[95m [m[25;103H3-27[12;27H[?25h[?25l[95mi[m[25;103H4-28[12;28H[?25h[?25l[95ms[m[25;103H5-29[12;29H[?25h[?25l[95m [m[25;103H6-30[12;30H[?25h[?25l[95mn[m[25;103H7-31[12;31H[?25h[?25l[95mo[m[25;103H8-32[12;32H[?25h[?25l[95mt[m[25;103H9-33[12;33H[?25h[?25l[95m [m[25;102H20-34[12;34H[?25h[?25l[95ms[m[25;103H1-35[12;35H[?25h[?25l[95me[m[25;103H2-36[12;36H[?25h[?25l[95mt[m[25;103H3-37[12;37H[?25h[?25l[95m;[m[25;103H4-38[12;38H[?25h[?25l[95m [m[25;103H5-39[12;39H[?25h[?25l[95ms[m[25;103H6-40[12;40H[?25h[?25l[95me[m[25;103H7-41[12;41H[?25h[?25l[95mt[m[25;103H8-42[12;42H[?25h[?25l[95m [m[25;103H9-43[12;43H[?25h[?25l[95m\[m[25;102H30-44[12;44H[?25h[?25l[38;5;224m\$[m[25;103H1-45[12;45H[?25h[?25l[95m1[m[25;103H2-46[12;46H[?25h[?25l[95m [m[25;103H3-47[12;47H[?25h[?25l[95ms[m[25;103H4-48[12;48H[?25h[?25l[95mo[m[25;103H5-49[12;49H[?25h[?25l[95m [m[25;103H6-50[12;50H[?25h[?25l[95mw[m[25;103H7-51[12;51H[?25h[?25l[95me[m[25;103H8-52[12;52H[?25h[?25l[95m [m[25;103H9-53[12;53H[?25h[?25l[95mc[m[25;102H40-54[12;54H[?25h[?25l[95ma[m[25;103H1-55[12;55H[?25h[?25l[95mn[m[25;103H2-56[12;56H[?25h[?25l[12;55H[K[25;103H1-55[12;55H[?25h[?25l[12;54H[K[25;103H0-54[12;54H[?25h[?25l[12;53H[K[25;102H39-53[12;53H[?25h[?25l[12;52H[K[25;103H8-52[12;52H[?25h[?25l[12;51H[K[25;103H7-51[12;51H[?25h[?25l[12;50H[K[25;103H6-50[12;50H[?25h[?25l[95mi[m[25;103H7-51[12;51H[?25h[?25l[95mt[m[25;103H8-52[12;52H[?25h[?25l[95m [m[25;103H9-53[12;53H[?25h[?25l[95mc[m[25;102H40-54[12;54H[?25h[?25l[12;53H[K[25;102H39-53[12;53H[?25h[?25l[12;52H[K[25;103H8-52[12;52H[?25h[?25l[12;51H[K[25;103H7-51[12;51H[?25h[?25l[12;50H[K[25;103H6-50[12;50H[?25h[?25l[95mw[m[25;103H7-51[12;51H[?25h[?25l[95me[m[25;103H8-52[12;52H[?25h[?25l[95m [m[25;103H9-53[12;53H[?25h[?25l[95mc[m[25;102H40-54[12;54H[?25h[?25l[95ma[m[25;103H1-55[12;55H[?25h[?25l[95mn[m[25;103H2-56[12;56H[?25h[?25l[95m [m[25;103H3-57[12;57H[?25h[?25l[95ml[m[25;103H4-58[12;58H[?25h[?25l[95mo[m[25;103H5-59[12;59H[?25h[?25l[95mg[m[25;103H6-60[12;60H[?25h[?25l[93m"[m
+        [96m# Start logger...[m
+        [93mmkdir[m [93m-p[m /home/[5C/linux/
+        [93mcd[m /home/[5C/linux/
+        script [93m-t=[mt.txt [38;5;224m-af[m 2026_20231023_[2C_log.txt
+[97m[101m}[m[25;103H7-61[12;61H[?25h[?25l[13;24r[13;1H[L[1;25r[25;99H[K[25;99H13,3-17      모두[13;17H[?25h[?25le[25;102H4-18[13;18H[?25h[?25lc[25;102H5-19[13;19H[?25h[?25lh[25;102H6-20[13;20H[?25h[?25l[93mecho[m[25;102H7-21[13;21H[?25h[?25l[95m [m[25;102H8-22[13;22H[?25h[?25l[93m"[m
+[95m        # Start logger...
+        mkdir -p /home/[5C/linux/
+        cd /home/[5C/linux/
+        script -t=t.txt -af 2026_20231023_[2C_log.txt
+}[m[25;102H9-23[13;23H[?25h[?25l[95mU[m[25;102H10-24[13;24H[?25h[?25l[95ms[m[25;103H1-25[13;25H[?25h[?25l[95ma[m[25;103H2-26[13;26H[?25h[?25l[95mg[m[25;103H3-27[13;27H[?25h[?25l[95me[m[25;103H4-28[13;28H[?25h[?25l[95m:[m[25;103H5-29[13;29H[?25h[?25l[95m [m[25;103H6-30[13;30H[?25h[?25l[95ml[m[25;103H7-31[13;31H[?25h[?25l[95mo[m[25;103H8-32[13;32H[?25h[?25l[95mg[m[25;103H9-33[13;33H[?25h[?25l[95mg[m[25;102H20-34[13;34H[?25h[?25l[95me[m[25;103H1-35[13;35H[?25h[?25l[95mr[m[25;103H2-36[13;36H[?25h[?25l[95m_[m[25;103H3-37[13;37H[?25h[?25l[95ms[m[25;103H4-38[13;38H[?25h[?25l[95mt[m[25;103H5-39[13;39H[?25h[?25l[95ma[m[25;103H6-40[13;40H[?25h[?25l[95mr[m[25;103H7-41[13;41H[?25h[?25l[95mt[m[25;103H8-42[13;42H[?25h[?25l[95m [m[25;103H9-43[13;43H[?25h[?25l[95m<[m[25;102H30-44[13;44H[?25h[?25l[95me[m[25;103H1-45[13;45H[?25h[?25l[13;44H[K[25;103H0-44[13;44H[?25h[?25l[95mw[m[25;103H1-45[13;45H[?25h[?25l[95me[m[25;103H2-46[13;46H[?25h[?25l[95me[m[25;103H3-47[13;47H[?25h[?25l[95mk[m[25;103H4-48[13;48H[?25h[?25l[95m_[m[25;103H5-49[13;49H[?25h[?25l[95mn[m[25;103H6-50[13;50H[?25h[?25l[95mo[m[25;103H7-51[13;51H[?25h[?25l[95m>[m[25;103H8-52[13;52H[?25h[?25l[93m"[m
+        [96m# Start logger...[m
+        [93mmkdir[m [93m-p[m /home/[5C/linux/
+        [93mcd[m /home/[5C/linux/
+        script [93m-t=[mt.txt [38;5;224m-af[m 2026_20231023_[2C_log.txt
+[97m[101m}[m[25;103H9-53[13;53H[?25h[?25l[14;24r[14;1H[L[1;25r[25;99H[K[25;99H14,3-17      모두[14;17H[?25h[?25le[25;102H4-18[14;18H[?25h[?25lc[25;102H5-19[14;19H[?25h[?25lh[25;102H6-20[14;20H[?25h[?25l[93mecho[m[25;102H7-21[14;21H[?25h[?25l[95m [m[25;102H8-22[14;22H[?25h[?25l[93m"[m
+[95m        # Start logger...
+        mkdir -p /home/[5C/linux/
+        cd /home/[5C/linux/
+        script -t=t.txt -af 2026_20231023_[2C_log.txt
+}[m[25;102H9-23[14;23H[?25h[?25l[95me[m[25;102H10-24[14;24H[?25h[?25l[95mx[m[25;103H1-25[14;25H[?25h[?25l[14;24H[K[25;103H0-24[14;24H[?25h[?25l[14;23H[K[25;102H9-23 [14;23H[?25h[?25l[95mE[m[25;102H10-24[14;24H[?25h[?25l[95mx[m[25;103H1-25[14;25H[?25h[?25l[95ma[m[25;103H2-26[14;26H[?25h[?25l[95mm[m[25;103H3-27[14;27H[?25h[?25l[95mp[m[25;103H4-28[14;28H[?25h[?25l[95ml[m[25;103H5-29[14;29H[?25h[?25l[95me[m[25;103H6-30[14;30H[?25h[?25l[95m:[m[25;103H7-31[14;31H[?25h[?25l[93m"[m
+        [96m# Start logger...[m
+        [93mmkdir[m [93m-p[m /home/[5C/linux/
+        [93mcd[m /home/[5C/linux/
+        script [93m-t=[mt.txt [38;5;224m-af[m 2026_20231023_[2C_log.txt
+[97m[101m}[m[25;103H8-32[14;32H[?25h[?25l[15;24r[15;1H[L[1;25r[25;99H[K[25;99H15,3-17      모두[15;17H[?25h[?25le[25;102H4-18[15;18H[?25h[?25lc[25;102H5-19[15;19H[?25h[?25lh[25;102H6-20[15;20H[?25h[?25l[93mecho[m[25;102H7-21[15;21H[?25h[?25l[95m [m[25;102H8-22[15;22H[?25h[?25l[93m"[m
+[95m        # Start logger...
+        mkdir -p /home/[5C/linux/
+        cd /home/[5C/linux/
+        script -t=t.txt -af 2026_20231023_[2C_log.txt
+}[m[25;102H9-23[15;23H[?25h[?25l[95m\[m[25;102H10-24[15;24H[?25h[?25l[15;23H[K[25;102H9-23 [15;23H[?25h[?25l[15;22H[K[16;1H        [96m# Start logger...[m
+        [93mmkdir[m [93m-p[m /home/[5C/linux/
+        [93mcd[m /home/[5C/linux/
+        script [93m-t=[mt.txt [38;5;224m-af[m 2026_20231023_[2C_log.txt
+[97m[101m}[m[25;102H8-22[15;22H[?25h[?25l[15;21H[K[25;102H7-21[15;21H[?25h[?25lech[15;20H[K[25;102H6-20[15;20H[?25h[?25l[15;19H[K[25;102H5-19[15;19H[?25h[?25l[15;18H[K[25;102H4-18[15;18H[?25h[?25l[15;17H[K[25;102H3-17[15;17H[?25h[?25lp[25;102H4-18[15;18H[?25h[?25lr[25;102H5-19[15;19H[?25h[?25li[25;102H6-20[15;20H[?25h[?25ln[25;102H7-21[15;21H[?25h[?25l[93mprint[m[25;102H8-22[15;22H[?25h[?25l[93mf[m[25;102H9-23[15;23H[?25h[?25l[25;102H10-24[15;24H[?25h[?25l[93m"[m
+[95m        # Start logger...
+        mkdir -p /home/[5C/linux/
+        cd /home/[5C/linux/
+        script -t=t.txt -af 2026_20231023_[2C_log.txt
+}[m[25;103H1-25[15;25H[?25h[?25l[95m\[m[25;103H2-26[15;26H[?25h[?25l[38;5;224m\t[m[25;103H3-27[15;27H[?25h[?25l[95ml[m[25;103H4-28[15;28H[?25h[?25l[95mo[m[25;103H5-29[15;29H[?25h[?25l[95mg[m[25;103H6-30[15;30H[?25h[?25l[95mg[m[25;103H7-31[15;31H[?25h[?25l[95me[m[25;103H8-32[15;32H[?25h[?25l[95mr[m[25;103H9-33[15;33H[?25h[?25l[95m_[m[25;102H20-34[15;34H[?25h[?25l[95ms[m[25;103H1-35[15;35H[?25h[?25l[95mt[m[25;103H2-36[15;36H[?25h[?25l[95ma[m[25;103H3-37[15;37H[?25h[?25l[95mr[m[25;103H4-38[15;38H[?25h[?25l[95mt[m[25;103H5-39[15;39H[?25h[?25l[95m [m[25;103H6-40[15;40H[?25h[?25l[95mw[m[25;103H7-41[15;41H[?25h[?25l[95me[m[25;103H8-42[15;42H[?25h[?25l[95me[m[25;103H9-43[15;43H[?25h[?25l[95mk[m[25;102H30-44[15;44H[?25h[?25l[95m0[m[25;103H1-45[15;45H[?25h[?25l[95m3[m[25;103H2-46[15;46H[?25h[?25l[95m [m[25;103H3-47[15;47H[?25h[?25l[95m#[m[25;103H4-48[15;48H[?25h[?25l[15;47H[K[25;103H3-47[15;47H[?25h[?25l[15;46H[K[25;103H2-46[15;46H[?25h[?25l[95m [m[25;103H3-47[15;47H[?25h[?25l[95m#[m[25;103H4-48[15;48H[?25h[?25l[95m [m[25;103H5-49[15;49H[?25h[?25l[95mf[m[25;103H6-50[15;50H[?25h[?25l[95mo[m[25;103H7-51[15;51H[?25h[?25l[95mr[m[25;103H8-52[15;52H[?25h[?25l[95m [m[25;103H9-53[15;53H[?25h[?25l[95mw[m[25;102H40-54[15;54H[?25h[?25l[95me[m[25;103H1-55[15;55H[?25h[?25l[95me[m[25;103H2-56[15;56H[?25h[?25l[95mk[m[25;103H3-57[15;57H[?25h[?25l[95m [m[25;103H4-58[15;58H[?25h[?25l[95m3[m[25;103H5-59[15;59H[?25h[?25l[95m\[m[25;103H6-60[15;60H[?25h[?25l[38;5;224m\n[m[25;103H7-61[15;61H[?25h[?25l[95m\[m[25;103H8-62[15;62H[?25h[?25l[38;5;224m\n[m[25;103H9-63[15;63H[?25h[?25l[93m"[m
+        [96m# Start logger...[m
+        [93mmkdir[m [93m-p[m /home/[5C/linux/
+        [93mcd[m /home/[5C/linux/
+        script [93m-t=[mt.txt [38;5;224m-af[m 2026_20231023_[2C_log.txt
+[97m[101m}[m[25;102H50-64[15;64H[?25h[?25l[16;24r[16;1H[L[1;25r[25;99H[K[25;99H16,3-17      모두[16;17H[?25h[?25le[25;102H4-18[16;18H[?25h[?25ll[25;102H5-19[16;19H[?25h[?25ls[25;102H6-20[16;20H[?25h[?25l[16;9H[93melse[m[16;17H[K[25;104H13[16;13H[?25h[?25l[25;100H7[17;13H[?25h[?25l[25;102H5-12[17;12H[?25h[?25l[25;102H4-11[17;11H[?25h[?25l[25;102H3-10[17;10H[?25h[?25l[25;102H2-9 [17;9H[?25h[?25l        [96m# Start logger...[m[25;102H3-17[17;17H[?25h[?25l[25;100H8,10-17[18;17H[?25h[?25l[25;103H    [18;1H[?25h[?25l[8C        [93mmkdir[m [93m-p[m /home/[38;5;81m$USER[m/linux/[38;5;81m$1[m[25;102H2-9[18;9H[?25h[?25l[25;100H9[19;9H[?25h[?25l        [93mcd[m /home/[38;5;81m$USER[m/linux/[38;5;81m$1[m[25;102H3-17[19;17H[?25h[?25l[25;99H20,10-17[20;17H[?25h[?25l[25;103H    [20;1H[?25h[?25l[8C        script [93m-t=[mt.txt [38;5;224m-af[m 2026_20231023_[38;5;81m$1[m_log.txt[25;102H2-9[20;9H[?25h[?25l[25;102H47-61[20;61H[?25h[?25l[21;24r[21;1H[L[1;25r[25;99H[K[25;99H21,3-17      모두[21;17H[?25h[?25lf[25;102H4-18[21;18H[?25h[?25l[21;9H[93mfi[m[21;17H[K[22;1H[38;5;224m}[m[25;105H1[21;11H[?25h[25;1H[K[21;10H[?25l[25;89H^[[21;10H[25;89H  [21;11H[25;99H21,3-10      모두[21;10H[?25h[?25l[25;89H:[21;10H[25;89H[K[25;1H:[?25hwq[?25l[?2004l[>4;m"~/.bash_profile" 22L, 484B 저장 했습니다[23;2t[23;1t
+[?1004l[?2004l[?1l>[?1049l[23;0;0t[?25h[>4;m]0;ras@fedora:~/linux/week02]3008;end=77e79642-a442-4ef4-87de-766780358eca;exit=success\]3008;start=994638e9-68d7-443c-b063-08f5db07c7f2;machineid=69c4c6fade2c4aa683f39b0f0eb549cf;user=ras;hostname=fedora;bootid=a0f08e94-c6d7-4bbb-996d-81bf9c032080;pid=00000000000000017152;type=shell;cwd=/home/ras/linux/week02\[?2004h[0m[32mras@fedora[0m:[32m~/linux/week02[0m$ clear
+[?2004l]3008;start=29f755bc-b019-4290-bb9a-0fe72c107ce0;machineid=69c4c6fade2c4aa683f39b0f0eb549cf;user=ras;hostname=fedora;bootid=a0f08e94-c6d7-4bbb-996d-81bf9c032080;pid=00000000000000017152;type=command;cwd=/home/ras/linux/week02\[H[2J[3J]0;ras@fedora:~/linux/week02]3008;end=29f755bc-b019-4290-bb9a-0fe72c107ce0;exit=success\]3008;start=994638e9-68d7-443c-b063-08f5db07c7f2;machineid=69c4c6fade2c4aa683f39b0f0eb549cf;user=ras;hostname=fedora;bootid=a0f08e94-c6d7-4bbb-996d-81bf9c032080;pid=00000000000000017152;type=shell;cwd=/home/ras/linux/week02\[?2004h[0m[32mras@fedora[0m:[32m~/linux/week02[0m$ 
+[?2004l]0;ras@fedora:~/linux/week02]3008;end=5eb069bf-7d91-415c-91c3-e9117bda5aab;exit=success\]3008;start=994638e9-68d7-443c-b063-08f5db07c7f2;machineid=69c4c6fade2c4aa683f39b0f0eb549cf;user=ras;hostname=fedora;bootid=a0f08e94-c6d7-4bbb-996d-81bf9c032080;pid=00000000000000017152;type=shell;cwd=/home/ras/linux/week02\[?2004h[0m[32mras@fedora[0m:[32m~/linux/week02[0m$ 
+[?2004l]0;ras@fedora:~/linux/week02]3008;end=aa09e7a2-279b-47b9-a697-c72a13a89621;exit=success\]3008;start=994638e9-68d7-443c-b063-08f5db07c7f2;machineid=69c4c6fade2c4aa683f39b0f0eb549cf;user=ras;hostname=fedora;bootid=a0f08e94-c6d7-4bbb-996d-81bf9c032080;pid=00000000000000017152;type=shell;cwd=/home/ras/linux/week02\[?2004h[0m[32mras@fedora[0m:[32m~/linux/week02[0m$ 
+[?2004l]0;ras@fedora:~/linux/week02]3008;end=89523a0a-11b1-481c-92cc-9250ffdb29df;exit=success\]3008;start=994638e9-68d7-443c-b063-08f5db07c7f2;machineid=69c4c6fade2c4aa683f39b0f0eb549cf;user=ras;hostname=fedora;bootid=a0f08e94-c6d7-4bbb-996d-81bf9c032080;pid=00000000000000017152;type=shell;cwd=/home/ras/linux/week02\[?2004h[0m[32mras@fedora[0m:[32m~/linux/week02[0m$ clear
+[?2004l]3008;start=2baa6f6a-627b-4de1-9682-339585b05925;machineid=69c4c6fade2c4aa683f39b0f0eb549cf;user=ras;hostname=fedora;bootid=a0f08e94-c6d7-4bbb-996d-81bf9c032080;pid=00000000000000017152;type=command;cwd=/home/ras/linux/week02\[H[2J[3J]0;ras@fedora:~/linux/week02]3008;end=2baa6f6a-627b-4de1-9682-339585b05925;exit=success\]3008;start=994638e9-68d7-443c-b063-08f5db07c7f2;machineid=69c4c6fade2c4aa683f39b0f0eb549cf;user=ras;hostname=fedora;bootid=a0f08e94-c6d7-4bbb-996d-81bf9c032080;pid=00000000000000017152;type=shell;cwd=/home/ras/linux/week02\[?2004h[0m[32mras@fedora[0m:[32m~/linux/week02[0m$ docker run -d l--name my-[K[K[K[K[K[K[K[K[K[K[K--name my_[K-nxing[K[K[K[Kginx -p 808:80[K[K[K-[K0:80 nginx:latest # internal docker image [K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kmap nginx:latest:80 to localhost: 8080
+[?2004l]3008;start=4616a72c-9350-485b-bd87-552dd92fe823;machineid=69c4c6fade2c4aa683f39b0f0eb549cf;user=ras;hostname=fedora;bootid=a0f08e94-c6d7-4bbb-996d-81bf9c032080;pid=00000000000000017152;type=command;cwd=/home/ras/linux/week02\Unable to find image 'nginx:latest' locally
+latest: Pulling from library/nginx
+
+[1A[2K206356c42440: Pulling fs layer [1B
+[1A[2K9eef040df109: Pulling fs layer [1B
+[1A[2Kdf9da45c1db2: Pulling fs layer [1B
+[1A[2K18a071c04bd1: Pulling fs layer [1B
+[1A[2K79697674b897: Pulling fs layer [1B
+[1A[2K75a1d70aee50: Pulling fs layer [1B
+[1A[2Ka9d395129dce: Pulling fs layer [1B[7A[2K206356c42440: Downloading [=>                                                 ]  1.049MB/29.78MB[7B[6A[2K9eef040df109: Download complete [6B[7A[2K206356c42440: Downloading [===>                                               ]  2.097MB/29.78MB[7B[7A[2K206356c42440: Downloading [=====>                                             ]  3.146MB/29.78MB[7B[5A[2Kdf9da45c1db2: Download complete [5B[3A[2K79697674b897: Download complete [3B[7A[2K206356c42440: Downloading [=======>                                           ]  4.194MB/29.78MB[7B[1A[2Ka9d395129dce: Download complete [1B[7A[2K206356c42440: Downloading [=======>                                           ]  4.194MB/29.78MB[7B[4A[2K18a071c04bd1: Download complete [4B[2A[2K75a1d70aee50: Downloading [=>                                                 ]  1.049MB/33.16MB[2B[7A[2K206356c42440: Downloading [========>                                          ]  5.243MB/29.78MB[7B[2A[2K75a1d70aee50: Downloading [=>                                                 ]  1.049MB/33.16MB[2B[7A[2K206356c42440: Downloading [========>                                          ]  5.243MB/29.78MB[7B[2A[2K75a1d70aee50: Downloading [===>                                               ]  2.097MB/33.16MB[2B[7A[2K206356c42440: Downloading [==========>                                        ]  6.291MB/29.78MB[7B[7A[2K206356c42440: Downloading [============>                                      ]   7.34MB/29.78MB[7B[2A[2K75a1d70aee50: Downloading [===>                                               ]  2.097MB/33.16MB[2B[7A[2K206356c42440: Downloading [============>                                      ]   7.34MB/29.78MB[7B[2A[2K75a1d70aee50: Downloading [===>                                               ]  2.097MB/33.16MB[2B[2A[2K75a1d70aee50: Downloading [====>                                              ]  3.146MB/33.16MB[2B[7A[2K206356c42440: Downloading [============>                                      ]   7.34MB/29.78MB[7B[2A[2K75a1d70aee50: Downloading [====>                                              ]  3.146MB/33.16MB[2B[7A[2K206356c42440: Downloading [============>                                      ]   7.34MB/29.78MB[7B[2A[2K75a1d70aee50: Downloading [====>                                              ]  3.146MB/33.16MB[2B[7A[2K206356c42440: Downloading [===============>                                   ]  9.437MB/29.78MB[7B
+[1A[2K23abb0f9ce55: Downloading [==================>                                ]  1.049MB/2.817MB[1B
+[1A[2Kd99947bc9177: Download complete [1B[2A[2K23abb0f9ce55: Downloading [==================>                                ]  1.049MB/2.817MB[2B[4A[2K75a1d70aee50: Downloading [====>                                              ]  3.146MB/33.16MB[4B[9A[2K206356c42440: Downloading [===============>                                   ]  9.437MB/29.78MB[9B[4A[2K75a1d70aee50: Downloading [====>                                              ]  3.146MB/33.16MB[4B[9A[2K206356c42440: Downloading [=================>                                 ]  10.49MB/29.78MB[9B[2A[2K23abb0f9ce55: Downloading [==================>                                ]  1.049MB/2.817MB[2B[4A[2K75a1d70aee50: Downloading [====>                                              ]  3.146MB/33.16MB[4B[9A[2K206356c42440: Downloading [===================>                               ]  11.53MB/29.78MB[9B[2A[2K23abb0f9ce55: Downloading [==================>                                ]  1.049MB/2.817MB[2B[2A[2K23abb0f9ce55: Downloading [=====================================>             ]  2.097MB/2.817MB[2B[4A[2K75a1d70aee50: Downloading [====>                                              ]  3.146MB/33.16MB[4B[9A[2K206356c42440: Downloading [===================>                               ]  11.53MB/29.78MB[9B[4A[2K75a1d70aee50: Downloading [====>                                              ]  3.146MB/33.16MB[4B[9A[2K206356c42440: Downloading [===================>                               ]  11.53MB/29.78MB[9B[2A[2K23abb0f9ce55: Download complete [2B[4A[2K75a1d70aee50: Downloading [====>                                              ]  3.146MB/33.16MB[4B[9A[2K206356c42440: Downloading [===================>                               ]  11.53MB/29.78MB[9B[4A[2K75a1d70aee50: Downloading [====>                                              ]  3.146MB/33.16MB[4B[9A[2K206356c42440: Downloading [=====================>                             ]  12.58MB/29.78MB[9B[4A[2K75a1d70aee50: Downloading [======>                                            ]  4.194MB/33.16MB[4B[9A[2K206356c42440: Downloading [======================>                            ]  13.63MB/29.78MB[9B[4A[2K75a1d70aee50: Downloading [======>                                            ]  4.194MB/33.16MB[4B[9A[2K206356c42440: Downloading [========================>                          ]  14.68MB/29.78MB[9B[4A[2K75a1d70aee50: Downloading [======>                                            ]  4.194MB/33.16MB[4B[9A[2K206356c42440: Downloading [========================>                          ]  14.68MB/29.78MB[9B[4A[2K75a1d70aee50: Downloading [======>                                            ]  4.194MB/33.16MB[4B[9A[2K206356c42440: Downloading [==========================>                        ]  15.73MB/29.78MB[9B[4A[2K75a1d70aee50: Downloading [=======>                                           ]  5.243MB/33.16MB[4B[9A[2K206356c42440: Downloading [============================>                      ]  16.78MB/29.78MB[9B[4A[2K75a1d70aee50: Downloading [=======>                                           ]  5.243MB/33.16MB[4B[9A[2K206356c42440: Downloading [============================>                      ]  16.78MB/29.78MB[9B[9A[2K206356c42440: Downloading [============================>                      ]  16.78MB/29.78MB[9B[4A[2K75a1d70aee50: Downloading [=======>                                           ]  5.243MB/33.16MB[4B[4A[2K75a1d70aee50: Downloading [=========>                                         ]  6.291MB/33.16MB[4B[9A[2K206356c42440: Downloading [============================>                      ]  16.78MB/29.78MB[9B[9A[2K206356c42440: Downloading [===============================>                   ]  18.87MB/29.78MB[9B[4A[2K75a1d70aee50: Downloading [===========>                                       ]   7.34MB/33.16MB[4B[9A[2K206356c42440: Downloading [=================================>                 ]  19.92MB/29.78MB[9B[4A[2K75a1d70aee50: Downloading [===========>                                       ]   7.34MB/33.16MB[4B[4A[2K75a1d70aee50: Downloading [============>                                      ]  8.389MB/33.16MB[4B[9A[2K206356c42440: Downloading [=================================>                 ]  19.92MB/29.78MB[9B[9A[2K206356c42440: Downloading [=================================>                 ]  19.92MB/29.78MB[9B[4A[2K75a1d70aee50: Downloading [============>                                      ]  8.389MB/33.16MB[4B[4A[2K75a1d70aee50: Downloading [==============>                                    ]  9.437MB/33.16MB[4B[9A[2K206356c42440: Downloading [===================================>               ]  20.97MB/29.78MB[9B[4A[2K75a1d70aee50: Downloading [===============>                                   ]  10.49MB/33.16MB[4B[9A[2K206356c42440: Downloading [====================================>              ]  22.02MB/29.78MB[9B[4A[2K75a1d70aee50: Downloading [===============>                                   ]  10.49MB/33.16MB[4B[9A[2K206356c42440: Downloading [====================================>              ]  22.02MB/29.78MB[9B[4A[2K75a1d70aee50: Downloading [=================>                                 ]  11.53MB/33.16MB[4B[9A[2K206356c42440: Downloading [======================================>            ]  23.07MB/29.78MB[9B[4A[2K75a1d70aee50: Downloading [=================>                                 ]  11.53MB/33.16MB[4B[9A[2K206356c42440: Downloading [========================================>          ]  24.12MB/29.78MB[9B[9A[2K206356c42440: Downloading [========================================>          ]  24.12MB/29.78MB[9B[4A[2K75a1d70aee50: Downloading [==================>                                ]  12.58MB/33.16MB[4B[4A[2K75a1d70aee50: Downloading [==================>                                ]  12.58MB/33.16MB[4B[9A[2K206356c42440: Downloading [========================================>          ]  24.12MB/29.78MB[9B[9A[2K206356c42440: Downloading [========================================>          ]  24.12MB/29.78MB[9B[4A[2K75a1d70aee50: Downloading [====================>                              ]  13.63MB/33.16MB[4B[4A[2K75a1d70aee50: Downloading [====================>                              ]  13.63MB/33.16MB[4B[9A[2K206356c42440: Downloading [========================================>          ]  24.12MB/29.78MB[9B[4A[2K75a1d70aee50: Downloading [======================>                            ]  14.68MB/33.16MB[4B[9A[2K206356c42440: Downloading [==========================================>        ]  25.17MB/29.78MB[9B[9A[2K206356c42440: Downloading [==========================================>        ]  25.17MB/29.78MB[9B[4A[2K75a1d70aee50: Downloading [======================>                            ]  14.68MB/33.16MB[4B[4A[2K75a1d70aee50: Downloading [=======================>                           ]  15.73MB/33.16MB[4B[9A[2K206356c42440: Downloading [============================================>      ]  26.21MB/29.78MB[9B[9A[2K206356c42440: Downloading [=============================================>     ]  27.26MB/29.78MB[9B[4A[2K75a1d70aee50: Downloading [=======================>                           ]  15.73MB/33.16MB[4B[9A[2K206356c42440: Downloading [===============================================>   ]  28.31MB/29.78MB[9B[4A[2K75a1d70aee50: Downloading [=========================>                         ]  16.78MB/33.16MB[4B[4A[2K75a1d70aee50: Downloading [=========================>                         ]  16.78MB/33.16MB[4B[9A[2K206356c42440: Downloading [===============================================>   ]  28.31MB/29.78MB[9B[4A[2K75a1d70aee50: Downloading [==========================>                        ]  17.83MB/33.16MB[4B[9A[2K206356c42440: Downloading [=================================================> ]  29.36MB/29.78MB[9B[4A[2K75a1d70aee50: Downloading [============================>                      ]  18.87MB/33.16MB[4B[9A[2K206356c42440: Downloading [==================================================>]  29.78MB/29.78MB[9B[4A[2K75a1d70aee50: Downloading [============================>                      ]  18.87MB/33.16MB[4B[9A[2K206356c42440: Download complete [9B[9A[2K206356c42440: Extracting 1 s[9B[4A[2K75a1d70aee50: Downloading [==============================>                    ]  19.92MB/33.16MB[4B[9A[2K206356c42440: Extracting 1 s[9B[4A[2K75a1d70aee50: Downloading [===============================>                   ]  20.97MB/33.16MB[4B[9A[2K206356c42440: Extracting 1 s[9B[4A[2K75a1d70aee50: Downloading [=================================>                 ]  22.02MB/33.16MB[4B[9A[2K206356c42440: Extracting 1 s[9B[4A[2K75a1d70aee50: Downloading [==================================>                ]  23.07MB/33.16MB[4B[9A[2K206356c42440: Extracting 1 s[9B[4A[2K75a1d70aee50: Downloading [====================================>              ]  24.12MB/33.16MB[4B[9A[2K206356c42440: Extracting 1 s[9B[4A[2K75a1d70aee50: Downloading [=====================================>             ]  25.17MB/33.16MB[4B[4A[2K75a1d70aee50: Downloading [=======================================>           ]  26.21MB/33.16MB[4B[9A[2K206356c42440: Pull complete [9B[4A[2K75a1d70aee50: Downloading [=========================================>         ]  27.26MB/33.16MB[4B[4A[2K75a1d70aee50: Downloading [============================================>      ]  29.36MB/33.16MB[4B[4A[2K75a1d70aee50: Downloading [=============================================>     ]  30.41MB/33.16MB[4B[4A[2K75a1d70aee50: Downloading [===============================================>   ]  31.46MB/33.16MB[4B[4A[2K75a1d70aee50: Downloading [=================================================> ]  32.51MB/33.16MB[4B[4A[2K75a1d70aee50: Downloading [==================================================>]  33.16MB/33.16MB[4B[4A[2K75a1d70aee50: Download complete [4B[4A[2K75a1d70aee50: Extracting 1 s[4B[4A[2K75a1d70aee50: Extracting 1 s[4B[4A[2K75a1d70aee50: Extracting 1 s[4B[4A[2K75a1d70aee50: Extracting 1 s[4B[4A[2K75a1d70aee50: Extracting 1 s[4B[4A[2K75a1d70aee50: Pull complete [4B[7A[2Kdf9da45c1db2: Pull complete [7B[3A[2Ka9d395129dce: Pull complete [3B[5A[2K79697674b897: Pull complete [5B[6A[2K18a071c04bd1: Pull complete [6B[8A[2K9eef040df109: Pull complete [8BDigest: sha256:bc45d248c4e1d1709321de61566eb2b64d4f0e32765239d66573666be7f13349
+Status: Downloaded newer image for nginx:latest
+5d5e48b47e3e30b9a39b6f68108d3acd95a3bd2117f6c4f940293cb3651fc3bf
+]0;ras@fedora:~/linux/week02]3008;end=4616a72c-9350-485b-bd87-552dd92fe823;exit=success\]3008;start=994638e9-68d7-443c-b063-08f5db07c7f2;machineid=69c4c6fade2c4aa683f39b0f0eb549cf;user=ras;hostname=fedora;bootid=a0f08e94-c6d7-4bbb-996d-81bf9c032080;pid=00000000000000017152;type=shell;cwd=/home/ras/linux/week02\[?2004h[0m[32mras@fedora[0m:[32m~/linux/week02[0m$ curl localhost:8080
+[?2004l]3008;start=605c05c0-c133-4bbb-a029-631cb74334aa;machineid=69c4c6fade2c4aa683f39b0f0eb549cf;user=ras;hostname=fedora;bootid=a0f08e94-c6d7-4bbb-996d-81bf9c032080;pid=00000000000000017152;type=command;cwd=/home/ras/linux/week02\<!DOCTYPE html>
+<html>
+<head>
+<title>Welcome to nginx!</title>
+<style>
+html { color-scheme: light dark; }
+body { width: 35em; margin: 0 auto;
+font-family: Tahoma, Verdana, Arial, sans-serif; }
+</style>
+</head>
+<body>
+<h1>Welcome to nginx!</h1>
+<p>If you see this page, nginx is successfully installed and working.
+Further configuration is required for the web server, reverse proxy, 
+API gateway, load balancer, content cache, or other features.</p>
+
+<p>For online documentation and support please refer to
+<a href="https://nginx.org/">nginx.org</a>.<br/>
+To engage with the community please visit
+<a href="https://community.nginx.org/">community.nginx.org</a>.<br/>
+For enterprise grade support, professional services, additional 
+security features and capabilities please refer to
+<a href="https://f5.com/nginx">f5.com/nginx</a>.</p>
+
+<p><em>Thank you for using nginx.</em></p>
+</body>
+</html>
+]0;ras@fedora:~/linux/week02]3008;end=605c05c0-c133-4bbb-a029-631cb74334aa;exit=success\]3008;start=994638e9-68d7-443c-b063-08f5db07c7f2;machineid=69c4c6fade2c4aa683f39b0f0eb549cf;user=ras;hostname=fedora;bootid=a0f08e94-c6d7-4bbb-996d-81bf9c032080;pid=00000000000000017152;type=shell;cwd=/home/ras/linux/week02\[?2004h[0m[32mras@fedora[0m:[32m~/linux/week02[0m$ [K[0m[32mras@fedora[0m:[32m~/linux/week02[0m$ [K[0m[32mras@fedora[0m:[32m~/linux/week02[0m$ [K[0m[32mras@fedora[0m:[32m~/linux/week02[0m$ [K[0m[32mras@fedora[0m:[32m~/linux/week02[0m$ [K[0m[32mras@fedora[0m:[32m~/linux/week02[0m$ [K[0m[32mras@fedora[0m:[32m~/linux/week02[0m$ [K[0m[32mras@fedora[0m:[32m~/linux/week02[0m$ [K[0m[32mras@fedora[0m:[32m~/linux/week02[0m$ [K[0m[32mras@fedora[0m:[32m~/linux/week02[0m$ [K[0m[32mras@fedora[0m:[32m~/linux/week02[0m$ [K[0m[32mras@fedora[0m:[32m~/linux/week02[0m$ [K[0m[32mras@fedora[0m:[32m~/linux/week02[0m$ [K[0m[32mras@fedora[0m:[32m~/linux/week02[0m$ [K[0m[32mras@fedora[0m:[32m~/linux/week02[0m$ [K[0m[32mras@fedora[0m:[32m~/linux/week02[0m$ [K[0m[32mras@fedora[0m:[32m~/linux/week02[0m$ [K[0m[32mras@fedora[0m:[32m~/linux/week02[0m$ [K[0m[32mras@fedora[0m:[32m~/linux/week02[0m$ [K[0m[32mras@fedora[0m:[32m~/linux/week02[0m$ [K[0m[32mras@fedora[0m:[32m~/linux/week02[0m$ [K[0m[32mras@fedora[0m:[32m~/linux/week02[0m$ [K[0m[32mras@fedora[0m:[32m~/linux/week02[0m$ [K[0m[32mras@fedora[0m:[32m~/linux/week02[0m$ [K[0m[32mras@fedora[0m:[32m~/linux/week02[0m$ [K[0m[32mras@fedora[0m:[32m~/linux/week02[0m$ docker exec -it my-nginx bash[K[K[K[Knano index.html
+[?2004l]3008;start=d0a1b35d-df5d-41c2-b7f7-28955303440d;machineid=69c4c6fade2c4aa683f39b0f0eb549cf;user=ras;hostname=fedora;bootid=a0f08e94-c6d7-4bbb-996d-81bf9c032080;pid=00000000000000017152;type=command;cwd=/home/ras/linux/week02\OCI runtime exec failed: exec failed: unable to start container process: exec: "nano": executable file not found in $PATH
+]0;ras@fedora:~/linux/week02]3008;end=d0a1b35d-df5d-41c2-b7f7-28955303440d;exit=failure;status=127\]3008;start=994638e9-68d7-443c-b063-08f5db07c7f2;machineid=69c4c6fade2c4aa683f39b0f0eb549cf;user=ras;hostname=fedora;bootid=a0f08e94-c6d7-4bbb-996d-81bf9c032080;pid=00000000000000017152;type=shell;cwd=/home/ras/linux/week02\[?2004h[0m[32mras@fedora[0m:[32m~/linux/week02[0m$ docker exec -it my-nginx nano index.html[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kbash
+[?2004l]3008;start=08851615-4a04-4d51-a47c-eee82f208d27;machineid=69c4c6fade2c4aa683f39b0f0eb549cf;user=ras;hostname=fedora;bootid=a0f08e94-c6d7-4bbb-996d-81bf9c032080;pid=00000000000000017152;type=command;cwd=/home/ras/linux/week02\[?2004hroot@5d5e48b47e3e:/# nano
+[?2004lbash: nano: command not found
+[?2004hroot@5d5e48b47e3e:/# exit
+[?2004lexit
+]0;ras@fedora:~/linux/week02]3008;end=08851615-4a04-4d51-a47c-eee82f208d27;exit=failure;status=127\]3008;start=994638e9-68d7-443c-b063-08f5db07c7f2;machineid=69c4c6fade2c4aa683f39b0f0eb549cf;user=ras;hostname=fedora;bootid=a0f08e94-c6d7-4bbb-996d-81bf9c032080;pid=00000000000000017152;type=shell;cwd=/home/ras/linux/week02\[?2004h[0m[32mras@fedora[0m:[32m~/linux/week02[0m$ ls
+[?2004l]3008;start=b49e28d1-c2b8-47c4-a718-307da99f79b8;machineid=69c4c6fade2c4aa683f39b0f0eb549cf;user=ras;hostname=fedora;bootid=a0f08e94-c6d7-4bbb-996d-81bf9c032080;pid=00000000000000017152;type=command;cwd=/home/ras/linux/week02\2026_20231023_week02_log.txt  [0m[01;32mSCRIPT.sh[0m  get-docker.sh  t.txt  test.txt
+]0;ras@fedora:~/linux/week02]3008;end=b49e28d1-c2b8-47c4-a718-307da99f79b8;exit=success\]3008;start=994638e9-68d7-443c-b063-08f5db07c7f2;machineid=69c4c6fade2c4aa683f39b0f0eb549cf;user=ras;hostname=fedora;bootid=a0f08e94-c6d7-4bbb-996d-81bf9c032080;pid=00000000000000017152;type=shell;cwd=/home/ras/linux/week02\[?2004h[0m[32mras@fedora[0m:[32m~/linux/week02[0m$ mkdir www
+[?2004l]3008;start=bd93ca53-d020-4fd7-b325-32c36db95af4;machineid=69c4c6fade2c4aa683f39b0f0eb549cf;user=ras;hostname=fedora;bootid=a0f08e94-c6d7-4bbb-996d-81bf9c032080;pid=00000000000000017152;type=command;cwd=/home/ras/linux/week02\]0;ras@fedora:~/linux/week02]3008;end=bd93ca53-d020-4fd7-b325-32c36db95af4;exit=success\]3008;start=994638e9-68d7-443c-b063-08f5db07c7f2;machineid=69c4c6fade2c4aa683f39b0f0eb549cf;user=ras;hostname=fedora;bootid=a0f08e94-c6d7-4bbb-996d-81bf9c032080;pid=00000000000000017152;type=shell;cwd=/home/ras/linux/week02\[?2004h[0m[32mras@fedora[0m:[32m~/linux/week02[0m$ docker cp my-nginx:/usr/share/nginx/html/. ./www/
+[?2004l]3008;start=9bfe19ad-43e6-4994-b5f9-435405a5243b;machineid=69c4c6fade2c4aa683f39b0f0eb549cf;user=ras;hostname=fedora;bootid=a0f08e94-c6d7-4bbb-996d-81bf9c032080;pid=00000000000000017152;type=command;cwd=/home/ras/linux/week02\Successfully copied 4.1kB to /home/ras/linux/week02/www/
+]0;ras@fedora:~/linux/week02]3008;end=9bfe19ad-43e6-4994-b5f9-435405a5243b;exit=success\]3008;start=994638e9-68d7-443c-b063-08f5db07c7f2;machineid=69c4c6fade2c4aa683f39b0f0eb549cf;user=ras;hostname=fedora;bootid=a0f08e94-c6d7-4bbb-996d-81bf9c032080;pid=00000000000000017152;type=shell;cwd=/home/ras/linux/week02\[?2004h[0m[32mras@fedora[0m:[32m~/linux/week02[0m$ docker stop my-nginx
+[?2004l]3008;start=06e374ee-38c5-4146-be88-15f8e04979ac;machineid=69c4c6fade2c4aa683f39b0f0eb549cf;user=ras;hostname=fedora;bootid=a0f08e94-c6d7-4bbb-996d-81bf9c032080;pid=00000000000000017152;type=command;cwd=/home/ras/linux/week02\my-nginx
+]0;ras@fedora:~/linux/week02]3008;end=06e374ee-38c5-4146-be88-15f8e04979ac;exit=success\]3008;start=994638e9-68d7-443c-b063-08f5db07c7f2;machineid=69c4c6fade2c4aa683f39b0f0eb549cf;user=ras;hostname=fedora;bootid=a0f08e94-c6d7-4bbb-996d-81bf9c032080;pid=00000000000000017152;type=shell;cwd=/home/ras/linux/week02\[?2004h[0m[32mras@fedora[0m:[32m~/linux/week02[0m$ docker rm -f my-nginx
+[?2004l]3008;start=2e04e3c3-119d-4a29-8aa4-fa5945e17e8e;machineid=69c4c6fade2c4aa683f39b0f0eb549cf;user=ras;hostname=fedora;bootid=a0f08e94-c6d7-4bbb-996d-81bf9c032080;pid=00000000000000017152;type=command;cwd=/home/ras/linux/week02\my-nginx
+]0;ras@fedora:~/linux/week02]3008;end=2e04e3c3-119d-4a29-8aa4-fa5945e17e8e;exit=success\]3008;start=994638e9-68d7-443c-b063-08f5db07c7f2;machineid=69c4c6fade2c4aa683f39b0f0eb549cf;user=ras;hostname=fedora;bootid=a0f08e94-c6d7-4bbb-996d-81bf9c032080;pid=00000000000000017152;type=shell;cwd=/home/ras/linux/week02\[?2004h[0m[32mras@fedora[0m:[32m~/linux/week02[0m$ docker run -d --name my-nx[Kginx -p 8080:80 \
+[?2004l[?2004h> --mount type=bind,source=./www,target=/usr/share/nginx/html \
+[?2004l[?2004h> nginx:latest \
+[?2004l[?2004h> # map port: nginx:[K[K[K[K[K[Kmy-nginx:80 --> localhost:800[K80 \[K[K;[K, map fs: ~[K.../www -> /usr/share/nginx/html
+[?2004l]3008;start=ffeb6003-3f62-45e5-96fa-e5060c718f84;machineid=69c4c6fade2c4aa683f39b0f0eb549cf;user=ras;hostname=fedora;bootid=a0f08e94-c6d7-4bbb-996d-81bf9c032080;pid=00000000000000017152;type=command;cwd=/home/ras/linux/week02\352208cbb2eb7a2ac5870fbd0e6fc9f970fd19a4bafb2cc3ee7946988508283a
+]0;ras@fedora:~/linux/week02]3008;end=ffeb6003-3f62-45e5-96fa-e5060c718f84;exit=success\]3008;start=994638e9-68d7-443c-b063-08f5db07c7f2;machineid=69c4c6fade2c4aa683f39b0f0eb549cf;user=ras;hostname=fedora;bootid=a0f08e94-c6d7-4bbb-996d-81bf9c032080;pid=00000000000000017152;type=shell;cwd=/home/ras/linux/week02\[?2004h[0m[32mras@fedora[0m:[32m~/linux/week02[0m$ curl localhost:800[K80
+[?2004l]3008;start=427ea3f1-87b0-434a-a883-8a89439e136f;machineid=69c4c6fade2c4aa683f39b0f0eb549cf;user=ras;hostname=fedora;bootid=a0f08e94-c6d7-4bbb-996d-81bf9c032080;pid=00000000000000017152;type=command;cwd=/home/ras/linux/week02\<!DOCTYPE html>
+<html>
+<head>
+<title>Welcome to nginx!</title>
+<style>
+html { color-scheme: light dark; }
+body { width: 35em; margin: 0 auto;
+font-family: Tahoma, Verdana, Arial, sans-serif; }
+</style>
+</head>
+<body>
+<h1>Welcome to nginx!</h1>
+<p>If you see this page, nginx is successfully installed and working.
+Further configuration is required for the web server, reverse proxy, 
+API gateway, load balancer, content cache, or other features.</p>
+
+<p>For online documentation and support please refer to
+<a href="https://nginx.org/">nginx.org</a>.<br/>
+To engage with the community please visit
+<a href="https://community.nginx.org/">community.nginx.org</a>.<br/>
+For enterprise grade support, professional services, additional 
+security features and capabilities please refer to
+<a href="https://f5.com/nginx">f5.com/nginx</a>.</p>
+
+<p><em>Thank you for using nginx.</em></p>
+</body>
+</html>
+]0;ras@fedora:~/linux/week02]3008;end=427ea3f1-87b0-434a-a883-8a89439e136f;exit=success\]3008;start=994638e9-68d7-443c-b063-08f5db07c7f2;machineid=69c4c6fade2c4aa683f39b0f0eb549cf;user=ras;hostname=fedora;bootid=a0f08e94-c6d7-4bbb-996d-81bf9c032080;pid=00000000000000017152;type=shell;cwd=/home/ras/linux/week02\[?2004h[0m[32mras@fedora[0m:[32m~/linux/week02[0m$ vim inde[K[K[K[Kwww/index.html
+[?2004l]3008;start=ce225924-431c-4cff-9c10-7c9a27c70156;machineid=69c4c6fade2c4aa683f39b0f0eb549cf;user=ras;hostname=fedora;bootid=a0f08e94-c6d7-4bbb-996d-81bf9c032080;pid=00000000000000017152;type=command;cwd=/home/ras/linux/week02\[?1049h[22;0;0t[>4;2m[?1h=[?2004h[?1004h[1;44r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[?25l[44;1H"www/index.html" 27L, 896B[2;1H▽[6n[2;1H  [3;1HPzz\[0%m[6n[3;1H           [1;1H[>c]10;?]11;?[?2026$p[1;1H[96m[46m<[m[96m!DOCTYPE html[m[96m[46m>[m
+[1m[96m<[m[93mhtml[m[1m[96m>[m[2;7H[K[3;1H[1m[96m<[m[93mhead[m[1m[96m>[m[3;7H[K[4;1H[1m[96m<[m[93mtitle[m[1m[96m>[m[38;5;225mWelcome to nginx![m[1m[96m</[m[93mtitle[m[1m[96m>
+<[m[93mstyle[m[1m[96m>[m
+[93mhtml[m [1m[96m{[m color-scheme: light dark; [1m[96m}[m
+[93mbody[m [1m[96m{[m [38;5;121mwidth[m: [95m35em[m; [38;5;121mmargin[m: [95m0[m [95mauto[m;
+[38;5;121mfont-family[m: Tahoma[38;5;224m,[m Verdana[38;5;224m,[m Arial[38;5;224m,[m [95msans-serif[m; [1m[96m}
+</[m[93mstyle[m[1m[96m>
+</[m[93mhead[m[1m[96m>
+<[m[93mbody[m[1m[96m>
+<[m[93mh1[m[1m[96m>[m[38;5;225mWelcome to nginx![m[1m[96m</[m[93mh1[m[1m[96m>
+<[m[93mp[m[1m[96m>[mIf you see this page, nginx is successfully installed and working.
+Further configuration is required for the web server, reverse proxy,
+API gateway, load balancer, content cache, or other features.[1m[96m</[m[93mp[m[1m[96m>
+
+<[m[93mp[m[1m[96m>[mFor online documentation and support please refer to
+[1m[96m<[m[93ma[m[1m[96m [m[38;5;121mhref[m[1m[96m=[m[95m"https://nginx.org/"[m[1m[96m>[m[4m[38;5;81mnginx.org[m[1m[96m</[m[93ma[m[1m[96m>[m.[1m[96m<[m[93mbr[m[1m[96m/>[m
+To engage with the community please visit
+[1m[96m<[m[93ma[m[1m[96m [m[38;5;121mhref[m[1m[96m=[m[95m"https://community.nginx.org/"[m[1m[96m>[m[4m[38;5;81mcommunity.nginx.org[m[1m[96m</[m[93ma[m[1m[96m>[m.[1m[96m<[m[93mbr[m[1m[96m/>[m
+For enterprise grade support, professional services, additional
+security features and capabilities please refer to
+[1m[96m<[m[93ma[m[1m[96m [m[38;5;121mhref[m[1m[96m=[m[95m"https://f5.com/nginx"[m[1m[96m>[m[4m[38;5;81mf5.com/nginx[m[1m[96m</[m[93ma[m[1m[96m>[m.[1m[96m</[m[93mp[m[1m[96m>
+
+<[m[93mp[m[1m[96m><[m[93mem[m[1m[96m>[m[3mThank you for using nginx.[23m[1m[96m</[m[93mem[m[1m[96m></[m[93mp[m[1m[96m>
+</[m[93mbody[m[1m[96m>
+</[m[93mhtml[m[1m[96m>[m
+[94m~                                                                                                                   [29;1H~                                                                                                                   [30;1H~                                                                                                                   [31;1H~                                                                                                                   [32;1H~                                                                                                                   [33;1H~                                                                                                                   [34;1H~                                                                                                                   [35;1H~                                                                                                                   [36;1H~                                                                                                                   [37;1H~                                                                                                                   [38;1H~                                                                                                                   [39;1H~                                                                                                                   [40;1H~                                                                                                                   [41;1H~                                                                                                                   [42;1H~                                                                                                                   [43;1H~                                                                                                                   [m[44;99H1,1[10C모두[1;1H[?25h[?4m[?12$p[?25l[44;89H~@k[1;1H[44;89H   [2;1H[1;1H[96m<[13C>[m
+[1m[96m[46m<[m[93mh[m[3C[1m[96m[46m>[m[44;99H2[2;1H[?25h[?25l[44;89H~@k[2;1H[44;89H   [3;1H[2;1H[1m[96m<[m[93mh[m[3C[1m[96m>[m
+[1m[96m[46m<[m[93mh[m[3C[1m[96m[46m>[m[44;99H3[3;1H[?25h[?25l[44;89H~@k[3;1H[44;89H   [4;1H[3;1H[1m[96m<[m[93mh[m[3C[1m[96m>[m
+[1m[96m[46m<[m[93mt[m[4C[1m[96m[46m>[m[38;5;225mW[m[44;99H4[4;1H[?25h[?25l[44;89H~@k[4;1H[44;89H   [4;2H[1m[96m<[m[93mt[m[4C[1m[96m>[m[38;5;225mW[m[44;101H2[4;2H[?25h[?25l[44;89H~@k[4;2H[44;89H   [4;3H[44;101H3[4;3H[?25h[?25l[44;89H~@k[4;3H[44;89H   [4;4H[44;101H4[4;4H[?25h[?25l[44;89H~@k[4;4H[44;89H   [4;5H[44;101H5[4;5H[?25h[?25l[44;89H~@k[4;5H[44;89H   [4;6H[44;101H6[4;6H[?25h[?25l[44;89H~@k[4;6H[44;89H   [4;7H[1m[96m[46m<[m[93mt[m[4C[1m[96m[46m>[m[38;5;225mW[m[44;101H7[4;7H[?25h[?25l[44;89H~@k[4;7H[44;89H   [4;8H[1m[96m<[m[93mt[m[4C[1m[96m>[m[38;5;225mW[m[44;101H8[4;8H[?25h[?25l[44;89Hi[4;8H[44;89H [4;8H[44;1H[1m-- 끼워넣기 --[m[44;15H[K[44;99H4,8[10C모두[4;8H[?25h[?25l[38;5;225melcome to nginx![m[1m[96m</[m[93mtitle[m[1m[96m>[m[4;32H[K[4;1H[1m[96m[46m<[m[93mt[m[4C[1m[96m[46m>[m[38;5;225me[?25h[?25llcome to nginx![m[1m[96m</[m[93mtitle[m[1m[96m>[m[4;31H[K[4;8H[?25h[?25l[38;5;225mcome to nginx![m[1m[96m</[m[93mtitle[m[1m[96m>[m[4;30H[K[4;8H[?25h[?25l[38;5;225mome to nginx![m[1m[96m</[m[93mtitle[m[1m[96m>[m[4;29H[K[4;8H[?25h[?25l[38;5;225mme to nginx![m[1m[96m</[m[93mtitle[m[1m[96m>[m[4;28H[K[4;8H[?25h[?25l[38;5;225me to nginx![m[1m[96m</[m[93mtitle[m[1m[96m>[m[4;27H[K[4;8H[?25h[?25l[38;5;225m to nginx![m[1m[96m</[m[93mtitle[m[1m[96m>[m[4;26H[K[4;8H[?25h[?25l[38;5;225mto nginx![m[1m[96m</[m[93mtitle[m[1m[96m>[m[4;25H[K[4;8H[?25h[?25l[38;5;225mo nginx![m[1m[96m</[m[93mtitle[m[1m[96m>[m[4;24H[K[4;8H[?25h[?25l[38;5;225m nginx![m[1m[96m</[m[93mtitle[m[1m[96m>[m[4;23H[K[4;8H[?25h[?25l[38;5;225mnginx![m[1m[96m</[m[93mtitle[m[1m[96m>[m[4;22H[K[4;8H[?25h[?25l[38;5;225mginx![m[1m[96m</[m[93mtitle[m[1m[96m>[m[4;21H[K[4;8H[?25h[?25l[38;5;225minx![m[1m[96m</[m[93mtitle[m[1m[96m>[m[4;20H[K[4;8H[?25h[?25l[38;5;225mnx![m[1m[96m</[m[93mtitle[m[1m[96m>[m[4;19H[K[4;8H[?25h[?25l[38;5;225mx![m[1m[96m</[m[93mtitle[m[1m[96m>[m[4;18H[K[4;8H[?25h[?25l[38;5;225m![m[1m[96m</[m[93mtitle[m[1m[96m>[m[4;17H[K[4;8H[?25h[?25l[1m[96m</[m[93mtitle[m[1m[96m>[m[4;16H[K[4;1H[1m[96m<[m[93mt[m[4C[1m[96m>[m[1m[96m[46m<[m[1m[96m/[m[93mt[m[4C[1m[96m[46m>[4;8H[?25h[?25l[m[38;5;225m[46mh[m[1m[96m</[m[93mtitl[m[93m[46me[m[1m[96m>[m[4;8H[38;5;225mh[m[1m[96m[46m<[m[1m[96m/[m[93mtitle[m[1m[96m[46m>[m[44;101H9[4;9H[?25h[?25l[38;5;225m[46me[m[1m[96m</[m[93mtitl[m[93m[46me[m[1m[96m>[m[4;9H[38;5;225me[m[1m[96m[46m<[m[1m[96m/[m[93mtitle[m[1m[96m[46m>[m[44;101H10[4;10H[?25h[?25l[38;5;225m[46ml[m[1m[96m</[m[93mtitl[m[93m[46me[m[1m[96m>[m[4;10H[38;5;225ml[m[1m[96m[46m<[m[1m[96m/[m[93mtitle[m[1m[96m[46m>[m[44;102H1[4;11H[?25h[?25l[38;5;225m[46ml[m[1m[96m</[m[93mtitl[m[93m[46me[m[1m[96m>[m[4;11H[38;5;225ml[m[1m[96m[46m<[m[1m[96m/[m[93mtitle[m[1m[96m[46m>[m[44;102H2[4;12H[?25h[?25l[38;5;225m[46mo[m[1m[96m</[m[93mtitl[m[93m[46me[m[1m[96m>[m[4;12H[38;5;225mo[m[1m[96m[46m<[m[1m[96m/[m[93mtitle[m[1m[96m[46m>[m[44;102H3[4;13H[?25h[?25l[38;5;225m[46m [m[1m[96m</[m[93mtitl[m[93m[46me[m[1m[96m>[m[4;13H[38;5;225m [m[1m[96m[46m<[m[1m[96m/[m[93mtitle[m[1m[96m[46m>[m[44;102H4[4;14H[?25h[?25l[38;5;225m[46md[m[1m[96m</[m[93mtitl[m[93m[46me[m[1m[96m>[m[4;14H[38;5;225md[m[1m[96m[46m<[m[1m[96m/[m[93mtitle[m[1m[96m[46m>[m[44;102H5[4;15H[?25h[?25l[38;5;225m[46mo[m[1m[96m</[m[93mtitl[m[93m[46me[m[1m[96m>[m[4;15H[38;5;225mo[m[1m[96m[46m<[m[1m[96m/[m[93mtitle[m[1m[96m[46m>[m[44;102H6[4;16H[?25h[?25l[38;5;225m[46mc[m[1m[96m</[m[93mtitl[m[93m[46me[m[1m[96m>[m[4;16H[38;5;225mc[m[1m[96m[46m<[m[1m[96m/[m[93mtitle[m[1m[96m[46m>[m[44;102H7[4;17H[?25h[?25l[38;5;225m[46mk[m[1m[96m</[m[93mtitl[m[93m[46me[m[1m[96m>[m[4;17H[38;5;225mk[m[1m[96m[46m<[m[1m[96m/[m[93mtitle[m[1m[96m[46m>[m[44;102H8[4;18H[?25h[?25l[38;5;225m[46me[m[1m[96m</[m[93mtitl[m[93m[46me[m[1m[96m>[m[4;18H[38;5;225me[m[1m[96m[46m<[m[1m[96m/[m[93mtitle[m[1m[96m[46m>[m[44;102H9[4;19H[?25h[?25l[38;5;225m[46mr[m[1m[96m</[m[93mtitl[m[93m[46me[m[1m[96m>[m[4;19H[38;5;225mr[m[1m[96m[46m<[m[1m[96m/[m[93mtitle[m[1m[96m[46m>[m[44;101H20[4;20H[?25h[?25l[38;5;225m[46m [m[1m[96m</[m[93mtitl[m[93m[46me[m[1m[96m>[m[4;20H[38;5;225m [m[1m[96m[46m<[m[1m[96m/[m[93mtitle[m[1m[96m[46m>[m[44;102H1[4;21H[?25h[?25l[38;5;225m[46mi[m[1m[96m</[m[93mtitl[m[93m[46me[m[1m[96m>[m[4;21H[38;5;225mi[m[1m[96m[46m<[m[1m[96m/[m[93mtitle[m[1m[96m[46m>[m[44;102H2[4;22H[?25h[?25l[38;5;225m[46mn[m[1m[96m</[m[93mtitl[m[93m[46me[m[1m[96m>[m[4;22H[38;5;225mn[m[1m[96m[46m<[m[1m[96m/[m[93mtitle[m[1m[96m[46m>[m[44;102H3[4;23H[?25h[?25l[38;5;225m[46m [m[1m[96m</[m[93mtitl[m[93m[46me[m[1m[96m>[m[4;23H[38;5;225m [m[1m[96m[46m<[m[1m[96m/[m[93mtitle[m[1m[96m[46m>[m[44;102H4[4;24H[?25h[?25l[38;5;225m[46mn[m[1m[96m</[m[93mtitl[m[93m[46me[m[1m[96m>[m[4;24H[38;5;225mn[m[1m[96m[46m<[m[1m[96m/[m[93mtitle[m[1m[96m[46m>[m[44;102H5[4;25H[?25h[?25l[38;5;225m[46mg[m[1m[96m</[m[93mtitl[m[93m[46me[m[1m[96m>[m[4;25H[38;5;225mg[m[1m[96m[46m<[m[1m[96m/[m[93mtitle[m[1m[96m[46m>[m[44;102H6[4;26H[?25h[?25l[38;5;225m[46mi[m[1m[96m</[m[93mtitl[m[93m[46me[m[1m[96m>[m[4;26H[38;5;225mi[m[1m[96m[46m<[m[1m[96m/[m[93mtitle[m[1m[96m[46m>[m[44;102H7[4;27H[?25h[?25l[38;5;225m[46mn[m[1m[96m</[m[93mtitl[m[93m[46me[m[1m[96m>[m[4;27H[38;5;225mn[m[1m[96m[46m<[m[1m[96m/[m[93mtitle[m[1m[96m[46m>[m[44;102H8[4;28H[?25h[?25l[38;5;225m[46mx[m[1m[96m</[m[93mtitl[m[93m[46me[m[1m[96m>[m[4;28H[38;5;225mx[m[1m[96m[46m<[m[1m[96m/[m[93mtitle[m[1m[96m[46m>[m[44;102H9[4;29H[?25h[44;1H[K[4;28H[?25l[44;89H^[[4;28H[44;89H  [4;29H[1m[96m</[m[93mt[m[4C[1m[96m>[m[44;99H4,28[9C모두[4;28H[?25h[?25l[44;89H:[4;28H[44;89H[K[44;1H:[?25hwq[?25l[?2004l[>4;m"www/index.html" 27L, 900B 저장 했습니다[23;2t[23;1t
+[?1004l[?2004l[?1l>[?1049l[23;0;0t[?25h[>4;m]0;ras@fedora:~/linux/week02]3008;end=ce225924-431c-4cff-9c10-7c9a27c70156;exit=success\]3008;start=994638e9-68d7-443c-b063-08f5db07c7f2;machineid=69c4c6fade2c4aa683f39b0f0eb549cf;user=ras;hostname=fedora;bootid=a0f08e94-c6d7-4bbb-996d-81bf9c032080;pid=00000000000000017152;type=shell;cwd=/home/ras/linux/week02\[?2004h[0m[32mras@fedora[0m:[32m~/linux/week02[0m$ docker exec -it my-nginx bash
+[?2004l]3008;start=edb8ccdc-6e94-4d1f-a63e-892e30f683b8;machineid=69c4c6fade2c4aa683f39b0f0eb549cf;user=ras;hostname=fedora;bootid=a0f08e94-c6d7-4bbb-996d-81bf9c032080;pid=00000000000000017152;type=command;cwd=/home/ras/linux/week02\[?2004hroot@352208cbb2eb:/# ls
+[?2004lbin   dev		   docker-entrypoint.sh  home  lib64  mnt  proc  run   srv  tmp  var
+boot  docker-entrypoint.d  etc			 lib   media  opt  root  sbin  sys  usr
+[?2004hroot@352208cbb2eb:/# ls -Al
+[?2004ltotal 68
+-rwxr-xr-x.   1 root root    0 Mar 13 02:20 .dockerenv
+lrwxrwxrwx.   1 root root    7 Jan  2 12:35 bin -> usr/bin
+drwxr-xr-x.   2 root root 4096 Jan  2 12:35 boot
+drwxr-xr-x.   5 root root  340 Mar 13 02:20 dev
+drwxr-xr-x.   1 root root 4096 Mar 10 22:32 docker-entrypoint.d
+-rwxr-xr-x.   1 root root 1620 Mar 10 22:31 docker-entrypoint.sh
+drwxr-xr-x.   1 root root 4096 Mar 13 02:20 etc
+drwxr-xr-x.   2 root root 4096 Jan  2 12:35 home
+lrwxrwxrwx.   1 root root    7 Jan  2 12:35 lib -> usr/lib
+lrwxrwxrwx.   1 root root    9 Jan  2 12:35 lib64 -> usr/lib64
+drwxr-xr-x.   2 root root 4096 Feb 23 00:00 media
+drwxr-xr-x.   2 root root 4096 Feb 23 00:00 mnt
+drwxr-xr-x.   2 root root 4096 Feb 23 00:00 opt
+dr-xr-xr-x. 480 root root    0 Mar 13 02:20 proc
+drwx------.   2 root root 4096 Feb 23 00:00 root
+drwxr-xr-x.   1 root root 4096 Mar 13 02:20 run
+lrwxrwxrwx.   1 root root    8 Jan  2 12:35 sbin -> usr/sbin
+drwxr-xr-x.   2 root root 4096 Feb 23 00:00 srv
+dr-xr-xr-x.  13 root root    0 Mar 12 23:53 sys
+drwxrwxrwt.   2 root root 4096 Feb 23 00:00 tmp
+drwxr-xr-x.   1 root root 4096 Feb 23 00:00 usr
+drwxr-xr-x.   1 root root 4096 Feb 23 00:00 var
+[?2004hroot@352208cbb2eb:/# cd /usr/share/nginx/htlm  ml
+[?2004l[?2004hroot@352208cbb2eb:/usr/share/nginx/html# ls
+[?2004l50x.html  index.html
+[?2004hroot@352208cbb2eb:/usr/share/nginx/html# 
+[?2004l[?2004hroot@352208cbb2eb:/usr/share/nginx/html# which nano
+[?2004l[?2004hroot@352208cbb2eb:/usr/share/nginx/html# which vi
+[?2004l[?2004hroot@352208cbb2eb:/usr/share/nginx/html# which vim
+[?2004l[?2004hroot@352208cbb2eb:/usr/share/nginx/html# exit
+[?2004lexit
+]0;ras@fedora:~/linux/week02]3008;end=edb8ccdc-6e94-4d1f-a63e-892e30f683b8;exit=failure;status=1\]3008;start=994638e9-68d7-443c-b063-08f5db07c7f2;machineid=69c4c6fade2c4aa683f39b0f0eb549cf;user=ras;hostname=fedora;bootid=a0f08e94-c6d7-4bbb-996d-81bf9c032080;pid=00000000000000017152;type=shell;cwd=/home/ras/linux/week02\[?2004h[0m[32mras@fedora[0m:[32m~/linux/week02[0m$ docker run -d --name my-apache -p 8081:80 httpd:latest \
+[?2004l[?2004h> # map port: https:[K[Kd:80 --> localhost:8081 \ [K[K[K, httpd:latest ,[K<-- apache server
+[?2004l]3008;start=68164fb0-eadc-4c22-9026-841934a63ed6;machineid=69c4c6fade2c4aa683f39b0f0eb549cf;user=ras;hostname=fedora;bootid=a0f08e94-c6d7-4bbb-996d-81bf9c032080;pid=00000000000000017152;type=command;cwd=/home/ras/linux/week02\Unable to find image 'httpd:latest' locally
+latest: Pulling from library/httpd
+
+[1A[2K4f4fb700ef54: Pulling fs layer [1B
+[1A[2K80414dfb8f15: Pulling fs layer [1B
+[1A[2K47a6bbb8d6d8: Pulling fs layer [1B
+[1A[2K7079f4501db6: Pulling fs layer [1B
+[1A[2K242bb693a1d3: Pulling fs layer [1B
+[1A[2Kea9cd2f459bd: Download complete [1B
+[1A[2K44fabeaa234c: Downloading [======================>                            ]  1.049MB/2.292MB[1B[7A[2K4f4fb700ef54: Download complete [7B[1A[2K44fabeaa234c: Downloading [==================================================>]  2.292MB/2.292MB[1B[1A[2K44fabeaa234c: Download complete [1B[6A[2K80414dfb8f15: Downloading [===>                                               ]  1.049MB/13.45MB[6B[4A[2K7079f4501db6: Download complete [4B[7A[2K4f4fb700ef54: Pull complete [7B[4A[2K7079f4501db6: Pull complete [4B[6A[2K80414dfb8f15: Downloading [=======>                                           ]  2.097MB/13.45MB[6B[6A[2K80414dfb8f15: Downloading [===========>                                       ]  3.146MB/13.45MB[6B[6A[2K80414dfb8f15: Downloading [===============>                                   ]  4.194MB/13.45MB[6B[6A[2K80414dfb8f15: Downloading [===================>                               ]  5.243MB/13.45MB[6B[3A[2K242bb693a1d3: Downloading [==========================>                        ]  1.049MB/1.997MB[3B[6A[2K80414dfb8f15: Downloading [===================>                               ]  5.243MB/13.45MB[6B[3A[2K242bb693a1d3: Downloading [==========================>                        ]  1.049MB/1.997MB[3B[6A[2K80414dfb8f15: Downloading [=======================>                           ]  6.291MB/13.45MB[6B[6A[2K80414dfb8f15: Downloading [===========================>                       ]   7.34MB/13.45MB[6B[5A[2K47a6bbb8d6d8: Download complete [5B[3A[2K242bb693a1d3: Downloading [==========================>                        ]  1.049MB/1.997MB[3B[3A[2K242bb693a1d3: Downloading [==========================>                        ]  1.049MB/1.997MB[3B[6A[2K80414dfb8f15: Downloading [===============================>                   ]  8.389MB/13.45MB[6B[3A[2K242bb693a1d3: Downloading [==========================>                        ]  1.049MB/1.997MB[3B[6A[2K80414dfb8f15: Downloading [===================================>               ]  9.437MB/13.45MB[6B[3A[2K242bb693a1d3: Downloading [==========================>                        ]  1.049MB/1.997MB[3B[6A[2K80414dfb8f15: Downloading [======================================>            ]  10.49MB/13.45MB[6B[3A[2K242bb693a1d3: Download complete [3B[6A[2K80414dfb8f15: Downloading [==========================================>        ]  11.53MB/13.45MB[6B[3A[2K242bb693a1d3: Pull complete [3B[6A[2K80414dfb8f15: Downloading [==============================================>    ]  12.58MB/13.45MB[6B[6A[2K80414dfb8f15: Download complete [6B[6A[2K80414dfb8f15: Extracting 1 s[6B[6A[2K80414dfb8f15: Extracting 1 s[6B[6A[2K80414dfb8f15: Extracting 1 s[6B[5A[2K47a6bbb8d6d8: Pull complete [5B[6A[2K80414dfb8f15: Pull complete [6BDigest: sha256:96b1e8f69ee3adde956e819f7a7c3e706edef7ad88a26a491734015e5c595333
+Status: Downloaded newer image for httpd:latest
+cd336a90a81c376bc8be20b1e9475145344a85981408e19ed59da3c4321de7ad
+]0;ras@fedora:~/linux/week02]3008;end=68164fb0-eadc-4c22-9026-841934a63ed6;exit=success\]3008;start=994638e9-68d7-443c-b063-08f5db07c7f2;machineid=69c4c6fade2c4aa683f39b0f0eb549cf;user=ras;hostname=fedora;bootid=a0f08e94-c6d7-4bbb-996d-81bf9c032080;pid=00000000000000017152;type=shell;cwd=/home/ras/linux/week02\[?2004h[0m[32mras@fedora[0m:[32m~/linux/week02[0m$ docker ps
+[?2004l]3008;start=fe31dbfa-c80c-4c9c-81b8-2cac76041782;machineid=69c4c6fade2c4aa683f39b0f0eb549cf;user=ras;hostname=fedora;bootid=a0f08e94-c6d7-4bbb-996d-81bf9c032080;pid=00000000000000017152;type=command;cwd=/home/ras/linux/week02\CONTAINER ID   IMAGE          COMMAND                   CREATED         STATUS         PORTS                                     NAMES
+cd336a90a81c   httpd:latest   "httpd-foreground"        2 seconds ago   Up 2 seconds   0.0.0.0:8081->80/tcp, [::]:8081->80/tcp   my-apache
+352208cbb2eb   nginx:latest   "/docker-entrypoint.…"   6 minutes ago   Up 6 minutes   0.0.0.0:8080->80/tcp, [::]:8080->80/tcp   my-nginx
+]0;ras@fedora:~/linux/week02]3008;end=fe31dbfa-c80c-4c9c-81b8-2cac76041782;exit=success\]3008;start=994638e9-68d7-443c-b063-08f5db07c7f2;machineid=69c4c6fade2c4aa683f39b0f0eb549cf;user=ras;hostname=fedora;bootid=a0f08e94-c6d7-4bbb-996d-81bf9c032080;pid=00000000000000017152;type=shell;cwd=/home/ras/linux/week02\[?2004h[0m[32mras@fedora[0m:[32m~/linux/week02[0m$ docker ps -a
+[?2004l]3008;start=152ca611-fa29-4310-8a9f-fd381d0f58e4;machineid=69c4c6fade2c4aa683f39b0f0eb549cf;user=ras;hostname=fedora;bootid=a0f08e94-c6d7-4bbb-996d-81bf9c032080;pid=00000000000000017152;type=command;cwd=/home/ras/linux/week02\CONTAINER ID   IMAGE          COMMAND                   CREATED          STATUS                      PORTS                                     NAMES
+cd336a90a81c   httpd:latest   "httpd-foreground"        4 seconds ago    Up 4 seconds                0.0.0.0:8081->80/tcp, [::]:8081->80/tcp   my-apache
+352208cbb2eb   nginx:latest   "/docker-entrypoint.…"   6 minutes ago    Up 6 minutes                0.0.0.0:8080->80/tcp, [::]:8080->80/tcp   my-nginx
+ca12be14ae49   hello-world    "/hello"                  22 minutes ago   Exited (0) 22 minutes ago                                             sad_curran
+05985cc1a137   hello-world    "/hello"                  31 minutes ago   Exited (0) 31 minutes ago                                             heuristic_snyder
+]0;ras@fedora:~/linux/week02]3008;end=152ca611-fa29-4310-8a9f-fd381d0f58e4;exit=success\]3008;start=994638e9-68d7-443c-b063-08f5db07c7f2;machineid=69c4c6fade2c4aa683f39b0f0eb549cf;user=ras;hostname=fedora;bootid=a0f08e94-c6d7-4bbb-996d-81bf9c032080;pid=00000000000000017152;type=shell;cwd=/home/ras/linux/week02\[?2004h[0m[32mras@fedora[0m:[32m~/linux/week02[0m$ docker stop $(docker ps -q)[C[1@d[1@o[1@c[1@k[1@e[1@r[1@ [1@r[1@m[1@ [1@$[1@9[1P[1@([C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C)
+[?2004l]3008;start=1b6b5ee6-6af4-434e-b389-591c7f84d765;machineid=69c4c6fade2c4aa683f39b0f0eb549cf;user=ras;hostname=fedora;bootid=a0f08e94-c6d7-4bbb-996d-81bf9c032080;pid=00000000000000017152;type=command;cwd=/home/ras/linux/week02\cd336a90a81c
+352208cbb2eb
+]0;ras@fedora:~/linux/week02]3008;end=1b6b5ee6-6af4-434e-b389-591c7f84d765;exit=success\]3008;start=994638e9-68d7-443c-b063-08f5db07c7f2;machineid=69c4c6fade2c4aa683f39b0f0eb549cf;user=ras;hostname=fedora;bootid=a0f08e94-c6d7-4bbb-996d-81bf9c032080;pid=00000000000000017152;type=shell;cwd=/home/ras/linux/week02\[?2004h[0m[32mras@fedora[0m:[32m~/linux/week02[0m$ docker rm $(docker ps -q[Kaq)
+[?2004l]3008;start=9f944811-f5e3-45ee-8f58-91c91319f803;machineid=69c4c6fade2c4aa683f39b0f0eb549cf;user=ras;hostname=fedora;bootid=a0f08e94-c6d7-4bbb-996d-81bf9c032080;pid=00000000000000017152;type=command;cwd=/home/ras/linux/week02\ca12be14ae49
+05985cc1a137
+]0;ras@fedora:~/linux/week02]3008;end=9f944811-f5e3-45ee-8f58-91c91319f803;exit=success\]3008;start=994638e9-68d7-443c-b063-08f5db07c7f2;machineid=69c4c6fade2c4aa683f39b0f0eb549cf;user=ras;hostname=fedora;bootid=a0f08e94-c6d7-4bbb-996d-81bf9c032080;pid=00000000000000017152;type=shell;cwd=/home/ras/linux/week02\[?2004h[0m[32mras@fedora[0m:[32m~/linux/week02[0m$ docker images
+[?2004l]3008;start=607ee5e4-c0bf-4c62-ab76-7c9afe032246;machineid=69c4c6fade2c4aa683f39b0f0eb549cf;user=ras;hostname=fedora;bootid=a0f08e94-c6d7-4bbb-996d-81bf9c032080;pid=00000000000000017152;type=command;cwd=/home/ras/linux/week02\                                                                                               [1m[106m[30mi[0m[0m [96mInfo → [0m[0m [38;5;0m[48;5;14m U [0m In Use
+[39m[1mIMAGE[0m                [39m[1mID[0m             [39m[1mDISK USAGE[0m   [39m[1mCONTENT SIZE[0m   [39m[1mEXTRA[0m
+[34m[1mhello-world:latest[0m   [39m85404b3c5395[0m       [39m25.9kB[0m         [39m9.52kB[0m        
+[34m[1mhttpd:latest[0m         [39m96b1e8f69ee3[0m        [39m177MB[0m         [39m47.6MB[0m        
+[34m[1mnginx:latest[0m         [39mbc45d248c4e1[0m        [39m240MB[0m         [39m65.8MB[0m        
+]0;ras@fedora:~/linux/week02]3008;end=607ee5e4-c0bf-4c62-ab76-7c9afe032246;exit=success\]3008;start=994638e9-68d7-443c-b063-08f5db07c7f2;machineid=69c4c6fade2c4aa683f39b0f0eb549cf;user=ras;hostname=fedora;bootid=a0f08e94-c6d7-4bbb-996d-81bf9c032080;pid=00000000000000017152;type=shell;cwd=/home/ras/linux/week02\[?2004h[0m[32mras@fedora[0m:[32m~/linux/week02[0m$ docker system prune -f hello-workd[K[Kld:latest
+[?2004l]3008;start=474e5263-d34f-40b9-bde9-b5b544c2c842;machineid=69c4c6fade2c4aa683f39b0f0eb549cf;user=ras;hostname=fedora;bootid=a0f08e94-c6d7-4bbb-996d-81bf9c032080;pid=00000000000000017152;type=command;cwd=/home/ras/linux/week02\docker: 'docker system prune' accepts no arguments
+
+Usage:  docker system prune [OPTIONS]
+
+Run 'docker system prune --help' for more information
+]0;ras@fedora:~/linux/week02]3008;end=474e5263-d34f-40b9-bde9-b5b544c2c842;exit=failure;status=1\]3008;start=994638e9-68d7-443c-b063-08f5db07c7f2;machineid=69c4c6fade2c4aa683f39b0f0eb549cf;user=ras;hostname=fedora;bootid=a0f08e94-c6d7-4bbb-996d-81bf9c032080;pid=00000000000000017152;type=shell;cwd=/home/ras/linux/week02\[?2004h[0m[32mras@fedora[0m:[32m~/linux/week02[0m$ docker system prune -f hello-world:latest[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kd[Kr[K[K --help
+[?2004l]3008;start=77783b51-56f2-4e76-ae16-8b7b8ea58d3e;machineid=69c4c6fade2c4aa683f39b0f0eb549cf;user=ras;hostname=fedora;bootid=a0f08e94-c6d7-4bbb-996d-81bf9c032080;pid=00000000000000017152;type=command;cwd=/home/ras/linux/week02\Usage:  docker system COMMAND
+
+Manage Docker
+
+Commands:
+  df          Show docker disk usage
+  events      Get real time events from the server
+  info        Display system-wide information
+  prune       Remove unused data
+
+Run 'docker system COMMAND --help' for more information on a command.
+]0;ras@fedora:~/linux/week02]3008;end=77783b51-56f2-4e76-ae16-8b7b8ea58d3e;exit=success\]3008;start=994638e9-68d7-443c-b063-08f5db07c7f2;machineid=69c4c6fade2c4aa683f39b0f0eb549cf;user=ras;hostname=fedora;bootid=a0f08e94-c6d7-4bbb-996d-81bf9c032080;pid=00000000000000017152;type=shell;cwd=/home/ras/linux/week02\[?2004h[0m[32mras@fedora[0m:[32m~/linux/week02[0m$ docker system --help[K[K[K[K[K[Kpr[K[K[K[K[K[K[K[K[Kimages [K --help
+[?2004l]3008;start=1dea7977-ffcc-4c51-9997-3bf72326b9a5;machineid=69c4c6fade2c4aa683f39b0f0eb549cf;user=ras;hostname=fedora;bootid=a0f08e94-c6d7-4bbb-996d-81bf9c032080;pid=00000000000000017152;type=command;cwd=/home/ras/linux/week02\Usage:  docker images [OPTIONS] [REPOSITORY[:TAG]]
+
+List images
+
+Aliases:
+  docker image ls, docker image list, docker images
+
+Options:
+  -a, --all             Show all images (default hides intermediate and dangling images)
+      --digests         Show digests
+  -f, --filter filter   Filter output based on conditions provided
+      --format string   Format output using a custom template:
+                        'table':            Print output in table format with column headers (default)
+                        'table TEMPLATE':   Print output in table format using the given Go template
+                        'json':             Print in JSON format
+                        'TEMPLATE':         Print output using the given Go template.
+                        Refer to https://docs.docker.com/go/formatting/ for more information about formatting
+                        output with templates
+      --no-trunc        Don't truncate output
+  -q, --quiet           Only show image IDs
+      --tree            List multi-platform images as a tree (EXPERIMENTAL)
+]0;ras@fedora:~/linux/week02]3008;end=1dea7977-ffcc-4c51-9997-3bf72326b9a5;exit=success\]3008;start=994638e9-68d7-443c-b063-08f5db07c7f2;machineid=69c4c6fade2c4aa683f39b0f0eb549cf;user=ras;hostname=fedora;bootid=a0f08e94-c6d7-4bbb-996d-81bf9c032080;pid=00000000000000017152;type=shell;cwd=/home/ras/linux/week02\[?2004h[0m[32mras@fedora[0m:[32m~/linux/week02[0m$ docker images --help[K[K[K[K[K[K[K[K[K[K[K[Kmages [K[K --tree
+[?2004l]3008;start=51e2e9e3-0784-4b58-bcb4-9798d4ae079b;machineid=69c4c6fade2c4aa683f39b0f0eb549cf;user=ras;hostname=fedora;bootid=a0f08e94-c6d7-4bbb-996d-81bf9c032080;pid=00000000000000017152;type=command;cwd=/home/ras/linux/week02\unknown flag: --tree
+
+Usage:  docker image
+
+Run 'docker image --help' for more information
+]0;ras@fedora:~/linux/week02]3008;end=51e2e9e3-0784-4b58-bcb4-9798d4ae079b;exit=failure;status=125\]3008;start=994638e9-68d7-443c-b063-08f5db07c7f2;machineid=69c4c6fade2c4aa683f39b0f0eb549cf;user=ras;hostname=fedora;bootid=a0f08e94-c6d7-4bbb-996d-81bf9c032080;pid=00000000000000017152;type=shell;cwd=/home/ras/linux/week02\[?2004h[0m[32mras@fedora[0m:[32m~/linux/week02[0m$ docker image --tree[K[K[K[K[K[Kls
+[?2004l]3008;start=7d2c5108-af31-479d-a8eb-4c684e470fc3;machineid=69c4c6fade2c4aa683f39b0f0eb549cf;user=ras;hostname=fedora;bootid=a0f08e94-c6d7-4bbb-996d-81bf9c032080;pid=00000000000000017152;type=command;cwd=/home/ras/linux/week02\                                                                                               [1m[106m[30mi[0m[0m [96mInfo → [0m[0m [38;5;0m[48;5;14m U [0m In Use
+[39m[1mIMAGE[0m                [39m[1mID[0m             [39m[1mDISK USAGE[0m   [39m[1mCONTENT SIZE[0m   [39m[1mEXTRA[0m
+[34m[1mhello-world:latest[0m   [39m85404b3c5395[0m       [39m25.9kB[0m         [39m9.52kB[0m        
+[34m[1mhttpd:latest[0m         [39m96b1e8f69ee3[0m        [39m177MB[0m         [39m47.6MB[0m        
+[34m[1mnginx:latest[0m         [39mbc45d248c4e1[0m        [39m240MB[0m         [39m65.8MB[0m        
+]0;ras@fedora:~/linux/week02]3008;end=7d2c5108-af31-479d-a8eb-4c684e470fc3;exit=success\]3008;start=994638e9-68d7-443c-b063-08f5db07c7f2;machineid=69c4c6fade2c4aa683f39b0f0eb549cf;user=ras;hostname=fedora;bootid=a0f08e94-c6d7-4bbb-996d-81bf9c032080;pid=00000000000000017152;type=shell;cwd=/home/ras/linux/week02\[?2004h[0m[32mras@fedora[0m:[32m~/linux/week02[0m$ clear
+[?2004l]3008;start=efcd0f36-a96d-46ff-9079-5136449462c2;machineid=69c4c6fade2c4aa683f39b0f0eb549cf;user=ras;hostname=fedora;bootid=a0f08e94-c6d7-4bbb-996d-81bf9c032080;pid=00000000000000017152;type=command;cwd=/home/ras/linux/week02\[H[2J[3J]0;ras@fedora:~/linux/week02]3008;end=efcd0f36-a96d-46ff-9079-5136449462c2;exit=success\]3008;start=994638e9-68d7-443c-b063-08f5db07c7f2;machineid=69c4c6fade2c4aa683f39b0f0eb549cf;user=ras;hostname=fedora;bootid=a0f08e94-c6d7-4bbb-996d-81bf9c032080;pid=00000000000000017152;type=shell;cwd=/home/ras/linux/week02\[?2004h[0m[32mras@fedora[0m:[32m~/linux/week02[0m$ docker system prune -a
+[?2004l]3008;start=f1a72342-de37-49b7-a590-dfc6741a5202;machineid=69c4c6fade2c4aa683f39b0f0eb549cf;user=ras;hostname=fedora;bootid=a0f08e94-c6d7-4bbb-996d-81bf9c032080;pid=00000000000000017152;type=command;cwd=/home/ras/linux/week02\WARNING! This will remove:
+  - all stopped containers
+  - all networks not used by at least one container
+  - all images without at least one container associated to them
+  - all build cache
+
+Are you sure you want to continue? [y/N] y
+Deleted Images:
+untagged: nginx:latest
+deleted: sha256:bc45d248c4e1d1709321de61566eb2b64d4f0e32765239d66573666be7f13349
+deleted: sha256:a6bead2c897e9e39ca1a2dbd241f96dc181c8d32adcb6201258624fb37d2c7fe
+deleted: sha256:33564df5f8f5334b28e25be085c93e4251e83398232733f3776506cd40cff297
+untagged: hello-world:latest
+deleted: sha256:85404b3c53951c3ff5d40de0972b1bb21fafa2e8daa235355baf44f33db9dbdd
+deleted: sha256:2771e37a12b7bcb2902456ecf3f29bf9ee11ec348e66e8eb322d9780ad7fc2df
+deleted: sha256:6b75187531c5e9b6a85c8946d5d82e4ef3801e051fbff338f382f3edfa60e3d2
+untagged: httpd:latest
+deleted: sha256:96b1e8f69ee3adde956e819f7a7c3e706edef7ad88a26a491734015e5c595333
+deleted: sha256:5645956a5332f63307cd3633c036c3a610c3264cc6b51612ced69993d7fa368d
+deleted: sha256:8707dc11d3cb958506dfbee18e4456ae649b5df7ba3141a495ed3ba2038041aa
+
+Total reclaimed space: 83.63MB
+]0;ras@fedora:~/linux/week02]3008;end=f1a72342-de37-49b7-a590-dfc6741a5202;exit=success\]3008;start=994638e9-68d7-443c-b063-08f5db07c7f2;machineid=69c4c6fade2c4aa683f39b0f0eb549cf;user=ras;hostname=fedora;bootid=a0f08e94-c6d7-4bbb-996d-81bf9c032080;pid=00000000000000017152;type=shell;cwd=/home/ras/linux/week02\[?2004h[0m[32mras@fedora[0m:[32m~/linux/week02[0m$ clear
+[?2004l]3008;start=96a7d9ee-e1ae-4fa7-af83-3af74c5eb7b2;machineid=69c4c6fade2c4aa683f39b0f0eb549cf;user=ras;hostname=fedora;bootid=a0f08e94-c6d7-4bbb-996d-81bf9c032080;pid=00000000000000017152;type=command;cwd=/home/ras/linux/week02\[H[2J[3J]0;ras@fedora:~/linux/week02]3008;end=96a7d9ee-e1ae-4fa7-af83-3af74c5eb7b2;exit=success\]3008;start=994638e9-68d7-443c-b063-08f5db07c7f2;machineid=69c4c6fade2c4aa683f39b0f0eb549cf;user=ras;hostname=fedora;bootid=a0f08e94-c6d7-4bbb-996d-81bf9c032080;pid=00000000000000017152;type=shell;cwd=/home/ras/linux/week02\[?2004h[0m[32mras@fedora[0m:[32m~/linux/week02[0m$ docker images
+[?2004l]3008;start=a909433e-6a82-499c-8766-970c9a4a65d2;machineid=69c4c6fade2c4aa683f39b0f0eb549cf;user=ras;hostname=fedora;bootid=a0f08e94-c6d7-4bbb-996d-81bf9c032080;pid=00000000000000017152;type=command;cwd=/home/ras/linux/week02\                                                                                               [1m[106m[30mi[0m[0m [96mInfo → [0m[0m [38;5;0m[48;5;14m U [0m In Use
+[39m[1mIMAGE[0m   [39m[1mID[0m             [39m[1mDISK USAGE[0m   [39m[1mCONTENT SIZE[0m   [39m[1mEXTRA[0m
+]0;ras@fedora:~/linux/week02]3008;end=a909433e-6a82-499c-8766-970c9a4a65d2;exit=success\]3008;start=994638e9-68d7-443c-b063-08f5db07c7f2;machineid=69c4c6fade2c4aa683f39b0f0eb549cf;user=ras;hostname=fedora;bootid=a0f08e94-c6d7-4bbb-996d-81bf9c032080;pid=00000000000000017152;type=shell;cwd=/home/ras/linux/week02\[?2004h[0m[32mras@fedora[0m:[32m~/linux/week02[0m$ docker ps -aq
+[?2004l]3008;start=6c1ed9c2-537d-4e24-8203-6d869e2d50d5;machineid=69c4c6fade2c4aa683f39b0f0eb549cf;user=ras;hostname=fedora;bootid=a0f08e94-c6d7-4bbb-996d-81bf9c032080;pid=00000000000000017152;type=command;cwd=/home/ras/linux/week02\]0;ras@fedora:~/linux/week02]3008;end=6c1ed9c2-537d-4e24-8203-6d869e2d50d5;exit=success\]3008;start=994638e9-68d7-443c-b063-08f5db07c7f2;machineid=69c4c6fade2c4aa683f39b0f0eb549cf;user=ras;hostname=fedora;bootid=a0f08e94-c6d7-4bbb-996d-81bf9c032080;pid=00000000000000017152;type=shell;cwd=/home/ras/linux/week02\[?2004h[0m[32mras@fedora[0m:[32m~/linux/week02[0m$ exit
+[?2004l]3008;start=3ce87850-6ffa-466e-8429-a2db57bd6a1f;machineid=69c4c6fade2c4aa683f39b0f0eb549cf;user=ras;hostname=fedora;bootid=a0f08e94-c6d7-4bbb-996d-81bf9c032080;pid=00000000000000017152;type=command;cwd=/home/ras/linux/week02\exit
+]0;ras@fedora:~/linux/week02]3008;end=20a3c174-111c-4391-b845-fba9f714694c;exit=success\]3008;start=2de83d4f-5338-428f-987a-b559cd018b51;machineid=69c4c6fade2c4aa683f39b0f0eb549cf;user=ras;hostname=fedora;bootid=a0f08e94-c6d7-4bbb-996d-81bf9c032080;pid=00000000000000012529;type=shell;cwd=/home/ras/linux/week02\[?2004h[0m[32mras@fedora[0m:[32m~/linux/week02[0m$ cd ..[K[K[K[K[Khead 2026_20231023_week02_log.txt 
+[?2004l]3008;start=56a89280-1f4c-47eb-a4a6-1cbcd7399f20;machineid=69c4c6fade2c4aa683f39b0f0eb549cf;user=ras;hostname=fedora;bootid=a0f08e94-c6d7-4bbb-996d-81bf9c032080;pid=00000000000000012529;type=command;cwd=/home/ras/linux/week02\Script started on 2026-03-13 10:11:02+09:00 [TERM="xterm-256color" TTY="/dev/pts/1" COLUMNS="116" LINES="24"]
+]0;ras@fedora:~/linux/week02]3008;start=25ce72f7-86a0-46fd-9b73-bbdcb1ea216d;machineid=69c4c6fade2c4aa683f39b0f0eb549cf;user=ras;hostname=fedora;bootid=a0f08e94-c6d7-4bbb-996d-81bf9c032080;pid=00000000000000011339;type=shell;cwd=/home/ras/linux/week02\[?2004h[0m[32mras@fedora[0m:[32m~/linux/week02[0m$ # this[K[K[K[K깃, gh 셋팅 완료 상태
+[?2004l]0;ras@fedora:~/linux/week02]3008;end=5aeb58b0-0c19-4448-ac40-773baa004d8b;exit=success\]3008;start=25ce72f7-86a0-46fd-9b73-bbdcb1ea216d;machineid=69c4c6fade2c4aa683f39b0f0eb549cf;user=ras;hostname=fedora;bootid=a0f08e94-c6d7-4bbb-996d-81bf9c032080;pid=00000000000000011339;type=shell;cwd=/home/ras/linux/week02\[?2004h[0m[32mras@fedora[0m:[32m~/linux/week02[0m$ ls -Al | grep .git
+[?2004l]3008;start=abcf5195-d09f-4465-b4e7-fb6def35685d;machineid=69c4c6fade2c4aa683f39b0f0eb549cf;user=ras;hostname=fedora;bootid=a0f08e94-c6d7-4bbb-996d-81bf9c032080;pid=00000000000000011339;type=command;cwd=/home/ras/linux/week02\]0;ras@fedora:~/linux/week02]3008;end=abcf5195-d09f-4465-b4e7-fb6def35685d;exit=failure;status=1\]3008;start=25ce72f7-86a0-46fd-9b73-bbdcb1ea216d;machineid=69c4c6fade2c4aa683f39b0f0eb549cf;user=ras;hostname=fedora;bootid=a0f08e94-c6d7-4bbb-996d-81bf9c032080;pid=00000000000000011339;type=shell;cwd=/home/ras/linux/week02\[?2004h[0m[32mras@fedora[0m:[32m~/linux/week02[0m$ ls -Al .. | grep .git
+[?2004l]3008;start=65b999c2-c6d1-466a-952e-e0f28049c5b6;machineid=69c4c6fade2c4aa683f39b0f0eb549cf;user=ras;hostname=fedora;bootid=a0f08e94-c6d7-4bbb-996d-81bf9c032080;pid=00000000000000011339;type=command;cwd=/home/ras/linux/week02\drwxr-xr-x. 7 ras ras 4096  3월 13일  09:40 [01;31m[K.git[m[K
+]0;ras@fedora:~/linux/week02]3008;end=65b999c2-c6d1-466a-952e-e0f28049c5b6;exit=success\]3008;start=25ce72f7-86a0-46fd-9b73-bbdcb1ea216d;machineid=69c4c6fade2c4aa683f39b0f0eb549cf;user=ras;hostname=fedora;bootid=a0f08e94-c6d7-4bbb-996d-81bf9c032080;pid=00000000000000011339;type=shell;cwd=/home/ras/linux/week02\[?2004h[0m[32mras@fedora[0m:[32m~/linux/week02[0m$ [K[0m[32mras@fedora[0m:[32m~/linux/week02[0m$ [K[0m[32mras@fedora[0m:[32m~/linux/week02[0m$ [K[0m[32mras@fedora[0m:[32m~/linux/week02[0m$ ls
+[?2004l]3008;start=6f49a9b9-2801-4780-a38d-421411c1dbdc;machineid=69c4c6fade2c4aa683f39b0f0eb549cf;user=ras;hostname=fedora;bootid=a0f08e94-c6d7-4bbb-996d-81bf9c032080;pid=00000000000000011339;type=command;cwd=/home/ras/linux/week02\2026_20231023_week02_log.txt  SCRIPT.sh  t.txt
+]0;ras@fedora:~/linux/week02]3008;end=6f49a9b9-2801-4780-a38d-421411c1dbdc;exit=success\]3008;start=25ce72f7-86a0-46fd-9b73-bbdcb1ea216d;machineid=69c4c6fade2c4aa683f39b0f0eb549cf;user=ras;hostname=fedora;bootid=a0f08e94-c6d7-4bbb-996d-81bf9c032080;pid=00000000000000011339;type=shell;cwd=/home/ras/linux/week02\[?2004h[0m[32mras@fedora[0m:[32m~/linux/week02[0m$ exit
+[?2004l]3008;start=98e6a306-ce74-4d22-93fd-66f81016ec66;machineid=69c4c6fade2c4aa683f39b0f0eb549cf;user=ras;hostname=fedora;bootid=a0f08e94-c6d7-4bbb-996d-81bf9c032080;pid=00000000000000011339;type=command;cwd=/home/ras/linux/week02\exit
+
+]0;ras@fedora:~/linux/week02]3008;end=56a89280-1f4c-47eb-a4a6-1cbcd7399f20;exit=success\]3008;start=2de83d4f-5338-428f-987a-b559cd018b51;machineid=69c4c6fade2c4aa683f39b0f0eb549cf;user=ras;hostname=fedora;bootid=a0f08e94-c6d7-4bbb-996d-81bf9c032080;pid=00000000000000012529;type=shell;cwd=/home/ras/linux/week02\[?2004h[0m[32mras@fedora[0m:[32m~/linux/week02[0m$ tail 2026_20231023_week02_log.txt 
+[?2004l]3008;start=3b9554e7-681c-41e7-a0ff-ceb183d3802d;machineid=69c4c6fade2c4aa683f39b0f0eb549cf;user=ras;hostname=fedora;bootid=a0f08e94-c6d7-4bbb-996d-81bf9c032080;pid=00000000000000012529;type=command;cwd=/home/ras/linux/week02\[?2004l]0;ras@fedora:~/linux/week02]3008;end=5aeb58b0-0c19-4448-ac40-773baa004d8b;exit=success\]3008;start=25ce72f7-86a0-46fd-9b73-bbdcb1ea216d;machineid=69c4c6fade2c4aa683f39b0f0eb549cf;user=ras;hostname=fedora;bootid=a0f08e94-c6d7-4bbb-996d-81bf9c032080;pid=00000000000000011339;type=shell;cwd=/home/ras/linux/week02\[?2004h[0m[32mras@fedora[0m:[32m~/linux/week02[0m$ ls -Al | grep .git
+[?2004l]3008;start=abcf5195-d09f-4465-b4e7-fb6def35685d;machineid=69c4c6fade2c4aa683f39b0f0eb549cf;user=ras;hostname=fedora;bootid=a0f08e94-c6d7-4bbb-996d-81bf9c032080;pid=00000000000000011339;type=command;cwd=/home/ras/linux/week02\]0;ras@fedora:~/linux/week02]3008;end=abcf5195-d09f-4465-b4e7-fb6def35685d;exit=failure;status=1\]3008;start=25ce72f7-86a0-46fd-9b73-bbdcb1ea216d;machineid=69c4c6fade2c4aa683f39b0f0eb549cf;user=ras;hostname=fedora;bootid=a0f08e94-c6d7-4bbb-996d-81bf9c032080;pid=00000000000000011339;type=shell;cwd=/home/ras/linux/week02\[?2004h[0m[32mras@fedora[0m:[32m~/linux/week02[0m$ ls -Al .. | grep .git
+[?2004l]3008;start=65b999c2-c6d1-466a-952e-e0f28049c5b6;machineid=69c4c6fade2c4aa683f39b0f0eb549cf;user=ras;hostname=fedora;bootid=a0f08e94-c6d7-4bbb-996d-81bf9c032080;pid=00000000000000011339;type=command;cwd=/home/ras/linux/week02\drwxr-xr-x. 7 ras ras 4096  3월 13일  09:40 [01;31m[K.git[m[K
+]0;ras@fedora:~/linux/week02]3008;end=65b999c2-c6d1-466a-952e-e0f28049c5b6;exit=success\]3008;start=25ce72f7-86a0-46fd-9b73-bbdcb1ea216d;machineid=69c4c6fade2c4aa683f39b0f0eb549cf;user=ras;hostname=fedora;bootid=a0f08e94-c6d7-4bbb-996d-81bf9c032080;pid=00000000000000011339;type=shell;cwd=/home/ras/linux/week02\[?2004h[0m[32mras@fedora[0m:[32m~/linux/week02[0m$ [K[0m[32mras@fedora[0m:[32m~/linux/week02[0m$ [K[0m[32mras@fedora[0m:[32m~/linux/week02[0m$ [K[0m[32mras@fedora[0m:[32m~/linux/week02[0m$ ls
+[?2004l]3008;start=6f49a9b9-2801-4780-a38d-421411c1dbdc;machineid=69c4c6fade2c4aa683f39b0f0eb549cf;user=ras;hostname=fedora;bootid=a0f08e94-c6d7-4bbb-996d-81bf9c032080;pid=00000000000000011339;type=command;cwd=/home/ras/linux/week02\2026_20231023_week02_log.txt  SCRIPT.sh  t.txt
+]0;ras@fedora:~/linux/week02]3008;end=6f49a9b9-2801-4780-a38d-421411c1dbdc;exit=success\]3008;start=25ce72f7-86a0-46fd-9b73-bbdcb1ea216d;machineid=69c4c6fade2c4aa683f39b0f0eb549cf;user=ras;hostname=fedora;bootid=a0f08e94-c6d7-4bbb-996d-81bf9c032080;pid=00000000000000011339;type=shell;cwd=/home/ras/linux/week02\[?2004h[0m[32mras@fedora[0m:[32m~/linux/week02[0m$ exit
+[?2004l]3008;start=98e6a306-ce74-4d22-93fd-66f81016ec66;machineid=69c4c6fade2c4aa683f39b0f0eb549cf;user=ras;hostname=fedora;bootid=a0f08e94-c6d7-4bbb-996d-81bf9c032080;pid=00000000000000011339;type=command;cwd=/home/ras/linux/week02\exit
+
+]0;ras@fedora:~/linux/week02]3008;end=56a89280-1f4c-47eb-a4a6-1cbcd7399f20;exit=success\]3008;start=2de83d4f-5338-428f-987a-b559cd018b51;machineid=69c4c6fade2c4aa683f39b0f0eb549cf;user=ras;hostname=fedora;bootid=a0f08e94-c6d7-4bbb-996d-81bf9c032080;pid=00000000000000012529;type=shell;cwd=/home/ras/linux/week02\[?2004h[0m[32mras@fedora[0m:[32m~/linux/week02[0m$ tail 2026_20231023_week02_log.txt 
+[?2004l]3008;start=3b9554e7-681c-41e7-a0ff-ceb183d3802d;machineid=69c4c6fade2c4aa683f39b0f0eb549cf;user=ras;hostname=fedora;bootid=a0f08e94-c6d7-4bbb-996d-81bf9c032080;pid=00000000000000012529;type=command;cwd=/home/ras/linux/week02\]0;ras@fedora:~/linux/week02]3008;end=3b9554e7-681c-41e7-a0ff-ceb183d3802d;exit=success\]3008;start=2de83d4f-5338-428f-987a-b559cd018b51;machineid=69c4c6fade2c4aa683f39b0f0eb549cf;user=ras;hostname=fedora;bootid=a0f08e94-c6d7-4bbb-996d-81bf9c032080;pid=00000000000000012529;type=shell;cwd=/home/ras/linux/week02\[?2004h[0m[32mras@fedora[0m:[32m~/linux/week02[0m$ exit
+[?2004l]3008;start=6572a032-2d7f-494e-b79d-d8dc1f0db6f8;machineid=69c4c6fade2c4aa683f39b0f0eb549cf;user=ras;hostname=fedora;bootid=a0f08e94-c6d7-4bbb-996d-81bf9c032080;pid=00000000000000012529;type=command;cwd=/home/ras/linux/week02\exit
+
+Script done on 2026-03-13 11:30:28+09:00 [COMMAND_EXIT_CODE="0"]
