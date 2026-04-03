@@ -12,7 +12,7 @@ int main(){
 		printf("parent never stops itself\n");
 		while(1) sleep(1);
 	} else { // pid < 0
-		perror("fork: fail, exiting\n"); return 1;
+		perror("fork: fail, exiting\n"); return pid;
 	}
 	return 0; // PROCESS_EXIT_OK
 }
