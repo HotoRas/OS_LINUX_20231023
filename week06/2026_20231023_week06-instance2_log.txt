@@ -1,0 +1,481 @@
+Script started on 2026-04-10 09:51:01+09:00 [TERM="linux" TTY="/dev/pts/1" COLUMNS="240" LINES="67"]
+Run "logger_start <week_no>" to begin script log
+]3008;start=a94cb979-166d-4b6b-8cfb-323085ca0558;machineid=69c4c6fade2c4aa683f39b0f0eb549cf;user=ras;hostname=fedora;bootid=76369097-623a-4e6c-886f-c759a24dcede;pid=00000000000000004366;type=shell;cwd=/home/ras/linux/week06-instance2\[?2004h[0m[32mras@fedora[0m:[32m~/linux/week06-instance2[0m$ watch -n 1 'ps -eo pid,ni,pcpu,comm --sort=-pcpu | grep stress | head -10'
+[?2004l]3008;start=3a26b2ef-c948-48fe-bd1a-eb1d4e8e4d52;machineid=69c4c6fade2c4aa683f39b0f0eb549cf;user=ras;hostname=fedora;bootid=76369097-623a-4e6c-886f-c759a24dcede;pid=00000000000000004366;type=command;cwd=/home/ras/linux/week06-instance2\)0[1;67r[m[4l[?7h[H[JEvery 1.0s: ps -eo pid,ni,pcpu,comm --sort=-pcpu | grep stress | head -10[1;209Hfedora: Fri Apr 10 09:51:39 2026[67;240H[1;234H40[67;240H[1;235H1[67;240H[1;235H2[67;240H[1;235H3[67;240H[1;235H4[67;240H[1;235H5[67;240H[1;235H6[67;240H[1;235H7[67;240H[1;235H8[67;240H[1;235H9[67;240H[1;234H50[67;240H[1;235H1[67;240H[1;235H2[67;240H[1;235H3[67;240H[1;235H4[67;240H[1;235H5[67;240H[1;235H6[67;240H[1;235H7[67;240H[1;235H8[67;240H[1;235H9[67;240H[1;232H2:00[67;240H[1;235H1[67;240H[1;235H2[67;240H[1;235H3[67;240H[1;235H4[67;240H[1;235H5[67;240H[1;235H6[67;240H[1;235H7[67;240H[1;235H8[67;240H[1;235H9[67;240H[1;234H10[67;240H[1;235H1[67;240H[1;235H2[67;240H[1;235H3[67;240H[1;235H4[67;240H[1;235H5[67;240H[1;235H6[67;240H[1;235H7[67;240H[1;235H8[67;240H[1;235H9[67;240H[1;234H20[67;240H[1;235H1[67;240H[1;235H2[67;240H[1;235H3[67;240H[1;235H4[67;240H[1;235H5[67;240H[1;235H6[67;240H[1;235H7[67;240H[1;235H8[67;240H[1;235H9[67;240H[1;234H30[67;240H[1;235H1[67;240H[1;235H2[67;240H[1;235H3[67;240H[1;235H4[67;240H[1;235H5[67;240H[1;235H7[67;240H[1;235H8[67;240H[1;235H9[67;240H[1;234H40[67;240H[1;235H1[67;240H[1;235H2[67;240H[1;235H3[3;4H4814   0  150 stress-ng-cpu[4;4H4808   0 28.5 stress-ng[67;240H[1;235H4[3;15H0[4;13H 1.8[67;240H[1;235H5[3;13H99.5[4;14H0.9[67;240H[1;235H6[3;16H6[4d6[67;240H[1;235H7[3;16H7[4d4[67;240H[1;235H8[3;14H8.6[4;6H78  10  8.1[4;27H-cpu[5;4H4872  10  5.0 stress-ng[6;4H4808   0  0.3 stress-ng[67;240H[1;235H9[3;14H6.8[4;14H9.3[5;14H1.8[67;240H[1;234H50[3;14H5.7[4d5[5d1[6d2[67;240H[1;235H1[3;16H0[4d3[5;14H0.8[67;240H[1;235H2[3;14H4.5[4d4[5d6[67;240H[1;235H3[3;16H0[4d5[5d5[6d1[67;240H[1;235H4[3;14H3.5[5d4[67;240H[1;235H5[3;16H2[4d6[5d3[67;240H[1;235H6[3;16H0[67;240H[1;235H7[3;14H2.7[4d5[67;240H[1;235H8[3;16H5[5d2[67;240H[1;235H9[3;16H4[4d6[67;240H[1;232H3:00[3;16H3[67;240H[1;235H1[3;16H1[67;240H[1;235H2[3;16H0[4d5[67;240H[1;235H3[3;14H1.9[4d6[5d1[6d0[67;240H[1;235H4[3;16H8[67;240H[1;235H5[3;16H6[67;240H[1;235H6[4;16H5[67;240H[1;235H7[3;16H5[67;240H[1;235H8[3;16H4[4d6[67;240H[1;235H9[67;240H[1;234H10[3;16H3[67;240H[1;235H1[3;16H2[67;240H[1;235H2[67;240H[1;235H3[3;16H1[67;240H[1;235H4[67;240H[1;235H5[3;16H0[67;240H[1;235H6[67;240H[1;235H7[5;16H0[67;240H[1;235H8[67;240H[1;235H9[3;14H0.9[67;240H[1;234H20[67;240H[1;235H1[67;240H[1;235H2[3;16H8[67;240H[1;235H3[67;240H[1;235H4[67;240H[1;235H5[3;16H7[67;240H[1;235H6[67;240H[1;235H7[67;240H[1;235H8[67;240H[1;235H9[3;16H6[67;240H[1;234H30[67;240H[1;235H1[67;240H[1;235H2[67;240H[1;235H3[67;240H[1;235H4[67;240H[1;235H5[3;16H5[67;240H[1;235H7[67;240H[1;235H8[67;240H[1;235H9[67;240H[1;234H40[67;240H[1;235H1[67;240H[1;235H2[3;16H4[67;240H[3d[M[5d[J[1;235H3[67;240H[1;235H4[3;13H11.2[67;240H[1;235H5[3;14H2.8[67;240H[1;235H6[3;14H4.3[67;240H[1;235H7[3;14H5.8[67;240H[3d[J[1;235H8[67;240H[1;235H9[67;240H[1;234H50[67;240H[1;235H1[67;240H[1;235H2[67;240H[1;235H3[67;240H[1;235H4[67;240H[1;235H5[67;240H[1;235H6[67;240H[1;235H7[67;240H[1;235H8[67;240H[1;235H9[67;240H[1;232H4:00[67;240H[1;235H1[67;240H[1;235H2[67;240H[1;235H3[67;240H[1;235H4[67;240H[1;235H5[67;240H[1;235H6[67;240H[1;235H7[67;240H[1;235H8[67;240H[1;235H9[67;240H[1;234H10[67;240H[1;235H1[67;240H[1;235H2[67;240H[1;235H3[67;240H[1;235H4[67;240H[1;235H5[67;240H[1;235H6[67;240H[1;235H7[67;240H[1;235H8[67;240H[1;235H9[67;240H[1;234H20[67;240H[1;235H1[67;240H[1;235H2[67;240H[1;235H3[67;240H[1;235H4[67;240H[1;235H5[67;240H[1;235H6[67;240H[1;235H7[67;240H[1;235H8[67;240H[1;235H9[67;240H[1;234H30[67;240H[1;235H1[67;240H[1;235H2[67;240H[1;235H3[67;240H[1;235H4[67;240H[1;235H5[67;240H[1;235H7[67;240H[1;235H8[67;240H[1;235H9[67;240H[1;234H40[67;240H[1;235H1[67;240H[1;235H2[67;240H[1;235H3[3;4H5576   0  103 stress-ng-cpu[4;4H5570   0  8.8 stress-ng[67;240H[1;235H4[3;16H0[4;14H2.2[67;240H[1;235H5[4;14H1[67;240H[1;235H6[3;13H99.4[4;14H0.8[67;240H[1;235H7[3;16H3[4d6[67;240H[1;235H8[3;16H6[4d5[67;240H[1;235H9[3;16H5[4d4[67;240H[1;234H50[3;16H4[67;240H[1;235H1[4;16H3[67;240H[1;235H2[67;240H[1;235H3[4;16H2[67;240H[1;235H4[67;240H[1;235H5[67;240H[1;235H6[67;240H[1;235H7[67;240H[1;235H8[4;16H1[67;240H[1;235H9[67;240H[1;232H5:00[67;240H[1;235H1[67;240H[4d[2L[1;235H2[3;14H8.9[4;4H5710  10  8.0 stress-ng-cpu[5;4H5704  10  4.1 stress-ng[67;240H[1;235H3[3;16H4[4;14H9.2[5;14H1.7[67;240H[1;235H4[3;16H1[4d5[5d0[67;240H[1;235H5[3;14H7.7[5;14H0.7[67;240H[1;235H6[3;16H3[4d6[5d6[67;240H[1;235H7[3;16H0[4d4[5d5[67;240H[1;235H8[3;14H6.8[4d5[5d4[67;240H[1;235H9[3;16H5[5d3[67;240H[1;234H10[3;16H2[4d6[67;240H[1;235H1[3;16H0[67;240H[1;235H2[3;14H5.8[4d5[5d2[67;240H[1;235H3[3;16H6[6d0[67;240H[1;235H4[3;16H4[67;240H[1;235H5[3;16H2[4d6[67;240H[1;235H6[3;16H0[67;240H[1;235H7[3;14H4.9[4d5[5d1[67;240H[1;235H8[3;16H7[67;240H[1;235H9[3;16H6[4d6[67;240H[1;234H20[3;16H5[67;240H[1;235H1[3;16H3[67;240H[1;235H2[3;16H2[4d5[67;240H[1;235H3[3;16H1[4d6[67;240H[1;235H4[3;16H0[67;240H[1;235H5[3;14H3.9[67;240H[1;235H6[3;16H8[67;240H[1;235H7[3;16H7[67;240H[1;235H8[3;16H6[67;240H[1;235H9[67;240H[1;234H30[3;16H5[67;240H[1;235H1[3;16H4[5d0[67;240H[1;235H2[3;16H3[67;240H[1;235H3[3;16H2[67;240H[1;235H4[3;16H1[67;240H[1;235H5[67;240H[1;235H7[3;16H0[67;240H[1;235H8[67;240H[1;235H9[3;14H2.9[67;240H[1;234H40[67;240H[1;235H1[3;16H8[67;240H[1;235H2[67;240H[3d[M[5d[J[1;235H3[3;13H10.2[67;240H[1;235H4[3;14H2.4[67;240H[1;235H5[3;14H4[67;240H[1;235H6[3;14H6[67;240H[1;235H7[3;14H8.2[67;240H[1;235H8[3;13H20.0[67;240H[1;235H9[3;14H1.7[67;240H[1;234H50[3;14H3.3[67;240H[1;235H1[3;14H4.9[67;240H[1;235H2[3;14H6.4[67;240H[1;235H3[3;14H7.9[67;240H[1;235H4[3;14H9.2[67;240H[1;235H5[3;13H30.6[67;240H[1;235H6[3;14H1.9[67;240H[1;235H7[3;14H3.1[67;240H[1;235H8[3;14H4.3[67;240H[1;235H9[3;14H5.5[67;240H[1;232H6:00[3;14H6.6[67;240H[1;235H1[3;14H7[67;240H[3d[J[1;235H2[67;240H[1;235H3[67;240H[1;235H4[67;240H[1;235H5[67;240H[1;235H6[67;240H[1;235H7[67;240H[1;235H8[67;240H[1;235H9[67;240H[1;234H10[67;240H[1;235H1[67;240H[1;235H2[67;240H[1;235H3[67;240H[1;235H4[67;240H[1;235H5[67;240H[1;235H6[67;240H[1;235H7[67;240H[1;235H8[67;240H[1;235H9[67;240H[1;234H20[67;240H[1;235H1[67;240H[1;235H2[67;240H[1;235H3[67;240H[1;235H4[67;240H[1;235H5[67;240H[1;235H6[67;240H[1;235H7[67;240H[1;235H8[67;240H[1;235H9[67;240H[1;234H30[67;240H[1;235H1[67;240H[1;235H2[67;240H[1;235H3[67;240H[1;235H5[67;240H[1;235H6[67;240H[1;235H7[67;240H[1;235H8[67;240H[1;235H9[67;240H[1;234H40[67;240H[1;235H1[67;240H[1;235H2[67;240H[1;235H3[67;240H[1;235H4[67;240H[1;235H5[67;240H[1;235H6[67;240H[1;235H7[67;240H[1;235H8[67;240H[1;235H9[67;240H[1;234H50[67;240H[1;235H1[67;240H[1;235H2[67;240H[1;235H3[67;240H[1;235H4[67;240H[1;235H5[67;240H[1;235H6[67;240H[1;235H7[67;240H[1;235H8[67;240H[1;235H9[67;240H[1;232H7:00[67;240H[1;235H1[67;240H[1;235H2[67;240H[1;235H3[67;240H[1;235H4[67;240H[1;235H5[67;240H[1;235H6[67;240H[1;235H7[67;240H[1;235H8[67;240H[1;235H9[67;240H[1;234H10[67;240H[1;235H1[67;240H[1;235H2[67;240H[1;235H3[67;240H[1;235H4[67;240H[1;235H5[67;240H[1;235H6[67;240H[1;235H7[67;240H[1;235H8[67;240H[1;235H9[67;240H[1;234H20[67;240H[1;235H1[67;240H[1;235H2[67;240H[1;235H3[67;240H[1;235H4[67;240H[1;235H5[67;240H[1;235H6[67;240H[1;235H7[67;240H[1;235H8[67;240H[1;235H9[67;240H[1;234H30[67;240H[1;235H1[67;240H[1;235H2[67;240H[1;235H3[67;240H[1;235H5[67;240H[1;235H6[67;240H[1;235H7[67;240H[1;235H8[67;240H[1;235H9[67;240H[1;234H40[67;240H[1;235H1[67;240H[1;235H2[67;240H[1;235H3[67;240H[1;235H4[67;240H[1;235H5[67;240H[1;235H6[67;240H[1;235H7[67;240H[1;235H8[67;240H[1;235H9[67;240H[1;234H50[67;240H[1;235H1[67;240H[1;235H2[67;240H[1;235H3[67;240H[1;235H4[67;240H[1;235H5[67;240H[1;235H6[67;240H[1;235H7[67;240H[1;235H8[67;240H[1;235H9[67;240H[1;232H8:00[67;240H[1;235H1[67;240H[1;235H2[67;240H[1;235H3[67;240H[1;235H4[67;240H[1;235H5[67;240H[1;235H6[67;240H[1;235H7[67;240H[1;235H8[67;240H[1;235H9[67;240H[1;234H10[67;240H[1;235H1[67;240H[1;235H2[67;240H[1;235H3[67;240H[1;235H4[67;240H[1;235H5[67;240H[1;235H6[67;240H[1;235H7[67;240H[1;235H8[67;240H[1;235H9[67;240H[1;234H20[67;240H[1;235H1[67;240H[1;235H2[67;240H[1;235H3[67;240H[1;235H4[67;240H[1;235H5[67;240H[1;235H6[67;240H[1;235H7[67;240H[1;235H8[67;240H[1;235H9[67;240H[1;234H30[67;240H[1;235H1[67;240H[1;235H2[67;240H[1;235H3[67;240H[1;235H5[67;240H[1;235H6[67;240H[1;235H7[67;240H[1;235H8[67;240H[1;235H9[67;240H[1;234H40[67;240H[1;235H1[67;240H[1;235H2[67;240H[1;235H3[67;240H[1;235H4[67;240H[1;235H5[67;240H[1;235H6[67;240H[1;235H7[67;240H[1;235H8[67;240H[1;235H9[67;240H[1;234H50[67;240H[1;235H1[67;240H[1;235H2[67;240H[1;235H3[67;240H[1;235H4[67;240H[1;235H5[67;240H[1;235H6[67;240H[1;235H7[67;240H[1;235H8[67;240H[1;235H9[67;240H[1;232H9:00[67;240H[1;235H1[67;240H[1;235H2[67;240H[1;235H3[67;240H[1;235H4[67;240H[1;235H5[67;240H[1;235H6[67;240H[1;235H7[67;240H[1;235H8[67;240H[1;235H9[67;240H[1;234H10[67;240H[1;235H1[67;240H[1;235H2[67;240H[1;235H3[67;240H[1;235H4[67;240H[1;235H5[67;240H[1;235H6[67;240H[1;235H7[67;240H[1;235H8[67;240H[1;235H9[67;240H[1;234H20[67;240H[1;235H1[67;240H[1;235H2[67;240H[1;235H3[67;240H[1;235H4[67;240H[1;235H5[67;240H[1;235H6[67;240H[1;235H7[67;240H[1;235H8[67;240H[1;235H9[67;240H[1;234H30[67;240H[1;235H1[67;240H[1;235H2[67;240H[1;235H3[67;240H[1;235H5[67;240H[1;235H6[67;240H[1;235H7[67;240H[1;235H8[67;240H[1;235H9[67;240H[1;234H40[67;240H[1;235H1[67;240H[1;235H2[67;240H[1;235H3[67;240H[1;235H4[67;240H[1;235H5[67;240H[1;235H6[67;240H[67;1H]3008;end=3a26b2ef-c948-48fe-bd1a-eb1d4e8e4d52;exit=success\]3008;start=a94cb979-166d-4b6b-8cfb-323085ca0558;machineid=69c4c6fade2c4aa683f39b0f0eb549cf;user=ras;hostname=fedora;bootid=76369097-623a-4e6c-886f-c759a24dcede;pid=00000000000000004366;type=shell;cwd=/home/ras/linux/week06-instance2\[?2004h[0m[32mras@fedora[0m:[32m~/linux/week06-instance2[0m$ exit
+[?2004l]3008;start=efa9fbd5-a60d-4f8f-a51e-03662c636f4c;machineid=69c4c6fade2c4aa683f39b0f0eb549cf;user=ras;hostname=fedora;bootid=76369097-623a-4e6c-886f-c759a24dcede;pid=00000000000000004366;type=command;cwd=/home/ras/linux/week06-instance2\exit
+
+Script done on 2026-04-10 10:19:41+09:00 [COMMAND_EXIT_CODE="0"]
+Script started on 2026-04-10 10:32:21+09:00 [TERM="linux" TTY="/dev/pts/1" COLUMNS="240" LINES="67"]
+Run "logger_start <week_no>" to begin script log
+]3008;start=61a844d8-85cd-4276-92ef-a3b4a36a6841;machineid=69c4c6fade2c4aa683f39b0f0eb549cf;user=ras;hostname=fedora;bootid=76369097-623a-4e6c-886f-c759a24dcede;pid=00000000000000007987;type=shell;cwd=/home/ras/linux/week06-instance2\[?2004h[0m[32mras@fedora[0m:[32m~/linux/week06-instance2[0m$ su student1
+[?2004l]3008;start=5a5bdd33-dc48-48e1-b8bb-73cf14a522a9;machineid=69c4c6fade2c4aa683f39b0f0eb549cf;user=ras;hostname=fedora;bootid=76369097-623a-4e6c-886f-c759a24dcede;pid=00000000000000007987;type=command;cwd=/home/ras/linux/week06-instance2\비밀번호: 
+]3008;start=fdcdfeaa93ba43d8ab322c17c65e4e54;user=ras;hostname=fedora;machineid=69c4c6fade2c4aa683f39b0f0eb549cf;bootid=76369097623a4e6c886fc759a24dcede;pid=8064;pidfdid=8065;comm=su;targetuser=student1;type=session\]3008;start=6b158ec7-43fc-4bd6-8cc1-c1e65dda5f0e;machineid=69c4c6fade2c4aa683f39b0f0eb549cf;user=student1;hostname=fedora;bootid=76369097-623a-4e6c-886f-c759a24dcede;pid=00000000000000008080;type=shell;cwd=/home/ras/linux/week06-instance2\[?2004h[0m[32mstudent1@fedora[0m:[32m/home/ras/linux/week06-instance2[0m$ cd ../week03
+[?2004l]3008;start=8fe7a02c-485a-4b8e-a4d6-7cf4d9ca85e9;machineid=69c4c6fade2c4aa683f39b0f0eb549cf;user=student1;hostname=fedora;bootid=76369097-623a-4e6c-886f-c759a24dcede;pid=00000000000000008080;type=command;cwd=/home/ras/linux/week06-instance2\]3008;end=8fe7a02c-485a-4b8e-a4d6-7cf4d9ca85e9;exit=success\]3008;start=6b158ec7-43fc-4bd6-8cc1-c1e65dda5f0e;machineid=69c4c6fade2c4aa683f39b0f0eb549cf;user=student1;hostname=fedora;bootid=76369097-623a-4e6c-886f-c759a24dcede;pid=00000000000000008080;type=shell;cwd=/home/ras/linux/week03\[?2004h[0m[32mstudent1@fedora[0m:[32m/home/ras/linux/week03[0m$ ls
+[?2004l]3008;start=aaf1b49a-0607-4473-834a-dd78d3e5e8ad;machineid=69c4c6fade2c4aa683f39b0f0eb549cf;user=student1;hostname=fedora;bootid=76369097-623a-4e6c-886f-c759a24dcede;pid=00000000000000008080;type=command;cwd=/home/ras/linux/week03\2026_20231023_week03_log.txt  [0m[01;32mcreate_user.sh[0m  [01;34mscreenshots[0m  t.txt  [01;34mweb_service[0m
+]3008;end=aaf1b49a-0607-4473-834a-dd78d3e5e8ad;exit=success\]3008;start=6b158ec7-43fc-4bd6-8cc1-c1e65dda5f0e;machineid=69c4c6fade2c4aa683f39b0f0eb549cf;user=student1;hostname=fedora;bootid=76369097-623a-4e6c-886f-c759a24dcede;pid=00000000000000008080;type=shell;cwd=/home/ras/linux/week03\[?2004h[0m[32mstudent1@fedora[0m:[32m/home/ras/linux/week03[0m$ ls weg_[K[Kb_service/
+[?2004l]3008;start=a65390ce-1349-49c2-8ca5-aa2779eee848;machineid=69c4c6fade2c4aa683f39b0f0eb549cf;user=student1;hostname=fedora;bootid=76369097-623a-4e6c-886f-c759a24dcede;pid=00000000000000008080;type=command;cwd=/home/ras/linux/week03\docker-compose.yml  [0m[01;34mhtml[0m
+]3008;end=a65390ce-1349-49c2-8ca5-aa2779eee848;exit=success\]3008;start=6b158ec7-43fc-4bd6-8cc1-c1e65dda5f0e;machineid=69c4c6fade2c4aa683f39b0f0eb549cf;user=student1;hostname=fedora;bootid=76369097-623a-4e6c-886f-c759a24dcede;pid=00000000000000008080;type=shell;cwd=/home/ras/linux/week03\[?2004h[0m[32mstudent1@fedora[0m:[32m/home/ras/linux/week03[0m$ ls w[K../week04
+[?2004l]3008;start=bcc197bb-0255-4d25-9615-0ccdc5110aaf;machineid=69c4c6fade2c4aa683f39b0f0eb549cf;user=student1;hostname=fedora;bootid=76369097-623a-4e6c-886f-c759a24dcede;pid=00000000000000008080;type=command;cwd=/home/ras/linux/week03\2026_20231023_week04_log.txt  [0m[01;32mcreate_user.sh[0m  t.txt  [01;32mteam_user.sh[0m  [01;34mweb_service[0m
+]3008;end=bcc197bb-0255-4d25-9615-0ccdc5110aaf;exit=success\]3008;start=6b158ec7-43fc-4bd6-8cc1-c1e65dda5f0e;machineid=69c4c6fade2c4aa683f39b0f0eb549cf;user=student1;hostname=fedora;bootid=76369097-623a-4e6c-886f-c759a24dcede;pid=00000000000000008080;type=shell;cwd=/home/ras/linux/week03\[?2004h[0m[32mstudent1@fedora[0m:[32m/home/ras/linux/week03[0m$ ls ../week02
+[?2004l]3008;start=86de8ea5-bc09-4503-acb3-d567caf1eaa6;machineid=69c4c6fade2c4aa683f39b0f0eb549cf;user=student1;hostname=fedora;bootid=76369097-623a-4e6c-886f-c759a24dcede;pid=00000000000000008080;type=command;cwd=/home/ras/linux/week03\2026_20231023_week02_log.txt  get-docker.sh  t.txt  test.txt  [0m[01;34mwww[0m
+]3008;end=86de8ea5-bc09-4503-acb3-d567caf1eaa6;exit=success\]3008;start=6b158ec7-43fc-4bd6-8cc1-c1e65dda5f0e;machineid=69c4c6fade2c4aa683f39b0f0eb549cf;user=student1;hostname=fedora;bootid=76369097-623a-4e6c-886f-c759a24dcede;pid=00000000000000008080;type=shell;cwd=/home/ras/linux/week03\[?2004h[0m[32mstudent1@fedora[0m:[32m/home/ras/linux/week03[0m$ ls ..
+[?2004l]3008;start=54e7b4ff-c145-42bd-9fa8-1fe17fdf43e5;machineid=69c4c6fade2c4aa683f39b0f0eb549cf;user=student1;hostname=fedora;bootid=76369097-623a-4e6c-886f-c759a24dcede;pid=00000000000000008080;type=command;cwd=/home/ras/linux/week03\[0m[01;32mSCRIPT.sh[0m  [01;34mweek02[0m  [01;34mweek03[0m  [01;34mweek04[0m  [01;34mweek05[0m  [01;34mweek06[0m  [01;34mweek06-instance2[0m
+]3008;end=54e7b4ff-c145-42bd-9fa8-1fe17fdf43e5;exit=success\]3008;start=6b158ec7-43fc-4bd6-8cc1-c1e65dda5f0e;machineid=69c4c6fade2c4aa683f39b0f0eb549cf;user=student1;hostname=fedora;bootid=76369097-623a-4e6c-886f-c759a24dcede;pid=00000000000000008080;type=shell;cwd=/home/ras/linux/week03\[?2004h[0m[32mstudent1@fedora[0m:[32m/home/ras/linux/week03[0m$ cd week[K[K[K[K../week06
+[?2004l]3008;start=b70ca039-eb2c-42dd-9cda-c81f5fff62dc;machineid=69c4c6fade2c4aa683f39b0f0eb549cf;user=student1;hostname=fedora;bootid=76369097-623a-4e6c-886f-c759a24dcede;pid=00000000000000008080;type=command;cwd=/home/ras/linux/week03\]3008;end=b70ca039-eb2c-42dd-9cda-c81f5fff62dc;exit=success\]3008;start=6b158ec7-43fc-4bd6-8cc1-c1e65dda5f0e;machineid=69c4c6fade2c4aa683f39b0f0eb549cf;user=student1;hostname=fedora;bootid=76369097-623a-4e6c-886f-c759a24dcede;pid=00000000000000008080;type=shell;cwd=/home/ras/linux/week06\[?2004h[0m[32mstudent1@fedora[0m:[32m/home/ras/linux/week06[0m$ ls
+[?2004l]3008;start=442417c1-b472-4f80-ba28-842ca4a9f155;machineid=69c4c6fade2c4aa683f39b0f0eb549cf;user=student1;hostname=fedora;bootid=76369097-623a-4e6c-886f-c759a24dcede;pid=00000000000000008080;type=command;cwd=/home/ras/linux/week06\2026_20231023_week06_log.txt  t.txt
+]3008;end=442417c1-b472-4f80-ba28-842ca4a9f155;exit=success\]3008;start=6b158ec7-43fc-4bd6-8cc1-c1e65dda5f0e;machineid=69c4c6fade2c4aa683f39b0f0eb549cf;user=student1;hostname=fedora;bootid=76369097-623a-4e6c-886f-c759a24dcede;pid=00000000000000008080;type=shell;cwd=/home/ras/linux/week06\[?2004h[0m[32mstudent1@fedora[0m:[32m/home/ras/linux/week06[0m$ touch report1.hwp | se[Kleep 10 &
+[?2004l]3008;start=4e0fa524-2da7-464d-ab93-fc366689f1de;machineid=69c4c6fade2c4aa683f39b0f0eb549cf;user=student1;hostname=fedora;bootid=76369097-623a-4e6c-886f-c759a24dcede;pid=00000000000000008080;type=command;cwd=/home/ras/linux/week06\[1] 8691
+]3008;end=4e0fa524-2da7-464d-ab93-fc366689f1de;exit=success\touch: 'report1.hwp'에 touch 명령 실행 불가: 허가 거부
+]3008;start=6b158ec7-43fc-4bd6-8cc1-c1e65dda5f0e;machineid=69c4c6fade2c4aa683f39b0f0eb549cf;user=student1;hostname=fedora;bootid=76369097-623a-4e6c-886f-c759a24dcede;pid=00000000000000008080;type=shell;cwd=/home/ras/linux/week06\[?2004h[0m[32mstudent1@fedora[0m:[32m/home/ras/linux/week06[0m$ cd
+[?2004l]3008;start=e18521ff-1c14-4dd9-8f5a-092c461fdfa0;machineid=69c4c6fade2c4aa683f39b0f0eb549cf;user=student1;hostname=fedora;bootid=76369097-623a-4e6c-886f-c759a24dcede;pid=00000000000000008080;type=command;cwd=/home/ras/linux/week06\[1]+  완료                     touch report1.hwp | sleep 10  (wd: /home/ras/linux/week06)
+(wd now: ~)
+]3008;end=e18521ff-1c14-4dd9-8f5a-092c461fdfa0;exit=success\]3008;start=6b158ec7-43fc-4bd6-8cc1-c1e65dda5f0e;machineid=69c4c6fade2c4aa683f39b0f0eb549cf;user=student1;hostname=fedora;bootid=76369097-623a-4e6c-886f-c759a24dcede;pid=00000000000000008080;type=shell;cwd=/home/student1\[?2004h[0m[32mstudent1@fedora[0m:[32m~[0m$ ulimit -u 30
+[?2004l]3008;start=31b8e043-54ba-4321-ac61-d71be3aed4c8;machineid=69c4c6fade2c4aa683f39b0f0eb549cf;user=student1;hostname=fedora;bootid=76369097-623a-4e6c-886f-c759a24dcede;pid=00000000000000008080;type=command;cwd=/home/student1\]3008;end=31b8e043-54ba-4321-ac61-d71be3aed4c8;exit=success\]3008;start=6b158ec7-43fc-4bd6-8cc1-c1e65dda5f0e;machineid=69c4c6fade2c4aa683f39b0f0eb549cf;user=student1;hostname=fedora;bootid=76369097-623a-4e6c-886f-c759a24dcede;pid=00000000000000008080;type=shell;cwd=/home/student1\[?2004h[0m[32mstudent1@fedora[0m:[32m~[0m$ ulimit -u
+[?2004l]3008;start=116ef295-4d30-4a45-845b-31d74452b463;machineid=69c4c6fade2c4aa683f39b0f0eb549cf;user=student1;hostname=fedora;bootid=76369097-623a-4e6c-886f-c759a24dcede;pid=00000000000000008080;type=command;cwd=/home/student1\30
+]3008;end=116ef295-4d30-4a45-845b-31d74452b463;exit=success\]3008;start=6b158ec7-43fc-4bd6-8cc1-c1e65dda5f0e;machineid=69c4c6fade2c4aa683f39b0f0eb549cf;user=student1;hostname=fedora;bootid=76369097-623a-4e6c-886f-c759a24dcede;pid=00000000000000008080;type=shell;cwd=/home/student1\[?2004h[0m[32mstudent1@fedora[0m:[32m~[0m$ 
+[?2004l]3008;end=ee7229bb-faf0-4175-8b22-0f30fdd71e43;exit=success\]3008;start=6b158ec7-43fc-4bd6-8cc1-c1e65dda5f0e;machineid=69c4c6fade2c4aa683f39b0f0eb549cf;user=student1;hostname=fedora;bootid=76369097-623a-4e6c-886f-c759a24dcede;pid=00000000000000008080;type=shell;cwd=/home/student1\[?2004h[0m[32mstudent1@fedora[0m:[32m~[0m$ for i in $(seq 1,[K 35); do sleep 300 &; echo "t[Kgenerate $i : pid=$!"; done
+[?2004lbash: 예기치 않은 `;' 토큰 주변에서 문법 오류
+]3008;end=1f58c6d0-793f-466c-b85c-5fe80b6e96bf;exit=failure;status=2\]3008;start=6b158ec7-43fc-4bd6-8cc1-c1e65dda5f0e;machineid=69c4c6fade2c4aa683f39b0f0eb549cf;user=student1;hostname=fedora;bootid=76369097-623a-4e6c-886f-c759a24dcede;pid=00000000000000008080;type=shell;cwd=/home/student1\[?2004h[0m[32mstudent1@fedora[0m:[32m~[0m$ for i in $(seq 1 35); do sleep 300 &; echo "generate $i : pid=$!"; done[C[1@ 
+[?2004lbash: 예기치 않은 `;' 토큰 주변에서 문법 오류
+]3008;end=4144ab72-ee89-475c-ac6a-e8c4cbb7578e;exit=failure;status=2\]3008;start=6b158ec7-43fc-4bd6-8cc1-c1e65dda5f0e;machineid=69c4c6fade2c4aa683f39b0f0eb549cf;user=student1;hostname=fedora;bootid=76369097-623a-4e6c-886f-c759a24dcede;pid=00000000000000008080;type=shell;cwd=/home/student1\[?2004h[0m[32mstudent1@fedora[0m:[32m~[0m$ 
+[?2004l]3008;end=49695e23-d1b1-4db9-b4b7-58c5322ef659;exit=failure;status=2\]3008;start=6b158ec7-43fc-4bd6-8cc1-c1e65dda5f0e;machineid=69c4c6fade2c4aa683f39b0f0eb549cf;user=student1;hostname=fedora;bootid=76369097-623a-4e6c-886f-c759a24dcede;pid=00000000000000008080;type=shell;cwd=/home/student1\[?2004h[0m[32mstudent1@fedora[0m:[32m~[0m$ 
+[?2004l]3008;end=711254d4-cc94-4cb0-853c-8398f4534144;exit=failure;status=2\]3008;start=6b158ec7-43fc-4bd6-8cc1-c1e65dda5f0e;machineid=69c4c6fade2c4aa683f39b0f0eb549cf;user=student1;hostname=fedora;bootid=76369097-623a-4e6c-886f-c759a24dcede;pid=00000000000000008080;type=shell;cwd=/home/student1\[?2004h[0m[32mstudent1@fedora[0m:[32m~[0m$ for i in $(seq 1 35); do
+[?2004l[?2004h> sleep 300 &
+[?2004l[?2004h> echo "generate $i : pid=$!"
+[?2004l[?2004h> done
+[?2004l]3008;start=6a2d1233-fba1-4cfa-a9db-575643508023;machineid=69c4c6fade2c4aa683f39b0f0eb549cf;user=student1;hostname=fedora;bootid=76369097-623a-4e6c-886f-c759a24dcede;pid=00000000000000008080;type=command;cwd=/home/student1\[1] 9419
+generate 1 : pid=9419
+[2] 9420
+generate 2 : pid=9420
+[3] 9421
+generate 3 : pid=9421
+[4] 9422
+generate 4 : pid=9422
+[5] 9423
+generate 5 : pid=9423
+[6] 9424
+generate 6 : pid=9424
+[7] 9425
+generate 7 : pid=9425
+[8] 9426
+generate 8 : pid=9426
+[9] 9427
+generate 9 : pid=9427
+[10] 9428
+generate 10 : pid=9428
+[11] 9429
+generate 11 : pid=9429
+[12] 9430
+generate 12 : pid=9430
+[13] 9431
+generate 13 : pid=9431
+[14] 9432
+generate 14 : pid=9432
+[15] 9433
+generate 15 : pid=9433
+[16] 9434
+generate 16 : pid=9434
+[17] 9435
+generate 17 : pid=9435
+[18] 9436
+generate 18 : pid=9436
+[19] 9437
+generate 19 : pid=9437
+[20] 9438
+generate 20 : pid=9438
+[21] 9439
+generate 21 : pid=9439
+[22] 9440
+generate 22 : pid=9440
+[23] 9441
+generate 23 : pid=9441
+[24] 9442
+generate 24 : pid=9442
+[25] 9443
+generate 25 : pid=9443
+[26] 9444
+generate 26 : pid=9444
+[27] 9445
+generate 27 : pid=9445
+[28] 9446
+generate 28 : pid=9446
+[29] 9447
+generate 29 : pid=9447
+bash: fork: retry: 자원이 일시적으로 사용 불가능함
+bash: fork: retry: 자원이 일시적으로 사용 불가능함
+bash: fork: retry: 자원이 일시적으로 사용 불가능함
+bash: fork: retry: 자원이 일시적으로 사용 불가능함
+bash: fork: 자원이 일시적으로 사용 불가능함
+bash: fork: retry: 자원이 일시적으로 사용 불가능함
+bash: fork: retry: 자원이 일시적으로 사용 불가능함
+bash: fork: retry: 자원이 일시적으로 사용 불가능함
+bash: fork: retry: 자원이 일시적으로 사용 불가능함
+bash: fork: 자원이 일시적으로 사용 불가능함
+bash: fork: retry: 자원이 일시적으로 사용 불가능함
+bash: fork: retry: 자원이 일시적으로 사용 불가능함
+bash: fork: retry: 자원이 일시적으로 사용 불가능함
+bash: fork: retry: 자원이 일시적으로 사용 불가능함
+bash: fork: 자원이 일시적으로 사용 불가능함
+bash: fork: retry: 자원이 일시적으로 사용 불가능함
+bash: fork: retry: 자원이 일시적으로 사용 불가능함
+bash: fork: retry: 자원이 일시적으로 사용 불가능함
+bash: fork: retry: 자원이 일시적으로 사용 불가능함
+bash: fork: 자원이 일시적으로 사용 불가능함
+bash: fork: retry: 자원이 일시적으로 사용 불가능함
+bash: fork: retry: 자원이 일시적으로 사용 불가능함
+bash: fork: retry: 자원이 일시적으로 사용 불가능함
+bash: fork: retry: 자원이 일시적으로 사용 불가능함
+bash: fork: 자원이 일시적으로 사용 불가능함
+bash: fork: retry: 자원이 일시적으로 사용 불가능함
+bash: fork: retry: 자원이 일시적으로 사용 불가능함
+bash: fork: retry: 자원이 일시적으로 사용 불가능함
+bash: fork: retry: 자원이 일시적으로 사용 불가능함
+^Cbash: fork: 중단된 시스템 콜
+
+bash: fork: retry: 자원이 일시적으로 사용 불가능함
+^Cbash: fork: 중단된 시스템 콜
+
+bash: fork: retry: 자원이 일시적으로 사용 불가능함
+^Cbash: fork: 중단된 시스템 콜
+
+bash: fork: retry: 자원이 일시적으로 사용 불가능함
+^Cbash: fork: 중단된 시스템 콜
+
+bash: fork: retry: 자원이 일시적으로 사용 불가능함
+^Cbash: fork: 중단된 시스템 콜
+
+bash: fork: retry: 자원이 일시적으로 사용 불가능함
+^Cbash: fork: 중단된 시스템 콜
+
+bash: fork: retry: 자원이 일시적으로 사용 불가능함
+^Cbash: fork: 중단된 시스템 콜
+
+bash: fork: retry: 자원이 일시적으로 사용 불가능함
+^Cbash: fork: 중단된 시스템 콜
+
+bash: fork: retry: 자원이 일시적으로 사용 불가능함
+^Cbash: fork: 중단된 시스템 콜
+
+bash: fork: retry: 자원이 일시적으로 사용 불가능함
+^Cbash: fork: 중단된 시스템 콜
+
+bash: fork: retry: 자원이 일시적으로 사용 불가능함
+^Cbash: fork: 중단된 시스템 콜
+
+bash: fork: retry: 자원이 일시적으로 사용 불가능함
+^Cbash: fork: 중단된 시스템 콜
+
+bash: fork: retry: 자원이 일시적으로 사용 불가능함
+^Cbash: fork: 중단된 시스템 콜
+
+bash: fork: retry: 자원이 일시적으로 사용 불가능함
+^Cbash: fork: 중단된 시스템 콜
+
+bash: fork: retry: 자원이 일시적으로 사용 불가능함
+^Cbash: fork: 중단된 시스템 콜
+
+bash: fork: retry: 자원이 일시적으로 사용 불가능함
+^Cbash: fork: 중단된 시스템 콜
+
+bash: fork: retry: 자원이 일시적으로 사용 불가능함
+^Cbash: fork: 중단된 시스템 콜
+
+bash: fork: retry: 자원이 일시적으로 사용 불가능함
+^Cbash: fork: 중단된 시스템 콜
+
+bash: fork: retry: 자원이 일시적으로 사용 불가능함
+^Cbash: fork: 중단된 시스템 콜
+
+bash: fork: retry: 자원이 일시적으로 사용 불가능함
+^Cbash: fork: 중단된 시스템 콜
+
+bash: fork: retry: 자원이 일시적으로 사용 불가능함
+^Cbash: fork: 중단된 시스템 콜
+
+bash: fork: retry: 자원이 일시적으로 사용 불가능함
+^Cbash: fork: 중단된 시스템 콜
+
+bash: fork: retry: 자원이 일시적으로 사용 불가능함
+^Cbash: fork: 중단된 시스템 콜
+
+bash: fork: retry: 자원이 일시적으로 사용 불가능함
+^Cbash: fork: 중단된 시스템 콜
+
+bash: fork: retry: 자원이 일시적으로 사용 불가능함
+^Cbash: fork: 중단된 시스템 콜
+
+bash: fork: retry: 자원이 일시적으로 사용 불가능함
+^Cbash: fork: 중단된 시스템 콜
+
+bash: fork: retry: 자원이 일시적으로 사용 불가능함
+^Cbash: fork: 중단된 시스템 콜
+
+bash: fork: retry: 자원이 일시적으로 사용 불가능함
+^Cbash: fork: 중단된 시스템 콜
+
+bash: fork: retry: 자원이 일시적으로 사용 불가능함
+^Cbash: fork: 중단된 시스템 콜
+
+bash: fork: retry: 자원이 일시적으로 사용 불가능함
+^Cbash: fork: 중단된 시스템 콜
+
+bash: fork: retry: 자원이 일시적으로 사용 불가능함
+^Cbash: fork: 중단된 시스템 콜
+
+bash: fork: retry: 자원이 일시적으로 사용 불가능함
+^Cbash: fork: 중단된 시스템 콜
+
+bash: fork: retry: 자원이 일시적으로 사용 불가능함
+^Cbash: fork: 중단된 시스템 콜
+
+bash: fork: retry: 자원이 일시적으로 사용 불가능함
+^Cbash: fork: 중단된 시스템 콜
+
+bash: fork: retry: 자원이 일시적으로 사용 불가능함
+^Cbash: fork: 중단된 시스템 콜
+
+bash: fork: retry: 자원이 일시적으로 사용 불가능함
+^Cbash: fork: 중단된 시스템 콜
+
+bash: fork: retry: 자원이 일시적으로 사용 불가능함
+^Cbash: fork: 중단된 시스템 콜
+
+bash: fork: retry: 자원이 일시적으로 사용 불가능함
+^Cbash: fork: 중단된 시스템 콜
+
+bash: fork: retry: 자원이 일시적으로 사용 불가능함
+^Cbash: fork: 중단된 시스템 콜
+
+bash: fork: retry: 자원이 일시적으로 사용 불가능함
+^Cbash: fork: 중단된 시스템 콜
+
+bash: fork: retry: 자원이 일시적으로 사용 불가능함
+^Cbash: fork: 중단된 시스템 콜
+
+bash: fork: retry: 자원이 일시적으로 사용 불가능함
+^Cbash: fork: 중단된 시스템 콜
+
+bash: fork: retry: 자원이 일시적으로 사용 불가능함
+^Cbash: fork: 중단된 시스템 콜
+
+bash: fork: retry: 자원이 일시적으로 사용 불가능함
+^Cbash: fork: 중단된 시스템 콜
+
+bash: fork: retry: 자원이 일시적으로 사용 불가능함
+bash: fork: retry: 자원이 일시적으로 사용 불가능함
+bash: fork: retry: 자원이 일시적으로 사용 불가능함
+bash: fork: retry: 자원이 일시적으로 사용 불가능함
+bash: fork: 자원이 일시적으로 사용 불가능함
+bash: fork: retry: 자원이 일시적으로 사용 불가능함
+bash: fork: retry: 자원이 일시적으로 사용 불가능함
+bash: fork: 중단된 시스템 콜
+[29]+  끝내기                  (코어 덤프됨) sleep 300
+bash: fork: retry: 자원이 일시적으로 사용 불가능함
+]3008;end=6a2d1233-fba1-4cfa-a9db-575643508023;exit=failure;status=254\bash: fork: retry: 자원이 일시적으로 사용 불가능함
+bash: fork: retry: 자원이 일시적으로 사용 불가능함
+bash: fork: retry: 자원이 일시적으로 사용 불가능함
+]3008;start=6b158ec7-43fc-4bd6-8cc1-c1e65dda5f0e;machineid=69c4c6fade2c4aa683f39b0f0eb549cf;user=student1;hostname=fedora;bootid=76369097-623a-4e6c-886f-c759a24dcede;pid=00000000000000008080;type=shell;cwd=/home/student1\[27]-  끝내기                  (코어 덤프됨) sleep 300
+[28]+  끝내기                  (코어 덤프됨) sleep 300
+[?2004h[0m[32mstudent1@fedora[0m:[32m~[0m$ 
+[?2004l[1]   끝내기                  (코어 덤프됨) sleep 300
+[2]   끝내기                  (코어 덤프됨) sleep 300
+[3]   끝내기                  (코어 덤프됨) sleep 300
+[4]   끝내기                  (코어 덤프됨) sleep 300
+[5]   끝내기                  (코어 덤프됨) sleep 300
+[6]   끝내기                  (코어 덤프됨) sleep 300
+[7]   끝내기                  (코어 덤프됨) sleep 300
+[8]   끝내기                  (코어 덤프됨) sleep 300
+[9]   끝내기                  (코어 덤프됨) sleep 300
+[10]   끝내기                  (코어 덤프됨) sleep 300
+[11]   끝내기                  (코어 덤프됨) sleep 300
+[12]   끝내기                  (코어 덤프됨) sleep 300
+[13]   끝내기                  (코어 덤프됨) sleep 300
+[14]   끝내기                  (코어 덤프됨) sleep 300
+[15]   끝내기                  (코어 덤프됨) sleep 300
+[16]   끝내기                  (코어 덤프됨) sleep 300
+[17]   끝내기                  (코어 덤프됨) sleep 300
+[18]   끝내기                  (코어 덤프됨) sleep 300
+[19]   끝내기                  (코어 덤프됨) sleep 300
+[20]   끝내기                  (코어 덤프됨) sleep 300
+[21]   끝내기                  (코어 덤프됨) sleep 300
+[22]   끝내기                  (코어 덤프됨) sleep 300
+[23]   끝내기                  (코어 덤프됨) sleep 300
+[24]   끝내기                  (코어 덤프됨) sleep 300
+[25]-  끝내기                  (코어 덤프됨) sleep 300
+[26]+  끝내기                  (코어 덤프됨) sleep 300
+]3008;end=252f3f97-37e4-4052-92f0-9b8ec29a408f;exit=failure;status=254\]3008;start=6b158ec7-43fc-4bd6-8cc1-c1e65dda5f0e;machineid=69c4c6fade2c4aa683f39b0f0eb549cf;user=student1;hostname=fedora;bootid=76369097-623a-4e6c-886f-c759a24dcede;pid=00000000000000008080;type=shell;cwd=/home/student1\[?2004h[0m[32mstudent1@fedora[0m:[32m~[0m$ 
+[?2004l]3008;end=6a4cc725-c997-4cd2-b58d-4de038b18e89;exit=failure;status=254\]3008;start=6b158ec7-43fc-4bd6-8cc1-c1e65dda5f0e;machineid=69c4c6fade2c4aa683f39b0f0eb549cf;user=student1;hostname=fedora;bootid=76369097-623a-4e6c-886f-c759a24dcede;pid=00000000000000008080;type=shell;cwd=/home/student1\[?2004h[0m[32mstudent1@fedora[0m:[32m~[0m$ 
+[?2004l]3008;end=d472e74f-d329-4f92-9356-ad9b04d9efaf;exit=failure;status=254\]3008;start=6b158ec7-43fc-4bd6-8cc1-c1e65dda5f0e;machineid=69c4c6fade2c4aa683f39b0f0eb549cf;user=student1;hostname=fedora;bootid=76369097-623a-4e6c-886f-c759a24dcede;pid=00000000000000008080;type=shell;cwd=/home/student1\[?2004h[0m[32mstudent1@fedora[0m:[32m~[0m$ exit
+[?2004l]3008;start=1acc907c-1e47-47c2-901b-e614d4b11c14;machineid=69c4c6fade2c4aa683f39b0f0eb549cf;user=student1;hostname=fedora;bootid=76369097-623a-4e6c-886f-c759a24dcede;pid=00000000000000008080;type=command;cwd=/home/student1\exit
+]3008;end=fdcdfeaa93ba43d8ab322c17c65e4e54\]3008;end=5a5bdd33-dc48-48e1-b8bb-73cf14a522a9;exit=failure;status=254\]3008;start=61a844d8-85cd-4276-92ef-a3b4a36a6841;machineid=69c4c6fade2c4aa683f39b0f0eb549cf;user=ras;hostname=fedora;bootid=76369097-623a-4e6c-886f-c759a24dcede;pid=00000000000000007987;type=shell;cwd=/home/ras/linux/week06-instance2\[?2004h[0m[32mras@fedora[0m:[32m~/linux/week06-instance2[0m$ su student1
+[?2004l]3008;start=6088e13f-b1f6-4887-95e5-70e131bec4a8;machineid=69c4c6fade2c4aa683f39b0f0eb549cf;user=ras;hostname=fedora;bootid=76369097-623a-4e6c-886f-c759a24dcede;pid=00000000000000007987;type=command;cwd=/home/ras/linux/week06-instance2\비밀번호: 
+]3008;start=12344f163ccc4b47bbc2013cccf41da0;user=ras;hostname=fedora;machineid=69c4c6fade2c4aa683f39b0f0eb549cf;bootid=76369097623a4e6c886fc759a24dcede;pid=11393;pidfdid=11394;comm=su;targetuser=student1;type=session\]3008;start=809eb874-e03e-4ace-b3f5-4cb6ebae4385;machineid=69c4c6fade2c4aa683f39b0f0eb549cf;user=student1;hostname=fedora;bootid=76369097-623a-4e6c-886f-c759a24dcede;pid=00000000000000011404;type=shell;cwd=/home/ras/linux/week06-instance2\[?2004h[0m[32mstudent1@fedora[0m:[32m/home/ras/linux/week06-instance2[0m$ exitfor i in $(seq 1 35); do sleep 300 & echo "generate $i : pid=$!"; done
+[?2004l]3008;start=ff1d87a0-9ecc-4cf7-b0ce-92805c574ca5;machineid=69c4c6fade2c4aa683f39b0f0eb549cf;user=student1;hostname=fedora;bootid=76369097-623a-4e6c-886f-c759a24dcede;pid=00000000000000011404;type=command;cwd=/home/ras/linux/week06-instance2\[1] 11441
+generate 1 : pid=11441
+[2] 11442
+generate 2 : pid=11442
+[3] 11443
+generate 3 : pid=11443
+[4] 11444
+generate 4 : pid=11444
+[5] 11445
+generate 5 : pid=11445
+[6] 11446
+generate 6 : pid=11446
+[7] 11447
+generate 7 : pid=11447
+[8] 11448
+generate 8 : pid=11448
+[9] 11449
+generate 9 : pid=11449
+[10] 11450
+generate 10 : pid=11450
+[11] 11451
+generate 11 : pid=11451
+[12] 11452
+generate 12 : pid=11452
+[13] 11453
+generate 13 : pid=11453
+[14] 11454
+generate 14 : pid=11454
+[15] 11455
+generate 15 : pid=11455
+[16] 11456
+generate 16 : pid=11456
+[17] 11457
+generate 17 : pid=11457
+[18] 11458
+generate 18 : pid=11458
+[19] 11459
+generate 19 : pid=11459
+[20] 11460
+generate 20 : pid=11460
+[21] 11461
+generate 21 : pid=11461
+[22] 11462
+generate 22 : pid=11462
+[23] 11463
+generate 23 : pid=11463
+[24] 11464
+generate 24 : pid=11464
+[25] 11465
+generate 25 : pid=11465
+[26] 11466
+generate 26 : pid=11466
+[27] 11467
+generate 27 : pid=11467
+[28] 11468
+generate 28 : pid=11468
+[29] 11469
+generate 29 : pid=11469
+[30] 11470
+generate 30 : pid=11470
+[31] 11471
+generate 31 : pid=11471
+[32] 11472
+generate 32 : pid=11472
+[33] 11473
+generate 33 : pid=11473
+[34] 11474
+generate 34 : pid=11474
+[35] 11475
+generate 35 : pid=11475
+]3008;end=ff1d87a0-9ecc-4cf7-b0ce-92805c574ca5;exit=success\]3008;start=809eb874-e03e-4ace-b3f5-4cb6ebae4385;machineid=69c4c6fade2c4aa683f39b0f0eb549cf;user=student1;hostname=fedora;bootid=76369097-623a-4e6c-886f-c759a24dcede;pid=00000000000000011404;type=shell;cwd=/home/ras/linux/week06-instance2\[?2004h[0m[32mstudent1@fedora[0m:[32m/home/ras/linux/week06-instance2[0m$ ex[K[K
+[?2004l]3008;end=e2bf2f60-2622-4e57-9ce7-a54f91fd1596;exit=success\]3008;start=809eb874-e03e-4ace-b3f5-4cb6ebae4385;machineid=69c4c6fade2c4aa683f39b0f0eb549cf;user=student1;hostname=fedora;bootid=76369097-623a-4e6c-886f-c759a24dcede;pid=00000000000000011404;type=shell;cwd=/home/ras/linux/week06-instance2\[?2004h[0m[32mstudent1@fedora[0m:[32m/home/ras/linux/week06-instance2[0m$ 
+[?2004l]3008;end=3e8895b4-b530-403f-ade3-8efb7ff2017f;exit=success\]3008;start=809eb874-e03e-4ace-b3f5-4cb6ebae4385;machineid=69c4c6fade2c4aa683f39b0f0eb549cf;user=student1;hostname=fedora;bootid=76369097-623a-4e6c-886f-c759a24dcede;pid=00000000000000011404;type=shell;cwd=/home/ras/linux/week06-instance2\[?2004h[0m[32mstudent1@fedora[0m:[32m/home/ras/linux/week06-instance2[0m$ 
+[?2004l[1]   종료됨                  sleep 300
+[2]   종료됨                  sleep 300
+[3]   종료됨                  sleep 300
+[4]   종료됨                  sleep 300
+[5]   종료됨                  sleep 300
+[6]   종료됨                  sleep 300
+[7]   종료됨                  sleep 300
+[8]   종료됨                  sleep 300
+[9]   종료됨                  sleep 300
+[10]   종료됨                  sleep 300
+[11]   종료됨                  sleep 300
+[12]   종료됨                  sleep 300
+[13]   종료됨                  sleep 300
+[14]   완료                     sleep 300
+[15]   종료됨                  sleep 300
+[16]   종료됨                  sleep 300
+[17]   완료                     sleep 300
+[18]   완료                     sleep 300
+[19]   완료                     sleep 300
+[20]   완료                     sleep 300
+[21]   완료                     sleep 300
+[22]   완료                     sleep 300
+[23]   완료                     sleep 300
+[24]   완료                     sleep 300
+[25]   완료                     sleep 300
+[26]   완료                     sleep 300
+[27]   완료                     sleep 300
+[28]   완료                     sleep 300
+[29]   완료                     sleep 300
+[30]   완료                     sleep 300
+[31]   완료                     sleep 300
+[32]   완료                     sleep 300
+[33]   완료                     sleep 300
+[34]-  완료                     sleep 300
+[35]+  완료                     sleep 300
+]3008;end=2a9196f9-73bb-41b8-a3cb-a2343eb07b2f;exit=success\]3008;start=809eb874-e03e-4ace-b3f5-4cb6ebae4385;machineid=69c4c6fade2c4aa683f39b0f0eb549cf;user=student1;hostname=fedora;bootid=76369097-623a-4e6c-886f-c759a24dcede;pid=00000000000000011404;type=shell;cwd=/home/ras/linux/week06-instance2\[?2004h[0m[32mstudent1@fedora[0m:[32m/home/ras/linux/week06-instance2[0m$ exit
+[?2004l]3008;start=7e7cd721-77d8-4cee-bb5d-8a72624ba1bd;machineid=69c4c6fade2c4aa683f39b0f0eb549cf;user=student1;hostname=fedora;bootid=76369097-623a-4e6c-886f-c759a24dcede;pid=00000000000000011404;type=command;cwd=/home/ras/linux/week06-instance2\exit
+]3008;end=12344f163ccc4b47bbc2013cccf41da0\]3008;end=6088e13f-b1f6-4887-95e5-70e131bec4a8;exit=success\]3008;start=61a844d8-85cd-4276-92ef-a3b4a36a6841;machineid=69c4c6fade2c4aa683f39b0f0eb549cf;user=ras;hostname=fedora;bootid=76369097-623a-4e6c-886f-c759a24dcede;pid=00000000000000007987;type=shell;cwd=/home/ras/linux/week06-instance2\[?2004h[0m[32mras@fedora[0m:[32m~/linux/week06-instance2[0m$ su student1
+[?2004l]3008;start=819f5fca-96a6-472d-b168-beb2007848fc;machineid=69c4c6fade2c4aa683f39b0f0eb549cf;user=ras;hostname=fedora;bootid=76369097-623a-4e6c-886f-c759a24dcede;pid=00000000000000007987;type=command;cwd=/home/ras/linux/week06-instance2\비밀번호: 
+]3008;start=5e5c1d6432734af9b9c691ac297a9e16;user=ras;hostname=fedora;machineid=69c4c6fade2c4aa683f39b0f0eb549cf;bootid=76369097623a4e6c886fc759a24dcede;pid=11737;pidfdid=11738;comm=su;targetuser=student1;type=session\]3008;start=83a77b0a-e3e2-4f40-9147-35a167480ee1;machineid=69c4c6fade2c4aa683f39b0f0eb549cf;user=student1;hostname=fedora;bootid=76369097-623a-4e6c-886f-c759a24dcede;pid=00000000000000011749;type=shell;cwd=/home/ras/linux/week06-instance2\[?2004h[0m[32mstudent1@fedora[0m:[32m/home/ras/linux/week06-instance2[0m$ ulimit -u
+[?2004l]3008;start=fd34b673-4042-4233-a458-3e1cb83e3450;machineid=69c4c6fade2c4aa683f39b0f0eb549cf;user=student1;hostname=fedora;bootid=76369097-623a-4e6c-886f-c759a24dcede;pid=00000000000000011749;type=command;cwd=/home/ras/linux/week06-instance2\10
+]3008;end=fd34b673-4042-4233-a458-3e1cb83e3450;exit=success\]3008;start=83a77b0a-e3e2-4f40-9147-35a167480ee1;machineid=69c4c6fade2c4aa683f39b0f0eb549cf;user=student1;hostname=fedora;bootid=76369097-623a-4e6c-886f-c759a24dcede;pid=00000000000000011749;type=shell;cwd=/home/ras/linux/week06-instance2\[?2004h[0m[32mstudent1@fedora[0m:[32m/home/ras/linux/week06-instance2[0m$ chage -d
+[?2004l]3008;start=c28d08e9-b582-4e35-8c75-b1c542b6f388;machineid=69c4c6fade2c4aa683f39b0f0eb549cf;user=student1;hostname=fedora;bootid=76369097-623a-4e6c-886f-c759a24dcede;pid=00000000000000011749;type=command;cwd=/home/ras/linux/week06-instance2\chage: 이 옵션은 인수가 필요합니다 -- 'd'
+Usage: chage [options] LOGIN
+
+Options:
+  -d, --lastday LAST_DAY        set date of last password change to LAST_DAY
+  -E, --expiredate EXPIRE_DATE  set account expiration date to EXPIRE_DATE
+  -h, --help                    display this help message and exit
+  -i, --iso8601                 use YYYY-MM-DD when printing dates
+  -I, --inactive INACTIVE       set password inactive after expiration
+                                to INACTIVE
+  -l, --list                    show account aging information
+  -m, --mindays MIN_DAYS        set minimum number of days before password
+                                change to MIN_DAYS
+  -M, --maxdays MAX_DAYS        set maximum number of days before password
+                                change to MAX_DAYS
+  -R, --root CHROOT_DIR         directory to chroot into
+  -P, --prefix PREFIX_DIR       directory prefix
+  -W, --warndays WARN_DAYS      set expiration warning days to WARN_DAYS
+
+]3008;end=c28d08e9-b582-4e35-8c75-b1c542b6f388;exit=failure;status=2\]3008;start=83a77b0a-e3e2-4f40-9147-35a167480ee1;machineid=69c4c6fade2c4aa683f39b0f0eb549cf;user=student1;hostname=fedora;bootid=76369097-623a-4e6c-886f-c759a24dcede;pid=00000000000000011749;type=shell;cwd=/home/ras/linux/week06-instance2\[?2004h[0m[32mstudent1@fedora[0m:[32m/home/ras/linux/week06-instance2[0m$ chage -d[Kl
+[?2004l]3008;start=c4663f13-b479-468f-a422-c203278be533;machineid=69c4c6fade2c4aa683f39b0f0eb549cf;user=student1;hostname=fedora;bootid=76369097-623a-4e6c-886f-c759a24dcede;pid=00000000000000011749;type=command;cwd=/home/ras/linux/week06-instance2\Usage: chage [options] LOGIN
+
+Options:
+  -d, --lastday LAST_DAY        set date of last password change to LAST_DAY
+  -E, --expiredate EXPIRE_DATE  set account expiration date to EXPIRE_DATE
+  -h, --help                    display this help message and exit
+  -i, --iso8601                 use YYYY-MM-DD when printing dates
+  -I, --inactive INACTIVE       set password inactive after expiration
+                                to INACTIVE
+  -l, --list                    show account aging information
+  -m, --mindays MIN_DAYS        set minimum number of days before password
+                                change to MIN_DAYS
+  -M, --maxdays MAX_DAYS        set maximum number of days before password
+                                change to MAX_DAYS
+  -R, --root CHROOT_DIR         directory to chroot into
+  -P, --prefix PREFIX_DIR       directory prefix
+  -W, --warndays WARN_DAYS      set expiration warning days to WARN_DAYS
+
+]3008;end=c4663f13-b479-468f-a422-c203278be533;exit=failure;status=2\]3008;start=83a77b0a-e3e2-4f40-9147-35a167480ee1;machineid=69c4c6fade2c4aa683f39b0f0eb549cf;user=student1;hostname=fedora;bootid=76369097-623a-4e6c-886f-c759a24dcede;pid=00000000000000011749;type=shell;cwd=/home/ras/linux/week06-instance2\[?2004h[0m[32mstudent1@fedora[0m:[32m/home/ras/linux/week06-instance2[0m$ chage -l student1
+[?2004l]3008;start=19012681-dee6-43b2-92ed-a3e1b0b61763;machineid=69c4c6fade2c4aa683f39b0f0eb549cf;user=student1;hostname=fedora;bootid=76369097-623a-4e6c-886f-c759a24dcede;pid=00000000000000011749;type=command;cwd=/home/ras/linux/week06-instance2\마지막으로 암호를 바꾼 날					: 3월 27, 2026
+암호 만료					:안함
+암호가 비활성화 기간					:안함
+계정 만료						:안함
+암호를 바꿀 수 있는 최소 날 수		: 0
+암호를 바꿔야 하는 최대 날 수		: 99999
+암호 만료 예고를 하는 날 수		: 7
+]3008;end=19012681-dee6-43b2-92ed-a3e1b0b61763;exit=success\]3008;start=83a77b0a-e3e2-4f40-9147-35a167480ee1;machineid=69c4c6fade2c4aa683f39b0f0eb549cf;user=student1;hostname=fedora;bootid=76369097-623a-4e6c-886f-c759a24dcede;pid=00000000000000011749;type=shell;cwd=/home/ras/linux/week06-instance2\[?2004h[0m[32mstudent1@fedora[0m:[32m/home/ras/linux/week06-instance2[0m$ exit
+[?2004l]3008;start=08723d88-31fa-4260-8063-ed8c348d0a5c;machineid=69c4c6fade2c4aa683f39b0f0eb549cf;user=student1;hostname=fedora;bootid=76369097-623a-4e6c-886f-c759a24dcede;pid=00000000000000011749;type=command;cwd=/home/ras/linux/week06-instance2\exit
+]3008;end=5e5c1d6432734af9b9c691ac297a9e16\]3008;end=819f5fca-96a6-472d-b168-beb2007848fc;exit=success\]3008;start=61a844d8-85cd-4276-92ef-a3b4a36a6841;machineid=69c4c6fade2c4aa683f39b0f0eb549cf;user=ras;hostname=fedora;bootid=76369097-623a-4e6c-886f-c759a24dcede;pid=00000000000000007987;type=shell;cwd=/home/ras/linux/week06-instance2\[?2004h[0m[32mras@fedora[0m:[32m~/linux/week06-instance2[0m$ ls
+[?2004l]3008;start=cb62c5a7-64b4-4879-b2e6-fbbdf5c28653;machineid=69c4c6fade2c4aa683f39b0f0eb549cf;user=ras;hostname=fedora;bootid=76369097-623a-4e6c-886f-c759a24dcede;pid=00000000000000007987;type=command;cwd=/home/ras/linux/week06-instance2\2026_20231023_week06-instance2_log.txt  t.txt
+]3008;end=cb62c5a7-64b4-4879-b2e6-fbbdf5c28653;exit=success\]3008;start=61a844d8-85cd-4276-92ef-a3b4a36a6841;machineid=69c4c6fade2c4aa683f39b0f0eb549cf;user=ras;hostname=fedora;bootid=76369097-623a-4e6c-886f-c759a24dcede;pid=00000000000000007987;type=shell;cwd=/home/ras/linux/week06-instance2\[?2004h[0m[32mras@fedora[0m:[32m~/linux/week06-instance2[0m$ exit
+[?2004l]3008;start=de6cb3a3-88c5-4d04-9849-a3832280a3c1;machineid=69c4c6fade2c4aa683f39b0f0eb549cf;user=ras;hostname=fedora;bootid=76369097-623a-4e6c-886f-c759a24dcede;pid=00000000000000007987;type=command;cwd=/home/ras/linux/week06-instance2\exit
+
+Script done on 2026-04-10 10:52:56+09:00 [COMMAND_EXIT_CODE="0"]
