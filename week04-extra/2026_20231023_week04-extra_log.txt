@@ -1,0 +1,69 @@
+Script started on 2026-04-17 09:05:19+09:00 [TERM="xterm-256color" TTY="/dev/pts/3" COLUMNS="116" LINES="51"]
+Run "logger_start <week_no>" to begin script log
+]0;ras@fedora:~/linux/week04-extra]3008;start=e68955a5-b48f-4b38-82f5-a59c54a80469;machineid=69c4c6fade2c4aa683f39b0f0eb549cf;user=ras;hostname=fedora;bootid=41a21787-c272-4659-be7d-04a426e809f1;pid=00000000000000006226;type=shell;cwd=/home/ras/linux/week04-extra\[?2004h[0m[32mras@fedora[0m:[32m~/linux/week04-extra[0m$ ls /home -a[Kl
+[?2004l]3008;start=d5b0a5c2-5367-41e9-8202-20e92895b470;machineid=69c4c6fade2c4aa683f39b0f0eb549cf;user=ras;hostname=fedora;bootid=41a21787-c272-4659-be7d-04a426e809f1;pid=00000000000000006226;type=command;cwd=/home/ras/linux/week04-extra\합계 28
+drwx------. 18 ras       ras       4096  4월 17일  09:00 [0m[01;34mras[0m
+drwx------.  4 student1  student1  4096  3월 27일  11:36 [01;34mstudent1[0m
+drwx------.  3 student2  student2  4096  3월 27일  11:36 [01;34mstudent2[0m
+drwx------.  3 student3  student3  4096  3월 27일  11:35 [01;34mstudent3[0m
+drwx------.  3 student4  student4  4096  4월 10일  11:20 [01;34mstudent4[0m
+drwx------.  3 student5  student5  4096  4월 10일  11:20 [01;34mstudent5[0m
+drwx------.  3 web-admin web-admin 4096  3월 20일  11:21 [01;34mweb-admin[0m
+]0;ras@fedora:~/linux/week04-extra]3008;end=d5b0a5c2-5367-41e9-8202-20e92895b470;exit=success\]3008;start=e68955a5-b48f-4b38-82f5-a59c54a80469;machineid=69c4c6fade2c4aa683f39b0f0eb549cf;user=ras;hostname=fedora;bootid=41a21787-c272-4659-be7d-04a426e809f1;pid=00000000000000006226;type=shell;cwd=/home/ras/linux/week04-extra\[?2004h[0m[32mras@fedora[0m:[32m~/linux/week04-extra[0m$ cd ../week03[K4[K3
+[?2004l]3008;start=0edb3737-88a5-42f4-9932-e089d8f64d42;machineid=69c4c6fade2c4aa683f39b0f0eb549cf;user=ras;hostname=fedora;bootid=41a21787-c272-4659-be7d-04a426e809f1;pid=00000000000000006226;type=command;cwd=/home/ras/linux/week04-extra\]0;ras@fedora:~/linux/week03]3008;end=0edb3737-88a5-42f4-9932-e089d8f64d42;exit=success\]3008;start=e68955a5-b48f-4b38-82f5-a59c54a80469;machineid=69c4c6fade2c4aa683f39b0f0eb549cf;user=ras;hostname=fedora;bootid=41a21787-c272-4659-be7d-04a426e809f1;pid=00000000000000006226;type=shell;cwd=/home/ras/linux/week03\[?2004h[0m[32mras@fedora[0m:[32m~/linux/week03[0m$ ls
+[?2004l]3008;start=b958ffe8-1167-46c2-ac9a-64f270cd203a;machineid=69c4c6fade2c4aa683f39b0f0eb549cf;user=ras;hostname=fedora;bootid=41a21787-c272-4659-be7d-04a426e809f1;pid=00000000000000006226;type=command;cwd=/home/ras/linux/week03\2026_20231023_week03_log.txt  [0m[01;32mcreate_user.sh[0m  [01;34mscreenshots[0m  t.txt  [01;34mweb_service[0m
+]0;ras@fedora:~/linux/week03]3008;end=b958ffe8-1167-46c2-ac9a-64f270cd203a;exit=success\]3008;start=e68955a5-b48f-4b38-82f5-a59c54a80469;machineid=69c4c6fade2c4aa683f39b0f0eb549cf;user=ras;hostname=fedora;bootid=41a21787-c272-4659-be7d-04a426e809f1;pid=00000000000000006226;type=shell;cwd=/home/ras/linux/week03\[?2004h[0m[32mras@fedora[0m:[32m~/linux/week03[0m$ getfacl web_service
+[?2004l]3008;start=5688ef7a-3938-4c6e-9f79-a7a1cff8c533;machineid=69c4c6fade2c4aa683f39b0f0eb549cf;user=ras;hostname=fedora;bootid=41a21787-c272-4659-be7d-04a426e809f1;pid=00000000000000006226;type=command;cwd=/home/ras/linux/week03\# file: web_service
+# owner: ras
+# group: ras
+user::rwx
+group::r-x
+other::r-x
+
+]0;ras@fedora:~/linux/week03]3008;end=5688ef7a-3938-4c6e-9f79-a7a1cff8c533;exit=success\]3008;start=e68955a5-b48f-4b38-82f5-a59c54a80469;machineid=69c4c6fade2c4aa683f39b0f0eb549cf;user=ras;hostname=fedora;bootid=41a21787-c272-4659-be7d-04a426e809f1;pid=00000000000000006226;type=shell;cwd=/home/ras/linux/week03\[?2004h[0m[32mras@fedora[0m:[32m~/linux/week03[0m$ cd web_service/
+[?2004l]3008;start=3af13dac-688c-43d6-8a49-c3e8821bb028;machineid=69c4c6fade2c4aa683f39b0f0eb549cf;user=ras;hostname=fedora;bootid=41a21787-c272-4659-be7d-04a426e809f1;pid=00000000000000006226;type=command;cwd=/home/ras/linux/week03\]0;ras@fedora:~/linux/week03/web_service]3008;end=3af13dac-688c-43d6-8a49-c3e8821bb028;exit=success\]3008;start=e68955a5-b48f-4b38-82f5-a59c54a80469;machineid=69c4c6fade2c4aa683f39b0f0eb549cf;user=ras;hostname=fedora;bootid=41a21787-c272-4659-be7d-04a426e809f1;pid=00000000000000006226;type=shell;cwd=/home/ras/linux/week03/web_service\[?2004h[0m[32mras@fedora[0m:[32m~/linux/week03/web_service[0m$ ls
+[?2004l]3008;start=fe490c74-9d34-4b92-a6dc-48edd062de4b;machineid=69c4c6fade2c4aa683f39b0f0eb549cf;user=ras;hostname=fedora;bootid=41a21787-c272-4659-be7d-04a426e809f1;pid=00000000000000006226;type=command;cwd=/home/ras/linux/week03/web_service\docker-compose.yml  [0m[01;34mhtml[0m
+]0;ras@fedora:~/linux/week03/web_service]3008;end=fe490c74-9d34-4b92-a6dc-48edd062de4b;exit=success\]3008;start=e68955a5-b48f-4b38-82f5-a59c54a80469;machineid=69c4c6fade2c4aa683f39b0f0eb549cf;user=ras;hostname=fedora;bootid=41a21787-c272-4659-be7d-04a426e809f1;pid=00000000000000006226;type=shell;cwd=/home/ras/linux/week03/web_service\[?2004h[0m[32mras@fedora[0m:[32m~/linux/week03/web_service[0m$ be[K[Kgetfacl html
+[?2004l]3008;start=5c838ce4-adb5-4685-a684-a727d03fb952;machineid=69c4c6fade2c4aa683f39b0f0eb549cf;user=ras;hostname=fedora;bootid=41a21787-c272-4659-be7d-04a426e809f1;pid=00000000000000006226;type=command;cwd=/home/ras/linux/week03/web_service\# file: html
+# owner: ras
+# group: ras
+user::rwx
+group::r-x
+other::r-x
+
+]0;ras@fedora:~/linux/week03/web_service]3008;end=5c838ce4-adb5-4685-a684-a727d03fb952;exit=success\]3008;start=e68955a5-b48f-4b38-82f5-a59c54a80469;machineid=69c4c6fade2c4aa683f39b0f0eb549cf;user=ras;hostname=fedora;bootid=41a21787-c272-4659-be7d-04a426e809f1;pid=00000000000000006226;type=shell;cwd=/home/ras/linux/week03/web_service\[?2004h[0m[32mras@fedora[0m:[32m~/linux/week03/web_service[0m$ cd ../../weke[K[Kek04/web_service
+[?2004l]3008;start=022163d2-0aba-4885-8afe-1aa60cc7205b;machineid=69c4c6fade2c4aa683f39b0f0eb549cf;user=ras;hostname=fedora;bootid=41a21787-c272-4659-be7d-04a426e809f1;pid=00000000000000006226;type=command;cwd=/home/ras/linux/week03/web_service\]0;ras@fedora:~/linux/week04/web_service]3008;end=022163d2-0aba-4885-8afe-1aa60cc7205b;exit=success\]3008;start=e68955a5-b48f-4b38-82f5-a59c54a80469;machineid=69c4c6fade2c4aa683f39b0f0eb549cf;user=ras;hostname=fedora;bootid=41a21787-c272-4659-be7d-04a426e809f1;pid=00000000000000006226;type=shell;cwd=/home/ras/linux/week04/web_service\[?2004h[0m[32mras@fedora[0m:[32m~/linux/week04/web_service[0m$ cd ../../week04/web_service[15Pgetfacl html
+[?2004l]3008;start=361972f0-13d4-4484-bd21-7f5b056a7a21;machineid=69c4c6fade2c4aa683f39b0f0eb549cf;user=ras;hostname=fedora;bootid=41a21787-c272-4659-be7d-04a426e809f1;pid=00000000000000006226;type=command;cwd=/home/ras/linux/week04/web_service\# file: html
+# owner: ras
+# group: ras
+user::rwx
+group::r-x
+other::r-x
+
+]0;ras@fedora:~/linux/week04/web_service]3008;end=361972f0-13d4-4484-bd21-7f5b056a7a21;exit=success\]3008;start=e68955a5-b48f-4b38-82f5-a59c54a80469;machineid=69c4c6fade2c4aa683f39b0f0eb549cf;user=ras;hostname=fedora;bootid=41a21787-c272-4659-be7d-04a426e809f1;pid=00000000000000006226;type=shell;cwd=/home/ras/linux/week04/web_service\[?2004h[0m[32mras@fedora[0m:[32m~/linux/week04/web_service[0m$ lsgroup
+[?2004l]3008;start=cec3acca-d65b-4f49-aa03-ad5f19af8c92;machineid=69c4c6fade2c4aa683f39b0f0eb549cf;user=ras;hostname=fedora;bootid=41a21787-c272-4659-be7d-04a426e809f1;pid=00000000000000006226;type=command;cwd=/home/ras/linux/week04/web_service\bash: lsgroup: 명령을 찾을 수 없습니다...
+]0;ras@fedora:~/linux/week04/web_service]3008;end=cec3acca-d65b-4f49-aa03-ad5f19af8c92;exit=failure;status=127\]3008;start=e68955a5-b48f-4b38-82f5-a59c54a80469;machineid=69c4c6fade2c4aa683f39b0f0eb549cf;user=ras;hostname=fedora;bootid=41a21787-c272-4659-be7d-04a426e809f1;pid=00000000000000006226;type=shell;cwd=/home/ras/linux/week04/web_service\[?2004h[0m[32mras@fedora[0m:[32m~/linux/week04/web_service[0m$ lsgrp
+[?2004l]3008;start=ccada5ed-075b-4ccc-9ec7-c50f392ead19;machineid=69c4c6fade2c4aa683f39b0f0eb549cf;user=ras;hostname=fedora;bootid=41a21787-c272-4659-be7d-04a426e809f1;pid=00000000000000006226;type=command;cwd=/home/ras/linux/week04/web_service\bash: lsgrp: 명령을 찾을 수 없습니다...
+]0;ras@fedora:~/linux/week04/web_service]3008;end=ccada5ed-075b-4ccc-9ec7-c50f392ead19;exit=failure;status=127\]3008;start=e68955a5-b48f-4b38-82f5-a59c54a80469;machineid=69c4c6fade2c4aa683f39b0f0eb549cf;user=ras;hostname=fedora;bootid=41a21787-c272-4659-be7d-04a426e809f1;pid=00000000000000006226;type=shell;cwd=/home/ras/linux/week04/web_service\[?2004h[0m[32mras@fedora[0m:[32m~/linux/week04/web_service[0m$ groups 1001
+[?2004l]3008;start=afe79c19-500e-4818-ab29-b773816676a7;machineid=69c4c6fade2c4aa683f39b0f0eb549cf;user=ras;hostname=fedora;bootid=41a21787-c272-4659-be7d-04a426e809f1;pid=00000000000000006226;type=command;cwd=/home/ras/linux/week04/web_service\groups: `1001': 이 사용자는 없습니다
+]0;ras@fedora:~/linux/week04/web_service]3008;end=afe79c19-500e-4818-ab29-b773816676a7;exit=failure;status=1\]3008;start=e68955a5-b48f-4b38-82f5-a59c54a80469;machineid=69c4c6fade2c4aa683f39b0f0eb549cf;user=ras;hostname=fedora;bootid=41a21787-c272-4659-be7d-04a426e809f1;pid=00000000000000006226;type=shell;cwd=/home/ras/linux/week04/web_service\[?2004h[0m[32mras@fedora[0m:[32m~/linux/week04/web_service[0m$ groups 1001[K[K[K[Kstdu[K[Kudent1
+[?2004l]3008;start=5fd86d3f-036d-472a-a9f4-cd182ef301cc;machineid=69c4c6fade2c4aa683f39b0f0eb549cf;user=ras;hostname=fedora;bootid=41a21787-c272-4659-be7d-04a426e809f1;pid=00000000000000006226;type=command;cwd=/home/ras/linux/week04/web_service\student1 : student1 dev_team1
+]0;ras@fedora:~/linux/week04/web_service]3008;end=5fd86d3f-036d-472a-a9f4-cd182ef301cc;exit=success\]3008;start=e68955a5-b48f-4b38-82f5-a59c54a80469;machineid=69c4c6fade2c4aa683f39b0f0eb549cf;user=ras;hostname=fedora;bootid=41a21787-c272-4659-be7d-04a426e809f1;pid=00000000000000006226;type=shell;cwd=/home/ras/linux/week04/web_service\[?2004h[0m[32mras@fedora[0m:[32m~/linux/week04/web_service[0m$ setfacl -m g:dev_team1:rx html
+[?2004l]3008;start=69be8e20-4c9b-464b-be9b-fd0b9b317182;machineid=69c4c6fade2c4aa683f39b0f0eb549cf;user=ras;hostname=fedora;bootid=41a21787-c272-4659-be7d-04a426e809f1;pid=00000000000000006226;type=command;cwd=/home/ras/linux/week04/web_service\]0;ras@fedora:~/linux/week04/web_service]3008;end=69be8e20-4c9b-464b-be9b-fd0b9b317182;exit=success\]3008;start=e68955a5-b48f-4b38-82f5-a59c54a80469;machineid=69c4c6fade2c4aa683f39b0f0eb549cf;user=ras;hostname=fedora;bootid=41a21787-c272-4659-be7d-04a426e809f1;pid=00000000000000006226;type=shell;cwd=/home/ras/linux/week04/web_service\[?2004h[0m[32mras@fedora[0m:[32m~/linux/week04/web_service[0m$ setfacl -m u:student3:--- html
+[?2004l]3008;start=d6403ab6-1e24-454b-9ddc-be2dbc300330;machineid=69c4c6fade2c4aa683f39b0f0eb549cf;user=ras;hostname=fedora;bootid=41a21787-c272-4659-be7d-04a426e809f1;pid=00000000000000006226;type=command;cwd=/home/ras/linux/week04/web_service\]0;ras@fedora:~/linux/week04/web_service]3008;end=d6403ab6-1e24-454b-9ddc-be2dbc300330;exit=success\]3008;start=e68955a5-b48f-4b38-82f5-a59c54a80469;machineid=69c4c6fade2c4aa683f39b0f0eb549cf;user=ras;hostname=fedora;bootid=41a21787-c272-4659-be7d-04a426e809f1;pid=00000000000000006226;type=shell;cwd=/home/ras/linux/week04/web_service\[?2004h[0m[32mras@fedora[0m:[32m~/linux/week04/web_service[0m$ setfacl -m u:student3:--- html[1P[1@4
+[?2004l]3008;start=0adde561-31b8-4105-aeea-8e29d8f8c59d;machineid=69c4c6fade2c4aa683f39b0f0eb549cf;user=ras;hostname=fedora;bootid=41a21787-c272-4659-be7d-04a426e809f1;pid=00000000000000006226;type=command;cwd=/home/ras/linux/week04/web_service\]0;ras@fedora:~/linux/week04/web_service]3008;end=0adde561-31b8-4105-aeea-8e29d8f8c59d;exit=success\]3008;start=e68955a5-b48f-4b38-82f5-a59c54a80469;machineid=69c4c6fade2c4aa683f39b0f0eb549cf;user=ras;hostname=fedora;bootid=41a21787-c272-4659-be7d-04a426e809f1;pid=00000000000000006226;type=shell;cwd=/home/ras/linux/week04/web_service\[?2004h[0m[32mras@fedora[0m:[32m~/linux/week04/web_service[0m$ getfacl html
+[?2004l]3008;start=d35f33df-6a9e-4acb-a57f-1e4bc3a4c43b;machineid=69c4c6fade2c4aa683f39b0f0eb549cf;user=ras;hostname=fedora;bootid=41a21787-c272-4659-be7d-04a426e809f1;pid=00000000000000006226;type=command;cwd=/home/ras/linux/week04/web_service\# file: html
+# owner: ras
+# group: ras
+user::rwx
+user:student3:---
+user:student4:---
+group::r-x
+group:dev_team1:r-x
+mask::r-x
+other::r-x
+
+]0;ras@fedora:~/linux/week04/web_service]3008;end=d35f33df-6a9e-4acb-a57f-1e4bc3a4c43b;exit=success\]3008;start=e68955a5-b48f-4b38-82f5-a59c54a80469;machineid=69c4c6fade2c4aa683f39b0f0eb549cf;user=ras;hostname=fedora;bootid=41a21787-c272-4659-be7d-04a426e809f1;pid=00000000000000006226;type=shell;cwd=/home/ras/linux/week04/web_service\[?2004h[0m[32mras@fedora[0m:[32m~/linux/week04/web_service[0m$ exit
+[?2004l]3008;start=2b72a2dd-9493-4522-8998-40105ed01601;machineid=69c4c6fade2c4aa683f39b0f0eb549cf;user=ras;hostname=fedora;bootid=41a21787-c272-4659-be7d-04a426e809f1;pid=00000000000000006226;type=command;cwd=/home/ras/linux/week04/web_service\exit
+
+Script done on 2026-04-17 09:09:32+09:00 [COMMAND_EXIT_CODE="0"]
