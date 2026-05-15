@@ -70,21 +70,36 @@ Environment:
   * 구현 : fuseblk
   * 로그 : 길다 많다 너무많다
 
-### WSL과 현 환경 간 차이
-> 디스크 용량 관리
-WSL은 VHDX를 추가 마운트하여 디스크 분리 시뮬레이션 가능, 
-리얼 리눅스에서는 실제 디스크를 추가해 실제로 디스크 분리를 실시해야 함
+## 9주차
+- 가상 디스크 파일 생성 및 장치 설정
+  * `losetup -fP <path-to-file>`
+    - WSL에서는 휘발성이지만, 리얼 리눅스에서는 자동 마운트 가능 확인
+  * `pvcreate /dev/$DEVICE`
+  * `vgcreate <vg_name> /dev/$DEVICE`
+  * `lvcreate -l <size|$pcnt%FREE> -n <lv_name> <vg_name>`
+  * `mkfs.$FORMAT <path-to-device>`
+- 메타데이터 유지 복사 (`rcync -aHAX <from> <to>`)
 
-(파티션 분리를 해도 되긴 하는데, 현재 `/dev/sda` 자체가 250GB 미만이라 시스템 락다운 위험 큼)
+### 사후 작업
+- **물리 디스크 이전 (250G SSD -> 500G SSD)**
+  * 실제 리눅스 재설치 및 `/home` rsync를 통한 보존
+  * `/var/lib` 디렉토리 분리로 docker 이하에 충분한 용량 제공
+  
+## 10주차
+> 새 디스크에서 작업 진행하며, 가상 입력기 설치 이전에 작업한 관계로 파일 내 주석이 없습니다
+- `.gitignore` 수정: `.../week10/wordpress/.gitignore` 생성 처리
+- nginx:`default.conf`: 줄 수 최소화 (`location /` 블록을 한 줄로 쓴다던지)
+- docker compose:`config.{db,wordpress,nginx}.yaml`: 바이트 최적화를 위해 부분적인 JSON 문법 활용
+  * `key:\n\t- value\n\t- value` = `key: ["value","value"]`
+  * `key:\n\texternal: false` = `key: {"external": false}`
+  * JSON 파서보다 YAML 파서가 조금 더 forgiving함 (`"key": value`에서 JSON 파서는 `value` 선행 공백 요구, YAML은 불필요)
+- WordPress: 최초 설치 완료
 
-> 가상화 여부에 따른 성능 차이
-WSL은 Microsoft Hyper-V상에서 커널을 구동하는 방식으로 성능의 손실 발생, 
-리얼 리눅스는 실제 하드웨어상에서 장치 가상화 없이 구동하므로 손실 없음
+> setup_docker.sh:
+> - 디렉토리를 동일한 sdX 상에서 제공하여, 별도의 losetup 및 docker compose 재시작 불필요
+> - systemctl의 docker.service 시작과 동시에 이상 없이 시작되는 것을 확인
+> - 리얼 리눅스의 경우 마운트에 실패하더라도 디렉토리 접근은 가능, docker.service 자체는 정상 실행에 성공하므로<br>이를 스크립트화하여 적용하려면 해당 스크립트를 systemd에 등록 후 docker의 wandtd-by에 해당 서비스를 추가해야 함
+>   * 스크립트의 wandtd-by: multi-user.target
+>   * 스크립트의 서비스명이 `init-vdisk.service`일 때 `docker.service`의 wanted-by: multi-user.target, init-vdisk.target
+>   * 이때 스크립트에는 docker 관련 명령어가 없어야 함
 
-가상화에 의한 추가 저널 fs가 생성되지 않으나, 보안 부팅 설정이...
-- 거기에 `amdgpu.ko`와 `nouveau.ko` 간 충돌이 발생하는 경우 단일 화면 환경에서는 해결이 아얘 불가
-
-> NT SysCall 사용 가능 여부 차이
-WSL은 일단 Windows의 서브 시스템이기 때문에 NT 시스템 콜 사용에 제한 없음 (번역 레이어 통과 필수), 
-리얼 리눅스는 NT가 뭔지부터 고민해야 할 지경
-- 필요한 경우 winehq 설치해오겠습니다...
