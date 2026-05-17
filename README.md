@@ -1,5 +1,5 @@
 # 운영체제 실습 레포지트리
-202231023 전도현
+20231023 전도현
 
 > 환경 상이 : real linux Fedora 43 w/ KDE Desktop
 
