@@ -10,20 +10,37 @@ services:
     networks: [ "wp_net" ]
     restart: unless-stopped
   netdata:
-    image: netdata/netdata:latest
+    image: netdata/netdata:stable
     container_name: wp_netdata
+    pid: host
     ports: [ "19999:19999" ]
+    cap_add:
+      - SYS_PTRACE
+      - SYS_ADMIN
     volumes:
+      - netdataconfig:/etc/netdata
+      - netdatalib:/var/lib/netdata
+      - netdatacache:/var/cache/netdata
+      - /:/host/root:ro
       - /proc:/host/proc:ro
       - /sys:/host/sys:ro
+      - /etc/passwd:/host/etc/passwd:ro
+      - /etc/group:/host/etc/group:ro
+      - /var/log:/host/var/log:ro
       - /var/run/docker.sock:/var/run/docker.sock:ro
-    cap_add: [ "SYS_PTRACE" ]
+    environment:
+      - NETDATA_CLAIM_TOKEN=FDoxMejAzZXw2AcLkCQD-x0DXWi5rc6X0aBlsZ5qO0wu9TAUTEprQlNVPOEh6P4uN_WYsK_INYDmx160LfjXpOmyeyuPylQmBB_0jIWKEJX0ghzL7CbQjKRMDl-0KvJBNurALY8
+      - NETDATA_CLAIM_URL=https://app.netdata.cloud
+      - NETDATA_CLAIM_ROOMS=b8b65a2f-fa6b-46bb-19d0-c98a16fe6df4
     security_opt: [ "apparmor:unconfined" ]
     networks: [ "wp_net" ]
     restart: unless-stopped
 
 volumes:
   portainer_data:
+  netdataconfig:
+  netdatalib:
+  netdatacache:
 
 networks:
   wp_net: { "external": true, "name": "wordpress_wp_net" }
