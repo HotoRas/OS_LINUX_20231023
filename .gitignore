@@ -1,2 +1,5 @@
 *.img
 *.key
+
+# Wordpress 데이터 백업 원본은 업로드하지 않음
+*.sql.gz
