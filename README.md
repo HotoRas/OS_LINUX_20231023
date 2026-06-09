@@ -71,6 +71,9 @@ Environment:
   * 로그 : 길다 많다 너무많다
 
 ## 9주차
+휴무일 (노동절)
+
+## 10주차
 - 가상 디스크 파일 생성 및 장치 설정
   * `losetup -fP <path-to-file>`
     - WSL에서는 휘발성이지만, 리얼 리눅스에서는 자동 마운트 가능 확인
@@ -85,11 +88,11 @@ Environment:
   * 실제 리눅스 재설치 및 `/home` rsync를 통한 보존
   * `/var/lib` 디렉토리 분리로 docker 이하에 충분한 용량 제공
 
-### 9주차 실습문제 관련
+### 10주차 실습문제 관련
 1. `home_quota`: 연속하여 실행 중일 시, `student{1..5}` 사용자는 계속 잔존하여 외부 경로 home에 사용자 생성 시 오류 발생 가능성
   * `/home` 자체에 `student1`에 대한 quota를 거는 방식으로 진행 가능한지?
   
-## 10주차
+## 11주차
 > 새 디스크에서 작업 진행하며, 가상 입력기 설치 이전에 작업한 관계로 파일 내 주석이 없습니다
 - `.gitignore` 수정: `.../week10/wordpress/.gitignore` 생성 처리
 - nginx:`default.conf`: 줄 수 최소화 (`location /` 블록을 한 줄로 쓴다던지)
@@ -107,3 +110,16 @@ Environment:
 >   * 스크립트의 서비스명이 `init-vdisk.service`일 때 `docker.service`의 wanted-by: multi-user.target, init-vdisk.target
 >   * 이때 스크립트에는 docker 관련 명령어가 없어야 함
 
+## 12주차
+- 웹서버 관리: Portainer, NetData 설치 및 <u>구경</u>
+
+## 13주차
+- WordPress 보안 설정 (Self-Signed) 및 노출 포트 80을 8443으로 라우팅 그리고...
+  ![TLS 연결을 예상하였으나 평문 연결이 되는 오류](/week12/firefox-ECONDENIAL-expectTLSfoundPLAIN.png)
+  * WordPress 설정을 복개, `https://localhost:8443`으로 리디렉션 주소 변경
+  * FireFox에서 정상 연결 확인
+  ![FireFox 연결 확인](/week12/firefox-resolved-SelfSigned.png)
+
+## 14주차
+- Lynis 시스템 보안 감사, Trivy DOCKER 이미지 보안 감사
+- Restic 증분 백업, 백업 유틸리티 Updraft-WordPress <u>구경</u>
